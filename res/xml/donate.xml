@@ -26,12 +26,14 @@
         android:summary="@string/donate_team_summary"
         settings:allowDividerAbove="false" />
 
+<!--
     <PreferenceScreen
         android:key="crdroid_donate_dev"
         android:icon="@drawable/ic_account_circle"
         android:title="@string/donate_dev_title"
         android:summary="@string/donate_dev_summary"
         settings:allowDividerAbove="false" />
+-->
 
     <PreferenceScreen
         android:title=""
