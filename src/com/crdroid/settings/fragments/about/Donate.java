@@ -50,9 +50,9 @@ public class Donate extends SettingsPreferenceFragment {
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference == mDonateTeam) {
-            launchUrl("https://www.paypal.me/crdroidandroid");
+            launchUrl("https://www.patreon.com/lindwurm");
         } else if (preference == mDonateDev) {
-            launchUrl("https://www.paypal.me/neobuddy89");
+            launchUrl("https://www.paypal.me/hotatech");
         }
 
         return super.onPreferenceTreeClick(preference);
