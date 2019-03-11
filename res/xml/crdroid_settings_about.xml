@@ -34,18 +34,22 @@
         android:summary="@string/crdroid_website_summary" />
 
     <!-- crDroid Translate -->
-    <Preference
+<!--
+    <PreferenceScreen
         android:key="crdroid_translate"
         android:icon="@drawable/ic_translate"
         android:title="@string/crdroid_translate_title"
-        android:summary="@string/crdroid_translate_summary" />
+        android:summary="@string/crdroid_translate_summary"
+        settings:allowDividerAbove="false" />
+-->
 
-    <!-- crDroid Share -->
-    <Preference
+    <!-- Floko Share -->
+    <PreferenceScreen
         android:key="crdroid_share"
         android:icon="@drawable/ic_share"
-        android:title="@string/share_crdroid_title"
-        android:summary="@string/share_crdroid_summary" />
+        android:title="@string/share_floko_title"
+        android:summary="@string/share_floko_summary"
+        settings:allowDividerAbove="false" />
 
     <!-- crDroid Donate -->
     <Preference
@@ -62,11 +66,14 @@
         android:summary="@string/crdroid_source_summary" />
 
     <!-- crDroid Telegram -->
-    <Preference
+<!--
+    <PreferenceScreen
         android:key="crdroid_telegram"
         android:icon="@drawable/ic_telegram"
         android:title="@string/crdroid_telegram_title"
-        android:summary="@string/crdroid_telegram_summary" />
+        android:summary="@string/crdroid_telegram_summary"
+        settings:allowDividerAbove="false" />
+-->
 
     <!-- crDroid GooglePlus
     <Preference

@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid Settings</string>
+    <string name="floko_settings_title">Floko Settings</string>
     <string name="crdroid_settings_summary">Open goodness</string>
     <string name="crdroid_personalization_category">Personalization</string>
     <string name="crdroid_addons_category">Addons</string>
@@ -1116,38 +1116,40 @@
     <string name="changelog_crdroid_summary">View changes in the ROM installed</string>
     <string name="changelog_crdroid_error">Unable to load changelog</string>
 
-    <!-- About crDroid -->
-    <string name="about_crdroid">About crDroid</string>
+    <!-- About FlokoROM -->
+    <string name="about_floko">About FlokoROM</string>
 
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Share crDroid</string>
-    <string name="share_crdroid_summary">Let others know about crDroid</string>
-    <string name="share_message">Check out what #crDroid Android is all about @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Share crDroid</string>
+    <!-- Share FlokoROM -->
+    <string name="share_floko_title">Share FlokoROM</string>
+    <string name="share_floko_summary">Let others know about FlokoROM</string>
+    <string name="share_floko_message">Check out what #FlokoROM is / https://floko.maud.io/</string>
+    <string name="share_floko_chooser_title">Share Floko</string>
 
-    <!-- Sites crDroid -->
+    <!-- Sites FlokoROM -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">We love open source, check us out</string>
+    <string name="crdroid_website_title">Official website</string>
+    <string name="crdroid_website_summary">Visit our official website</string>
+<!--
     <string name="crdroid_google_plus_title">Google+</string>
     <string name="crdroid_google_plus_summary">Join us on G+ for quick updates and support</string>
     <string name="crdroid_telegram_title">Telegram</string>
     <string name="crdroid_telegram_summary">We are on telegram. Join us!</string>
-    <string name="crdroid_website_title">Official website</string>
-    <string name="crdroid_website_summary">Visit our official website</string>
     <string name="crdroid_translate_title">Translations</string>
     <string name="crdroid_translate_summary">Help with localisation of ROM in your language!</string>
+-->
 
     <!-- Maintainers -->
     <string name="maintainers_crdroid_title">Devices and maintainers</string>
     <string name="maintainers_crdroid_summary">List of supported devices and their official maintainers</string>
     <string name="maintainers_crdroid_error">Unable to load devices and maintainers list</string>
 
-    <!-- Donate crDroid -->
+    <!-- Donate FlokoROM -->
     <string name="donate_crdroid_title">Support us</string>
     <string name="donate_crdroid_summary">Donate to support development and our server</string>
-    <string name="donate_team_title">crDroid team</string>
-    <string name="donate_team_summary">Donate to support server hosting, site uptime and overall management</string>
-    <string name="donate_dev_title" translatable="false">Pranav Vashi (neobuddy89)</string>
+    <string name="donate_floko_team_title" translatable="false">Patreon</string>
+    <string name="donate_team_summary">Donate to support build system and development</string>
+    <string name="donate_dev_title" translatable="false">PayPal</string>
     <string name="donate_dev_summary">Core developer - Donate for a beer or a coffee!</string>
 
     <!-- Button settings -->
@@ -1729,7 +1731,7 @@
 
     <!-- Reset settings -->
     <string name="reset_settings_title">Reset settings</string>
-    <string name="reset_settings_message">This will reset most crdroid settings to their default values for the current user. Would you like to continue?</string>
+    <string name="reset_settings_message">This will reset most Floko settings to their default values for the current user. Would you like to continue?</string>
 
     <!-- OTA -->
     <string name="ota_crdroid_title">Updates</string>

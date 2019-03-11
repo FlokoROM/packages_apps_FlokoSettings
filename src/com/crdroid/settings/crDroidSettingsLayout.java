@@ -69,7 +69,7 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getActivity().setTitle(R.string.crdroid_settings_title);
+        getActivity().setTitle(R.string.floko_settings_title);
     }
 
     @Override
@@ -216,7 +216,7 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
             getString(R.string.notifications_title),
             getString(R.string.sound_title),
             getString(R.string.misc_title),
-            getString(R.string.about_crdroid)
+            getString(R.string.about_floko)
         };
         return titleString;
     }
