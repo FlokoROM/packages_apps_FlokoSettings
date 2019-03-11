@@ -17,10 +17,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid Settings</string>
+    <string name="floko_settings_title">Floko Settings</string>
     <string name="crdroid_settings_summary">Open goodness</string>
     <string name="reset_settings_title">Reset settings</string>
-    <string name="reset_settings_message">This will reset most crdroid settings to their default values for the current user. Would you like to continue?</string>
+    <string name="floko_reset_settings_message">This will reset most FlokoROM settings to their default values for the current user. Would you like to continue?</string>
 
     <!-- Personalization Categories -->
     <string name="button_title">Buttons</string>
@@ -64,8 +64,8 @@
     <string name="changelog_crdroid_summary">View changes in the ROM installed</string>
     <string name="changelog_crdroid_error">Unable to load changelog</string>
 
-    <!-- About crDroid -->
-    <string name="about_crdroid">About crDroid</string>
+    <!-- About FlokoROM -->
+    <string name="about_floko">About FlokoROM</string>
     <string name="about_device_name">Device</string>
 
     <!-- Share crDroid -->
@@ -73,6 +73,12 @@
     <string name="share_crdroid_summary">Let others know about crDroid</string>
     <string name="share_message">Check out if #crDroidAndroid is available for your device @ https://crdroid.net/</string>
     <string name="share_chooser_title">Share crDroid</string>
+
+    <!-- Share FlokoROM -->
+    <string name="share_floko_title">Share FlokoROM</string>
+    <string name="share_floko_summary">Let others know about FlokoROM</string>
+    <string name="share_floko_message">Check out what #FlokoROM is / https://floko.maud.io/</string>
+    <string name="share_floko_chooser_title">Share Floko</string>
 
     <!-- Sites crDroid -->
     <string name="crdroid_source_title">GitHub</string>
@@ -615,6 +621,7 @@
 
     <!-- Device Info screen. crDroid legal. -->
     <string name="crdroid_license_title">crDroid legal</string>
+    <string name="floko_license_title">FlokoROM legal</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Brightness slider</string>
