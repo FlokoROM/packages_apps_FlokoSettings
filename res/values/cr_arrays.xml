@@ -70,7 +70,7 @@
 
     <!-- Status bar logo style -->
     <string-array name="status_bar_logo_style_entries" translatable="false">
-        <item>@string/status_bar_logo_style_crdroid</item>
+        <item>@string/status_bar_logo_style_floko</item>
         <item>@string/status_bar_logo_style_android</item>
         <item>@string/status_bar_logo_style_apple</item>
         <item>@string/status_bar_logo_style_ios</item>
