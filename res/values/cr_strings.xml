@@ -128,6 +128,7 @@
     <!-- Lockscreen categories -->
     <string name="lockscreen_shortcuts_category">Shortcuts</string>
     <string name="lockscreen_interface_category">Interface</string>
+    <string name="lockscreen_clockdate_category">Clock &amp; date</string>
     <string name="lockscreen_misc_category">Miscellaneous</string>
 
     <!-- Lockscreen shortcuts -->
@@ -1235,7 +1236,8 @@
     <string name="clock_date_position">Date position</string>
     <string name="clock_date_right">Right of time</string>
     <string name="clock_date_left">Left of time</string>
-    <string name="font_style_title">Font</string>
+
+    <string name="font_style_title">Font style</string>
     <string name="font_normal">Normal</string>
     <string name="font_italic">Italic</string>
     <string name="font_bold">Bold</string>
@@ -1262,6 +1264,9 @@
     <string name="font_notoserif_bold">NotoSerif Bold</string>
     <string name="font_notoserif_bold_italic">NotoSerif Bold Italic</string>
     <string name="font_size_title">Font size</string>
+
+    <string name="clock_font_style_title">Clock font style</string>
+    <string name="date_font_style_title">Date font style</string>
 
     <string name="menu_save">Save</string>
     <string name="menu_cancel">Discard</string>
@@ -1653,7 +1658,7 @@
 
     <!-- Lockscreen Weather -->
     <string name="lock_screen_weather_title">Weather</string>
-    <string name="lock_screen_weather_summary">Display and customize weather on lockscreen</string>
+    <string name="lock_screen_weather_summary">Display weather info next to date</string>
     <string name="lock_screen_weather_summaryOn">Display weather on lockscreen</string>
     <string name="lock_screen_location_title">Location</string>
     <string name="lock_screen_location_summary">Display location on lockscreen</string>
@@ -2231,4 +2236,7 @@
     <!-- Old mobiletype icon style -->
     <string name="old_mobiletype_title">Old style signal icon</string>
     <string name="old_mobiletype_summary">Merge signal and signal type icons</string>
+
+    <string name="battery_charging">Charging</string>
+    <string name="battery_discharging">Discharging</string>
 </resources>
