@@ -15,6 +15,13 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- About FlokoROM -->
+    <string name="about_floko">FlokoROM について</string>
+    <!-- Share FlokoROM -->
+    <string name="share_floko_title">FlokoROM をシェアする</string>
+    <string name="share_floko_summary">みんなにも FlokoROM について知ってもらいましょう</string>
+    <string name="share_floko_message">#FlokoROM についてもっと知る: https://floko.maud.io/</string>
+    <string name="share_floko_chooser_title">FlokoROM をシェアする...</string>
     <!-- App Title -->
     <string name="crdroid_settings_title">crDroid の設定</string>
     <string name="crdroid_settings_summary">高度な設定</string>
