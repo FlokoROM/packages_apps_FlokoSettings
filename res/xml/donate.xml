@@ -22,7 +22,7 @@
     <PreferenceScreen
         android:key="crdroid_donate_team"
         android:icon="@drawable/ic_account_circle"
-        android:title="@string/donate_team_title"
+        android:title="@string/donate_floko_team_title"
         android:summary="@string/donate_team_summary"
         settings:allowDividerAbove="false" />
 

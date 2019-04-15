@@ -1116,7 +1116,7 @@
     <!-- Donate FlokoROM -->
     <string name="donate_crdroid_title">Support us</string>
     <string name="donate_crdroid_summary">Donate to support development and our server</string>
-    <string name="donate_team_title">FlokoROM team</string>
+    <string name="donate_floko_team_title">FlokoROM team</string>
     <string name="donate_team_summary">Donate to support build system and development</string>
 <!--
     <string name="donate_dev_title" translatable="false">hota (lindwurm)</string>
