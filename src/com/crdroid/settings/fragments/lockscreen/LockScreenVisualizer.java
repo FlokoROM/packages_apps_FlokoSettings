@@ -57,20 +57,14 @@ public class LockScreenVisualizer extends SettingsPreferenceFragment
 
         ContentResolver resolver = getActivity().getContentResolver();
 
-        boolean mMediaArtEnabled = LineageSettings.Secure.getIntForUser(resolver,
-                LineageSettings.Secure.LOCKSCREEN_MEDIA_METADATA, 1,
-                UserHandle.USER_CURRENT) != 0;
         boolean mLavaLampEnabled = Settings.Secure.getIntForUser(resolver,
                 Settings.Secure.LOCKSCREEN_LAVALAMP_ENABLED, 1,
                 UserHandle.USER_CURRENT) != 0;
 
         mAutoColor = (SwitchPreference) findPreference(KEY_AUTOCOLOR);
-        mAutoColor.setEnabled(mMediaArtEnabled && !mLavaLampEnabled);
+        mAutoColor.setEnabled(!mLavaLampEnabled);
 
-        if (!mMediaArtEnabled) {
-            mAutoColor.setSummary(getActivity().getString(
-                    R.string.lockscreen_autocolor_mediametadata));
-        } else if (mLavaLampEnabled) {
+        if (mLavaLampEnabled) {
             mAutoColor.setSummary(getActivity().getString(
                     R.string.lockscreen_autocolor_lavalamp));
         } else {
@@ -88,16 +82,9 @@ public class LockScreenVisualizer extends SettingsPreferenceFragment
 
         if (preference == mLavaLamp) {
             boolean mLavaLampEnabled = (Boolean) newValue;
-            boolean mMediaArtEnabled = LineageSettings.Secure.getIntForUser(resolver,
-                LineageSettings.Secure.LOCKSCREEN_MEDIA_METADATA, 1,
-                UserHandle.USER_CURRENT) != 0;
+            mAutoColor.setEnabled(!mLavaLampEnabled);
 
-            mAutoColor.setEnabled(mMediaArtEnabled && !mLavaLampEnabled);
-
-            if (!mMediaArtEnabled) {
-                mAutoColor.setSummary(getActivity().getString(
-                        R.string.lockscreen_autocolor_mediametadata));
-            } else if (mLavaLampEnabled) {
+            if (mLavaLampEnabled) {
                 mAutoColor.setSummary(getActivity().getString(
                         R.string.lockscreen_autocolor_lavalamp));
             } else {
@@ -120,6 +107,12 @@ public class LockScreenVisualizer extends SettingsPreferenceFragment
                 Settings.Secure.LOCKSCREEN_LAVALAMP_SPEED, 10000, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.LOCKSCREEN_VISUALIZER_AUTOCOLOR, 0, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.LOCKSCREEN_SOLID_UNITS_COUNT, 32, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.LOCKSCREEN_SOLID_FUDGE_FACTOR, 16, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.LOCKSCREEN_SOLID_UNITS_OPACITY, 140, UserHandle.USER_CURRENT);
     }
 
     @Override
