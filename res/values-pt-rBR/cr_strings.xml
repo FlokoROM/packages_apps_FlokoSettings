@@ -122,6 +122,8 @@
     <string name="lockscreen_shortcuts_single_tap">Clique</string>
     <string name="lockscreen_shortcuts_double_tap">Toque duplo</string>
     <string name="lockscreen_shortcuts_longpress">Toque longo</string>
+    <string name="lockscreen_shortcuts_title">Shortcuts</string>
+    <string name="lockscreen_shortcuts_summary">Configure shortcuts on bottom of the screen</string>
     <!-- Slim DSLV -->
     <string name="shortcut_action_longpress">Toque longo:</string>
     <string name="shortcut_action_select_action_longpress">Selecionar ação de toque longo:</string>
@@ -1788,6 +1790,13 @@
     <string name="lockscreen_clock_selection_hidden">Hidden</string>
     <string name="lockscreen_clock_selection_digital">Digital</string>
     <string name="lockscreen_clock_selection_digital_bold">Digital (negrito)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Digital (accent)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Digital (accent - hour)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Digital (accent - minutes)</string>
+    <string name="lockscreen_clock_selection_sammy">Informal</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Informal (negrito)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy (accent)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_dark">Sammy (dark - accent)</string>
     <string name="lockscreen_clock_selection_analog">Analógico</string>
     <string name="lockscreen_clock_selection_analog_dark">Analog (dark)</string>
     <string name="lockscreen_clock_selection_analog_deadpool">Deadpool</string>
@@ -1795,8 +1804,6 @@
     <string name="lockscreen_clock_selection_analog_dot">Dot</string>
     <string name="lockscreen_clock_selection_analog_spectrum">Spectrum</string>
     <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
-    <string name="lockscreen_clock_selection_sammy">Informal</string>
-    <string name="lockscreen_clock_selection_sammy_bold">Informal (negrito)</string>
     <string name="lockscreen_date_selection_title">Estilo da data</string>
     <string name="lockscreen_date_selection_default">Padrão</string>
     <string name="lockscreen_date_selection_default_big">Padrão (grande)</string>
@@ -1925,6 +1932,7 @@
     <string name="qstile_default">Padrão</string>
     <string name="qstile_circle_gradient">Círculo (Gradiente)</string>
     <string name="qstile_circle_trim">Círculo (Trim)</string>
+    <string name="qstile_cookie">Cookie</string>
     <string name="qstile_dottedcircle">Círculo Pontilhado</string>
     <string name="qstile_circle_dualtone">Círculo Duplo-Tonificado</string>
     <string name="qstile_dual_tone_circle">Círculo de duplo tom (recortado)</string>

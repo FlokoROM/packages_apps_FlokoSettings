@@ -122,6 +122,8 @@
     <string name="lockscreen_shortcuts_single_tap">Kattintás</string>
     <string name="lockscreen_shortcuts_double_tap">Dupla kattintás</string>
     <string name="lockscreen_shortcuts_longpress">Hosszan nyomás</string>
+    <string name="lockscreen_shortcuts_title">Shortcuts</string>
+    <string name="lockscreen_shortcuts_summary">Configure shortcuts on bottom of the screen</string>
     <!-- Slim DSLV -->
     <string name="shortcut_action_longpress">Hosszan nyomás:</string>
     <string name="shortcut_action_select_action_longpress">Hosszan nyomási művelet:</string>
@@ -1788,6 +1790,13 @@
     <string name="lockscreen_clock_selection_hidden">Rejtett</string>
     <string name="lockscreen_clock_selection_digital">Digitális</string>
     <string name="lockscreen_clock_selection_digital_bold">Digitális (félkövér)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Digitális (Kiemeléssel)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Digitális (az órák kiemelésével)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Digitális (a percek kiemelésével)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (félkövér)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy (kiemeléssel)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_dark">Sammy (sötét kiemeléssel)</string>
     <string name="lockscreen_clock_selection_analog">Analóg</string>
     <string name="lockscreen_clock_selection_analog_dark">Analóg (sötét)</string>
     <string name="lockscreen_clock_selection_analog_deadpool">Deadpool</string>
@@ -1795,8 +1804,6 @@
     <string name="lockscreen_clock_selection_analog_dot">Pont</string>
     <string name="lockscreen_clock_selection_analog_spectrum">Spektrum</string>
     <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
-    <string name="lockscreen_clock_selection_sammy">Sammy</string>
-    <string name="lockscreen_clock_selection_sammy_bold">Sammy (félkövér)</string>
     <string name="lockscreen_date_selection_title">Dátumstílus</string>
     <string name="lockscreen_date_selection_default">Alapértelmezett</string>
     <string name="lockscreen_date_selection_default_big">Alapértelmezett (nagy)</string>
@@ -1925,6 +1932,7 @@
     <string name="qstile_default">Alapértelmezett</string>
     <string name="qstile_circle_gradient">Kör (átmenetes)</string>
     <string name="qstile_circle_trim">Kör (levágott)</string>
+    <string name="qstile_cookie">Süti</string>
     <string name="qstile_dottedcircle">Pontozott kör</string>
     <string name="qstile_circle_dualtone">Dupla kör</string>
     <string name="qstile_dual_tone_circle">Dupla kör (levágott)</string>

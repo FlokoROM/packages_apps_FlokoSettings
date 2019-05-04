@@ -122,6 +122,8 @@
     <string name="lockscreen_shortcuts_single_tap">Kliki</string>
     <string name="lockscreen_shortcuts_double_tap">Topeltpuudutus</string>
     <string name="lockscreen_shortcuts_longpress">Pikk puudutus</string>
+    <string name="lockscreen_shortcuts_title">Shortcuts</string>
+    <string name="lockscreen_shortcuts_summary">Configure shortcuts on bottom of the screen</string>
     <!-- Slim DSLV -->
     <string name="shortcut_action_longpress">Pikk puudutus:</string>
     <string name="shortcut_action_select_action_longpress">Choose longpress action:</string>
@@ -1788,6 +1790,13 @@
     <string name="lockscreen_clock_selection_hidden">Hidden</string>
     <string name="lockscreen_clock_selection_digital">Digitaalne</string>
     <string name="lockscreen_clock_selection_digital_bold">Digitaalne (rasvane)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Digital (accent)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Digital (accent - hour)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Digital (accent - minutes)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (rasvane)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy (accent)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_dark">Sammy (dark - accent)</string>
     <string name="lockscreen_clock_selection_analog">Analoog</string>
     <string name="lockscreen_clock_selection_analog_dark">Analog (dark)</string>
     <string name="lockscreen_clock_selection_analog_deadpool">Deadpool</string>
@@ -1795,8 +1804,6 @@
     <string name="lockscreen_clock_selection_analog_dot">Dot</string>
     <string name="lockscreen_clock_selection_analog_spectrum">Spectrum</string>
     <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
-    <string name="lockscreen_clock_selection_sammy">Sammy</string>
-    <string name="lockscreen_clock_selection_sammy_bold">Sammy (rasvane)</string>
     <string name="lockscreen_date_selection_title">Kuupäeva stiil</string>
     <string name="lockscreen_date_selection_default">Vaikimisi</string>
     <string name="lockscreen_date_selection_default_big">Vaikimisi (suur)</string>
@@ -1925,6 +1932,7 @@
     <string name="qstile_default">Default</string>
     <string name="qstile_circle_gradient">Circle (Gradient)</string>
     <string name="qstile_circle_trim">Circle (Trim)</string>
+    <string name="qstile_cookie">Cookie</string>
     <string name="qstile_dottedcircle">Dotted Circle</string>
     <string name="qstile_circle_dualtone">Dual-Toned Circle</string>
     <string name="qstile_dual_tone_circle">Dual-Toned Circle (Trim)</string>

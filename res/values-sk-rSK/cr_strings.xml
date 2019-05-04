@@ -122,6 +122,8 @@
     <string name="lockscreen_shortcuts_single_tap">Kliknutie</string>
     <string name="lockscreen_shortcuts_double_tap">Dvojité kliknutie</string>
     <string name="lockscreen_shortcuts_longpress">Dlhé stlačenie</string>
+    <string name="lockscreen_shortcuts_title">Odkazy</string>
+    <string name="lockscreen_shortcuts_summary">Nastaviť odkazy na spodnej časti obrazovky</string>
     <!-- Slim DSLV -->
     <string name="shortcut_action_longpress">Dlhé stlačenie:</string>
     <string name="shortcut_action_select_action_longpress">Vyberte akciu pre dlhé stlačenie:</string>
@@ -1785,18 +1787,23 @@
     <string name="menu_hide_substratum">Skryť prekrytia</string>
     <!-- Lockscreen clock -->
     <string name="lockscreen_clock_selection_title">Štýl hodín</string>
-    <string name="lockscreen_clock_selection_hidden">Hidden</string>
+    <string name="lockscreen_clock_selection_hidden">Skryté</string>
     <string name="lockscreen_clock_selection_digital">Digitálne</string>
     <string name="lockscreen_clock_selection_digital_bold">Digitálne (tučné)</string>
-    <string name="lockscreen_clock_selection_analog">Analogové</string>
-    <string name="lockscreen_clock_selection_analog_dark">Analog (dark)</string>
-    <string name="lockscreen_clock_selection_analog_deadpool">Deadpool</string>
-    <string name="lockscreen_clock_selection_analog_spidey">Spidey</string>
-    <string name="lockscreen_clock_selection_analog_dot">Dot</string>
-    <string name="lockscreen_clock_selection_analog_spectrum">Spectrum</string>
-    <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
+    <string name="lockscreen_clock_selection_digital_accent">Digitálne (so zvýraznením)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Digitálne (so zvýraznením – hodín)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Digitálne (so zvýraznením – minút)</string>
     <string name="lockscreen_clock_selection_sammy">Vertikálne</string>
     <string name="lockscreen_clock_selection_sammy_bold">Vertikálne (tučné)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy (so zvýraznením)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_dark">Sammy (s tmavým zvýraznením)</string>
+    <string name="lockscreen_clock_selection_analog">Analogové</string>
+    <string name="lockscreen_clock_selection_analog_dark">Analógové (tmavé)</string>
+    <string name="lockscreen_clock_selection_analog_deadpool">Deadpool</string>
+    <string name="lockscreen_clock_selection_analog_spidey">Spidey</string>
+    <string name="lockscreen_clock_selection_analog_dot">Bodka</string>
+    <string name="lockscreen_clock_selection_analog_spectrum">Spektrum</string>
+    <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
     <string name="lockscreen_date_selection_title">Štýl dátumu</string>
     <string name="lockscreen_date_selection_default">Predvolené</string>
     <string name="lockscreen_date_selection_default_big">Predvolené (veľké)</string>
@@ -1925,6 +1932,7 @@
     <string name="qstile_default">Predvolené</string>
     <string name="qstile_circle_gradient">Kruh (Stúpanie)</string>
     <string name="qstile_circle_trim">Kruh (Zmenšiť)</string>
+    <string name="qstile_cookie">Sušienka</string>
     <string name="qstile_dottedcircle">Bodkovaný kruh</string>
     <string name="qstile_circle_dualtone">Dvojfarebný kruh</string>
     <string name="qstile_dual_tone_circle">Dvojfarebný kruh (Zmenšiť)</string>
@@ -2027,7 +2035,7 @@
     <string name="wifi_wps_failed_wifi_disconnected">Wi\u2011Fi odpojené. Nastavenie WPS zlyhalo.</string>
     <!-- Lockscreen Visualizer -->
     <string name="lockscreen_autocolor_title">Automatická farba</string>
-    <string name="lockscreen_autocolor_summary">Sync color with background</string>
+    <string name="lockscreen_autocolor_summary">Synchronizovať farbu s pozadím</string>
     <string name="lockscreen_autocolor_lavalamp">Vyžaduje vypnúť lávovú lampu</string>
     <string name="lockscreen_lavalamp_title">Lávová lampa</string>
     <string name="lockscreen_lavalamp_summary">Hladké pulzujúce prelínanie farieb v štýle Lávovej lampy</string>
@@ -2040,7 +2048,7 @@
     <string name="cutout_main_summary">Prispôsobiť nastavenia výrezu</string>
     <string name="display_cutout_style_title">Štýl výrezu</string>
     <string name="display_cutout_style_normal">Normálny</string>
-    <string name="display_cutout_style_immerse">Immerse</string>
+    <string name="display_cutout_style_immerse">Pohlcujúce</string>
     <string name="display_cutout_style_hide">Skrytý</string>
     <string name="stock_statusbar_in_hide">Predvolená výška stavového riadku</string>
     <string name="stock_statusbar_in_hide_summary">Použiť predvolenú výšku stavového riadku v skrytom režime</string>
@@ -2048,15 +2056,15 @@
     <string name="lockscreen_albumart_filter_title">Filter obalu albumu</string>
     <string name="lockscreen_albumart_filter_none">Žiadny</string>
     <string name="lockscreen_albumart_filter_grayscale">Odtiene sivej</string>
-    <string name="lockscreen_albumart_filter_tint">Accent tinted</string>
+    <string name="lockscreen_albumart_filter_tint">Akcentovaná farba</string>
     <string name="lockscreen_albumart_filter_blur">Rozostrenie</string>
     <string name="lockscreen_albumart_filter_grayblur">Odtiene sivej a rozostrenie</string>
     <!-- Notifications while screen on -->
-    <string name="notification_sound_vib_screen_on_title">Noisy notifications</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">Hlučné upozornenia</string>
+    <string name="notification_sound_vib_screen_on_summary">Prehrávanie zvuku a vibrácie pre upozornenia, keď je obrazovka zapnutá</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">Nastavenie vibrácií pri hovore</string>
+    <string name="incall_vibrate_connect_title">Vibrovať pri pripojení</string>
+    <string name="incall_vibrate_call_wait_title">Vibrovať pri čakajúcom hovore</string>
+    <string name="incall_vibrate_disconnect_title">Vibrovať pri odpojení</string>
 </resources>

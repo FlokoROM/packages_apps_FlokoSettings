@@ -122,6 +122,8 @@
     <string name="lockscreen_shortcuts_single_tap">அழுத்து</string>
     <string name="lockscreen_shortcuts_double_tap">இருமுறை தட்டு</string>
     <string name="lockscreen_shortcuts_longpress">நீண்டு அழுத்தவும்</string>
+    <string name="lockscreen_shortcuts_title">Shortcuts</string>
+    <string name="lockscreen_shortcuts_summary">Configure shortcuts on bottom of the screen</string>
     <!-- Slim DSLV -->
     <string name="shortcut_action_longpress">நீண்ட அழுத்து</string>
     <string name="shortcut_action_select_action_longpress">நீண்ட அழுத்து செயலை தேர்ந்தெடுக்கவும்:</string>
@@ -1795,6 +1797,13 @@ fling_left_up_swipe
     <string name="lockscreen_clock_selection_hidden">Hidden</string>
     <string name="lockscreen_clock_selection_digital">Digital</string>
     <string name="lockscreen_clock_selection_digital_bold">Digital (bold)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Digital (accent)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Digital (accent - hour)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Digital (accent - minutes)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy (accent)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_dark">Sammy (dark - accent)</string>
     <string name="lockscreen_clock_selection_analog">Analog</string>
     <string name="lockscreen_clock_selection_analog_dark">Analog (dark)</string>
     <string name="lockscreen_clock_selection_analog_deadpool">Deadpool</string>
@@ -1802,8 +1811,6 @@ fling_left_up_swipe
     <string name="lockscreen_clock_selection_analog_dot">Dot</string>
     <string name="lockscreen_clock_selection_analog_spectrum">Spectrum</string>
     <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
-    <string name="lockscreen_clock_selection_sammy">Sammy</string>
-    <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
     <string name="lockscreen_date_selection_title">Date style</string>
     <string name="lockscreen_date_selection_default">Default</string>
     <string name="lockscreen_date_selection_default_big">Default (Big)</string>
@@ -1932,6 +1939,7 @@ fling_left_up_swipe
     <string name="qstile_default">Default</string>
     <string name="qstile_circle_gradient">Circle (Gradient)</string>
     <string name="qstile_circle_trim">Circle (Trim)</string>
+    <string name="qstile_cookie">Cookie</string>
     <string name="qstile_dottedcircle">Dotted Circle</string>
     <string name="qstile_circle_dualtone">Dual-Toned Circle</string>
     <string name="qstile_dual_tone_circle">Dual-Toned Circle (Trim)</string>

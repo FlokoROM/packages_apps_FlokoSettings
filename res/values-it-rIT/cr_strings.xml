@@ -122,6 +122,8 @@
     <string name="lockscreen_shortcuts_single_tap">Tocco</string>
     <string name="lockscreen_shortcuts_double_tap">Doppio tocco</string>
     <string name="lockscreen_shortcuts_longpress">Pressione prolungata</string>
+    <string name="lockscreen_shortcuts_title">Shortcuts</string>
+    <string name="lockscreen_shortcuts_summary">Configure shortcuts on bottom of the screen</string>
     <!-- Slim DSLV -->
     <string name="shortcut_action_longpress">Pressione prolungata:</string>
     <string name="shortcut_action_select_action_longpress">Scegli l\'azione della pressione prolungata:</string>
@@ -1785,18 +1787,23 @@
     <string name="menu_hide_substratum">Nascondi le sovrapposizioni</string>
     <!-- Lockscreen clock -->
     <string name="lockscreen_clock_selection_title">Stile orologio</string>
-    <string name="lockscreen_clock_selection_hidden">Hidden</string>
+    <string name="lockscreen_clock_selection_hidden">Nascosto</string>
     <string name="lockscreen_clock_selection_digital">Digitale</string>
     <string name="lockscreen_clock_selection_digital_bold">Digitale (grassetto)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Digitale (colorato)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Digitale (ora colorata)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Digitale (minuti colorati)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (grassetto)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy (colorato)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_dark">Sammy (colorato scuro)</string>
     <string name="lockscreen_clock_selection_analog">Analogico</string>
-    <string name="lockscreen_clock_selection_analog_dark">Analog (dark)</string>
+    <string name="lockscreen_clock_selection_analog_dark">Analogico (scuro)</string>
     <string name="lockscreen_clock_selection_analog_deadpool">Deadpool</string>
     <string name="lockscreen_clock_selection_analog_spidey">Spidey</string>
     <string name="lockscreen_clock_selection_analog_dot">Dot</string>
-    <string name="lockscreen_clock_selection_analog_spectrum">Spectrum</string>
+    <string name="lockscreen_clock_selection_analog_spectrum">Spettro</string>
     <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
-    <string name="lockscreen_clock_selection_sammy">Sammy</string>
-    <string name="lockscreen_clock_selection_sammy_bold">Sammy (grassetto)</string>
     <string name="lockscreen_date_selection_title">Stile data</string>
     <string name="lockscreen_date_selection_default">Predefinita</string>
     <string name="lockscreen_date_selection_default_big">Predefinita (grande)</string>
@@ -1925,6 +1932,7 @@
     <string name="qstile_default">Predefinito</string>
     <string name="qstile_circle_gradient">Cerchio (sfumato)</string>
     <string name="qstile_circle_trim">Cerchio (Trim)</string>
+    <string name="qstile_cookie">Biscotti</string>
     <string name="qstile_dottedcircle">Cerchio a punti</string>
     <string name="qstile_circle_dualtone">Cerchio doppio-tono</string>
     <string name="qstile_dual_tone_circle">Cerchio doppio-tono (Trim)</string>
@@ -2052,11 +2060,11 @@
     <string name="lockscreen_albumart_filter_blur">Sfocatura</string>
     <string name="lockscreen_albumart_filter_grayblur">Scala grigia e sfocatura</string>
     <!-- Notifications while screen on -->
-    <string name="notification_sound_vib_screen_on_title">Noisy notifications</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">Notifiche rumorose</string>
+    <string name="notification_sound_vib_screen_on_summary">Riproduci il suono e la vibrazione delle notifiche quando lo schermo è acceso</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">Opzioni di vibrazione per le chiamate</string>
+    <string name="incall_vibrate_connect_title">Vibra alla risposta</string>
+    <string name="incall_vibrate_call_wait_title">Vibra per chiamate in attesa</string>
+    <string name="incall_vibrate_disconnect_title">Vibra alla chiusura</string>
 </resources>
