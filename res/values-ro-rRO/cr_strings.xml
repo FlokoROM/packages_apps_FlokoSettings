@@ -1554,7 +1554,7 @@
     <string name="media_scanner_on_boot_disabled">Nu se scanează media</string>
     <!-- Reset settings -->
     <string name="reset_settings_title">Reinițializarea setărilor</string>
-    <string name="reset_settings_message">Aceasta actiune v-a reseta setariile crDroid la valorile implicite. Doresti sa continui?</string>
+    <string name="reset_settings_message">Aceasta actiune v-a reseta setariile FlokoROM la valorile implicite. Doresti sa continui?</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">Actualizări\"</string>
     <string name="ota_crdroid_summary">Verificare actualizari pentru dispozitivul dumneavoastra</string>

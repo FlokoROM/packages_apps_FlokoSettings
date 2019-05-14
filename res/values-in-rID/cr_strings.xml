@@ -1554,7 +1554,7 @@
     <string name="media_scanner_on_boot_disabled">Jangan pindai media</string>
     <!-- Reset settings -->
     <string name="reset_settings_title">Kembalikan pengaturan</string>
-    <string name="reset_settings_message">Ini akan mengembalikan kebanyakan pengaturan crdroid ke nilai bawaannya untuk pengguna saat ini. Apakah anda yakin untuk melanjutkan?</string>
+    <string name="reset_settings_message">Ini akan mengembalikan kebanyakan pengaturan FlokoROM ke nilai bawaannya untuk pengguna saat ini. Apakah anda yakin untuk melanjutkan?</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">Pembaruan</string>
     <string name="ota_crdroid_summary">Cek untuk pembaruan OTA dan hubungkan ke perangkat anda</string>

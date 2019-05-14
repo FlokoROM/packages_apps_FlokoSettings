@@ -1554,7 +1554,7 @@
     <string name="media_scanner_on_boot_disabled">Ne legyen médiakeresés</string>
     <!-- Reset settings -->
     <string name="reset_settings_title">Beállítások visszaállítása</string>
-    <string name="reset_settings_message">Ez a legtöbb crDroid-beállítás értékét visszaállítja alapértelmezettre a jelenlegi felhasználónál. Szeretné folytatni?</string>
+    <string name="reset_settings_message">Ez a legtöbb FlokoROM-beállítás értékét visszaállítja alapértelmezettre a jelenlegi felhasználónál. Szeretné folytatni?</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">Frissítések</string>
     <string name="ota_crdroid_summary">OTA frissítés ellenőrzése</string>

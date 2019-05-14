@@ -1554,7 +1554,7 @@
     <string name="media_scanner_on_boot_disabled">Não escanear mídia</string>
     <!-- Reset settings -->
     <string name="reset_settings_title">Redefinir configurações</string>
-    <string name="reset_settings_message">Isso irá redefinir a maioria das configurações do crdroid para seus valores padrão para o usuário atual. Você gostaria de continuar?</string>
+    <string name="reset_settings_message">Isso irá redefinir a maioria das configurações do FlokoROM para seus valores padrão para o usuário atual. Você gostaria de continuar?</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">Atualizações</string>
     <string name="ota_crdroid_summary">Verifique a atualização OTA e os links para o seu dispositivo</string>

@@ -1554,7 +1554,7 @@
     <string name="media_scanner_on_boot_disabled">不掃描媒體</string>
     <!-- Reset settings -->
     <string name="reset_settings_title">重設設定</string>
-    <string name="reset_settings_message">這將把大多數 crDroid 設置重置為當前使用者的預設值。您要繼續嗎？</string>
+    <string name="reset_settings_message">這將把大多數 FlokoROM 設置重置為當前使用者的預設值。您要繼續嗎？</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">更新</string>
     <string name="ota_crdroid_summary">檢查您的設備的 OTA 更新和連結</string>
