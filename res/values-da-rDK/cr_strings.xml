@@ -1554,7 +1554,7 @@
     <string name="media_scanner_on_boot_disabled">Skan ikke medier</string>
     <!-- Reset settings -->
     <string name="reset_settings_title">Nulstil indstillinger</string>
-    <string name="reset_settings_message">Dette vil nulstille de fleste crDroid-indstillinger til deres standardværdier for den aktuelle bruger. Fortsæt?</string>
+    <string name="reset_settings_message">Dette vil nulstille de fleste FlokoROM-indstillinger til deres standardværdier for den aktuelle bruger. Fortsæt?</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">Opdateringer</string>
     <string name="ota_crdroid_summary">Se efter OTA-opdatering og links til enheden</string>

@@ -1556,7 +1556,7 @@ Sadece yarı şeffaf bildirimler etkin.</string>
     <string name="media_scanner_on_boot_disabled">Medyayı tarama</string>
     <!-- Reset settings -->
     <string name="reset_settings_title">Ayarları sıfırla</string>
-    <string name="reset_settings_message">Bu mevcut kullanıcı için çoğu crdroid ayarlarını varsayılan değerlerine sıfırlar. Devam etmek ister misin?</string>
+    <string name="reset_settings_message">Bu mevcut kullanıcı için çoğu FlokoROM ayarlarını varsayılan değerlerine sıfırlar. Devam etmek ister misin?</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">Güncellemeler</string>
     <string name="ota_crdroid_summary">crDroid güncellemelerini kontrol et</string>

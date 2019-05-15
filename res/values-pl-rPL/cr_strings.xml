@@ -1555,7 +1555,7 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="media_scanner_on_boot_disabled">Nie skanuj mediów</string>
     <!-- Reset settings -->
     <string name="reset_settings_title">Resetuj ustawienia</string>
-    <string name="reset_settings_message">To spowoduje zresetowanie większości ustawień crDroid do wartości domyślnych dla bieżącego użytkownika. Czy chcesz kontynuować?</string>
+    <string name="reset_settings_message">To spowoduje zresetowanie większości ustawień FlokoROM do wartości domyślnych dla bieżącego użytkownika. Czy chcesz kontynuować?</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">Aktualizacje</string>
     <string name="ota_crdroid_summary">Sprawdzenie dla aplikacji OTA oraz linków dla twojego urządzenia</string>

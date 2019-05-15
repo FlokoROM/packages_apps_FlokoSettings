@@ -1554,7 +1554,7 @@
     <string name="media_scanner_on_boot_disabled">미디어 스캔하지 않음</string>
     <!-- Reset settings -->
     <string name="reset_settings_title">설정 초기화</string>
-    <string name="reset_settings_message">대부분의 crdroid 설정이 현재 사용자의 기본값으로 재설정됩니다. 계속 하시겠습니까?</string>
+    <string name="reset_settings_message">대부분의 FlokoROM 설정이 현재 사용자의 기본값으로 재설정됩니다. 계속 하시겠습니까?</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">업데이트</string>
     <string name="ota_crdroid_summary">장치에 OTA 업데이트를 확인합니다</string>

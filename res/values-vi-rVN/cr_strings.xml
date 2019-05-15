@@ -1554,7 +1554,7 @@
     <string name="media_scanner_on_boot_disabled">Không quét đa phương tiện</string>
     <!-- Reset settings -->
     <string name="reset_settings_title">Đặt lại cài đặt</string>
-    <string name="reset_settings_message">Điều này sẽ đặt lại hầu hết crdroid thiết lập các giá trị mặc định cho người dùng hiện tại. Bạn có muốn tiếp tục không?</string>
+    <string name="reset_settings_message">Điều này sẽ đặt lại hầu hết FlokoROM thiết lập các giá trị mặc định cho người dùng hiện tại. Bạn có muốn tiếp tục không?</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">Cập Nhật</string>
     <string name="ota_crdroid_summary">Kiểm tra cập nhật OTA và liên kết cho thiết bị của bạn</string>
