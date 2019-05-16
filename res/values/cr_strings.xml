@@ -2116,6 +2116,7 @@
     <string name="recents_style_title">Recents style</string>
     <string name="recents_style_quickstep">QuickStep</string>
     <string name="recents_style_aosp">AOSP</string>
+    <string name="recents_style_omni">OmniSwitch</string>
     <string name="device_restart_required">Restart your device to apply changes</string>
 
     <!-- Custom seekbar -->

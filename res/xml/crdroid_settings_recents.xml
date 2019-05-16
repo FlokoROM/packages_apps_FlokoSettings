@@ -163,4 +163,21 @@
             android:dependency="use_slim_recents"
             android:persistent="false" />
     </PreferenceCategory>-->
+
+    <PreferenceCategory
+        android:key="omni_recents"
+        android:title="@string/recents_omni_category">
+        <Preference
+            android:key="recents_omni_switch"
+            android:icon="@drawable/ic_omni"
+            android:title="@string/recents_use_omniswitch_title"
+            android:summary="@string/recents_use_omniswitch_summary"
+            android:persistent="false"
+            android:defaultValue="false">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="org.omnirom.omniswitch"
+                android:targetClass="org.omnirom.omniswitch.SettingsActivity" />
+        </Preference>
+    </PreferenceCategory>
 </PreferenceScreen>
