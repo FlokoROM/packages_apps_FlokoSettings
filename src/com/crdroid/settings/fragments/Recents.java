@@ -52,6 +52,7 @@ import android.widget.Toast;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.crdroid.Utils;
+import com.android.internal.util.omni.OmniSwitchConstants;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
@@ -65,7 +66,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Recents extends SettingsPreferenceFragment 
+public class Recents extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener, Indexable, DialogInterface.OnDismissListener {
 
     public static final String TAG = "Recents";
@@ -73,6 +74,7 @@ public class Recents extends SettingsPreferenceFragment
     private static final String PREF_RECENTS_STYLE = "recents_component";
     private static final String PREF_RECENTS_ICONPACK = "recents_icon_pack";
     private static final String CATEGORY_STOCK = "stock_recents";
+    private static final String CATEGORY_OMNI = "omni_recents";
 
     private final static String[] sSupportedActions = new String[] {
         "org.adw.launcher.THEMES",
@@ -89,7 +91,8 @@ public class Recents extends SettingsPreferenceFragment
     private ListView mListView;
 
     private ListPreference mRecentsStyle;
-    private PreferenceCategory stockCategory;
+    private Preference mStockSettings;
+    private Preference mOmniSettings;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -105,22 +108,83 @@ public class Recents extends SettingsPreferenceFragment
         int recentsStyle = Settings.System.getIntForUser(getContentResolver(),
                 Settings.System.RECENTS_COMPONENT, 0, UserHandle.USER_CURRENT);
 
-        stockCategory = (PreferenceCategory) prefScreen.findPreference(CATEGORY_STOCK);
-        stockCategory.setEnabled(recentsStyle == 1);
+        mStockSettings = (PreferenceCategory) findPreference(CATEGORY_STOCK);
+        mOmniSettings = (PreferenceCategory) findPreference(CATEGORY_OMNI);
+
+        switch (recentsStyle) {
+            case 0:
+                mStockSettings.setEnabled(false);
+                mStockSettings.setSelectable(false);
+                mOmniSettings.setEnabled(false);
+                mOmniSettings.setSelectable(false);
+                break;
+            case 1:
+                mStockSettings.setEnabled(true);
+                mStockSettings.setSelectable(true);
+                mOmniSettings.setEnabled(false);
+                mOmniSettings.setSelectable(false);
+                break;
+            case 2:
+                boolean SwitchRunning = OmniSwitchConstants.isOmniSwitchRunning(getContext());
+                if (!SwitchRunning) {
+                    Toast.makeText(getActivity(), R.string.omniswitch_first_time_message,
+                        Toast.LENGTH_LONG).show();
+                    Settings.System.putInt(getContentResolver(),
+                        Settings.System.RECENTS_OMNI_SWITCH_ENABLED, 0);
+                }
+                mStockSettings.setEnabled(false);
+                mStockSettings.setSelectable(false);
+                mOmniSettings.setEnabled(true);
+                mOmniSettings.setSelectable(true);
+                break;
+        }
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mRecentsStyle) {
-            int value = Integer.parseInt((String) newValue);
-            Settings.System.putIntForUser(resolver,
-                Settings.System.RECENTS_COMPONENT, value, UserHandle.USER_CURRENT);
-            Toast.makeText(getActivity(), R.string.device_restart_required, Toast.LENGTH_SHORT).show();
-            stockCategory.setEnabled(value == 1);
+            int recentsStyle = Integer.parseInt((String) newValue);
+            updateRecentStyleSettings(recentsStyle);
             return true;
         }
         return false;
+    }
+
+    private void updateRecentStyleSettings(int recentsStyle) {
+        switch (recentsStyle) {
+            case 0:
+                mStockSettings.setEnabled(false);
+                mStockSettings.setSelectable(false);
+                mOmniSettings.setEnabled(false);
+                mOmniSettings.setSelectable(false);
+                Settings.System.putInt(getContentResolver(),
+                    Settings.System.RECENTS_OMNI_SWITCH_ENABLED, 0);
+                Toast.makeText(getActivity(), R.string.device_restart_required, Toast.LENGTH_SHORT).show();
+                break;
+            case 1:
+                mStockSettings.setEnabled(true);
+                mStockSettings.setSelectable(true);
+                mOmniSettings.setEnabled(false);
+                mOmniSettings.setSelectable(false);
+                Settings.System.putInt(getContentResolver(),
+                    Settings.System.RECENTS_OMNI_SWITCH_ENABLED, 0);
+                Toast.makeText(getActivity(), R.string.device_restart_required, Toast.LENGTH_SHORT).show();
+                break;
+            case 2:
+                boolean SwitchRunning = OmniSwitchConstants.isOmniSwitchRunning(getContext());
+                if (!SwitchRunning) {
+                    Toast.makeText(getActivity(), R.string.omniswitch_first_time_message,
+                        Toast.LENGTH_LONG).show();
+                    startActivity(OmniSwitchConstants.INTENT_LAUNCH_APP);
+                }
+                mStockSettings.setEnabled(false);
+                mStockSettings.setSelectable(false);
+                mOmniSettings.setEnabled(true);
+                mOmniSettings.setSelectable(true);
+                Settings.System.putInt(getContentResolver(),
+                    Settings.System.RECENTS_OMNI_SWITCH_ENABLED, 1);
+                break;
+        }
     }
 
     @Override
