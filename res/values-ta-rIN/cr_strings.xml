@@ -1561,7 +1561,7 @@ fling_left_up_swipe
     <string name="media_scanner_on_boot_disabled">Do not scan media</string>
     <!-- Reset settings -->
     <string name="reset_settings_title">Reset settings</string>
-    <string name="reset_settings_message">This will reset most crdroid settings to their default values for the current user. Would you like to continue?</string>
+    <string name="reset_settings_message">This will reset most FlokoROM settings to their default values for the current user. Would you like to continue?</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">Updates</string>
     <string name="ota_crdroid_summary">Check for OTA update and links for your device</string>
@@ -2074,4 +2074,13 @@ fling_left_up_swipe
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <!-- Keyboard and IME  -->
+    <string name="ime_settings_title">Keyboard settings</string>
+    <string name="ime_settings_summary">Customize advanced keyboard settings</string>
+    <string name="ime_switcher_notification_title">IME selector notification</string>
+    <string name="ime_switcher_notification_summary">Display input method selector in notification</string>
+    <string name="ime_fullscreen_title">Fullscreen keyboard</string>
+    <string name="ime_fullscreen_summary">Allow keyboard to take up entire screen in landscape</string>
+    <string name="ime_show_enter_key_title">Show enter key</string>
+    <string name="ime_show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
 </resources>

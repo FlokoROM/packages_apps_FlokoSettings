@@ -1554,7 +1554,7 @@
     <string name="media_scanner_on_boot_disabled">미디어 스캔하지 않음</string>
     <!-- Reset settings -->
     <string name="reset_settings_title">설정 초기화</string>
-    <string name="reset_settings_message">대부분의 crdroid 설정이 현재 사용자의 기본값으로 재설정됩니다. 계속 하시겠습니까?</string>
+    <string name="reset_settings_message">대부분의 FlokoROM 설정이 현재 사용자의 기본값으로 재설정됩니다. 계속 하시겠습니까?</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">업데이트</string>
     <string name="ota_crdroid_summary">장치에 OTA 업데이트를 확인합니다</string>
@@ -2067,4 +2067,13 @@
     <string name="incall_vibrate_connect_title">통화 연결 시 진동</string>
     <string name="incall_vibrate_call_wait_title">통화 대기 중에 진동</string>
     <string name="incall_vibrate_disconnect_title">통화 종료 시 진동</string>
+    <!-- Keyboard and IME  -->
+    <string name="ime_settings_title">Keyboard settings</string>
+    <string name="ime_settings_summary">Customize advanced keyboard settings</string>
+    <string name="ime_switcher_notification_title">IME selector notification</string>
+    <string name="ime_switcher_notification_summary">Display input method selector in notification</string>
+    <string name="ime_fullscreen_title">Fullscreen keyboard</string>
+    <string name="ime_fullscreen_summary">Allow keyboard to take up entire screen in landscape</string>
+    <string name="ime_show_enter_key_title">Show enter key</string>
+    <string name="ime_show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
 </resources>

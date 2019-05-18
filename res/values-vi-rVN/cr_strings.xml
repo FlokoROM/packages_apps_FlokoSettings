@@ -1554,7 +1554,7 @@
     <string name="media_scanner_on_boot_disabled">Không quét đa phương tiện</string>
     <!-- Reset settings -->
     <string name="reset_settings_title">Đặt lại cài đặt</string>
-    <string name="reset_settings_message">Điều này sẽ đặt lại hầu hết crdroid thiết lập các giá trị mặc định cho người dùng hiện tại. Bạn có muốn tiếp tục không?</string>
+    <string name="reset_settings_message">Điều này sẽ đặt lại hầu hết FlokoROM thiết lập các giá trị mặc định cho người dùng hiện tại. Bạn có muốn tiếp tục không?</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">Cập Nhật</string>
     <string name="ota_crdroid_summary">Kiểm tra cập nhật OTA và liên kết cho thiết bị của bạn</string>
@@ -2067,4 +2067,13 @@
     <string name="incall_vibrate_connect_title">Rung khi kết nối</string>
     <string name="incall_vibrate_call_wait_title">Rung khi chờ cuộc gọi</string>
     <string name="incall_vibrate_disconnect_title">Rung khi ngắt kết nối</string>
+    <!-- Keyboard and IME  -->
+    <string name="ime_settings_title">Keyboard settings</string>
+    <string name="ime_settings_summary">Customize advanced keyboard settings</string>
+    <string name="ime_switcher_notification_title">IME selector notification</string>
+    <string name="ime_switcher_notification_summary">Display input method selector in notification</string>
+    <string name="ime_fullscreen_title">Fullscreen keyboard</string>
+    <string name="ime_fullscreen_summary">Allow keyboard to take up entire screen in landscape</string>
+    <string name="ime_show_enter_key_title">Show enter key</string>
+    <string name="ime_show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
 </resources>
