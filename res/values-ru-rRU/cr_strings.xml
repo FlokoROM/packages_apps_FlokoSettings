@@ -769,6 +769,7 @@
     <string name="status_bar_battery_style_solid">Сплошной</string>
     <string name="status_bar_battery_style_text">Текст</string>
     <string name="status_bar_battery_style_hidden">Не показывать индикатор</string>
+    <string name="status_bar_battery_style_q">Стиль Q</string>
     <string name="status_bar_battery_style_tile_title">Пользовательский стиль плитки батареи</string>
     <string name="status_bar_battery_style_tile_summary">Разрешить устанавливать тот же стиль значка батареи, что и в строке состояния</string>
     <!-- Status bar - Battery custom charging symbol -->
@@ -2077,4 +2078,7 @@
     <string name="ime_fullscreen_summary">Разрешить клавиатуре занимать весь экран в ландшафтном режиме</string>
     <string name="ime_show_enter_key_title">Показывать кнопку ввода</string>
     <string name="ime_show_enter_key_summary">Принудительно показывать кнопку ввода вместо кнопки смайликов</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Анимация зарядки</string>
+    <string name="lockscreen_charging_animation_summary">Показывать анимацию при зарядке</string>
 </resources>

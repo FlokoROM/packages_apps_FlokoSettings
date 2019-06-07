@@ -769,6 +769,7 @@
     <string name="status_bar_battery_style_solid">ٹھوس</string>
     <string name="status_bar_battery_style_text">متن</string>
     <string name="status_bar_battery_style_hidden">پوشیدہ</string>
+    <string name="status_bar_battery_style_q">Q style</string>
     <string name="status_bar_battery_style_tile_title">بیٹری ٹائٹل منسوخ کریں</string>
     <string name="status_bar_battery_style_tile_summary">اسی آئکن سٹائل کا استعمال کریں جیسا کہ اوپر QS بیٹری ٹائل میں ہے</string>
     <!-- Status bar - Battery custom charging symbol -->
@@ -2077,4 +2078,7 @@
     <string name="ime_fullscreen_summary">Allow keyboard to take up entire screen in landscape</string>
     <string name="ime_show_enter_key_title">Show enter key</string>
     <string name="ime_show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Charging animation</string>
+    <string name="lockscreen_charging_animation_summary">Display animation when charging</string>
 </resources>

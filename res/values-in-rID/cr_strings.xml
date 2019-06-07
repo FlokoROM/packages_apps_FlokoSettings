@@ -769,6 +769,7 @@
     <string name="status_bar_battery_style_solid">Padat</string>
     <string name="status_bar_battery_style_text">Teks</string>
     <string name="status_bar_battery_style_hidden">Tersembunyi</string>
+    <string name="status_bar_battery_style_q">Q style</string>
     <string name="status_bar_battery_style_tile_title">Timpa ubin baterai</string>
     <string name="status_bar_battery_style_tile_summary">Gunakan gaya ikon yang sama seperti di atas pada ubin baterai QS</string>
     <!-- Status bar - Battery custom charging symbol -->
@@ -2077,4 +2078,7 @@
     <string name="ime_fullscreen_summary">Allow keyboard to take up entire screen in landscape</string>
     <string name="ime_show_enter_key_title">Show enter key</string>
     <string name="ime_show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Charging animation</string>
+    <string name="lockscreen_charging_animation_summary">Display animation when charging</string>
 </resources>

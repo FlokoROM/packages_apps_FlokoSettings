@@ -162,7 +162,7 @@
     <string name="shortcuts_icon_picker_contact">Contacto</string>
     <string name="shortcuts_icon_picker_directdial">Marcación directa</string>
     <string name="shortcuts_icon_picker_directmessage">Mensaje directo</string>
-    <string name="shortcuts_icon_picker_drive">Drive</string>
+    <string name="shortcuts_icon_picker_drive">Google Drive</string>
     <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
     <string name="shortcuts_icon_picker_email">E-Mail</string>
     <string name="shortcuts_icon_picker_email2">E-Mail alternativo</string>
@@ -201,7 +201,7 @@
     <string name="shortcuts_icon_picker_tasks">Tareas</string>
     <string name="shortcuts_icon_picker_terminal">Terminal</string>
     <string name="shortcuts_icon_picker_transit">Tránsito</string>
-    <string name="shortcuts_icon_picker_tv">TV</string>
+    <string name="shortcuts_icon_picker_tv">Televisión</string>
     <string name="shortcuts_icon_picker_twitter">Twitter</string>
     <string name="shortcuts_icon_picker_unlock">Desbloquear</string>
     <string name="airplay">Airplay</string>
@@ -224,7 +224,7 @@
     <string name="dolphin2">Dolphin</string>
     <string name="downloads">Descargas</string>
     <string name="dropbox">Dropbox</string>
-    <string name="ebay">eBay</string>
+    <string name="ebay">Ebay</string>
     <string name="email">E-Mail</string>
     <string name="evernote">Evernote</string>
     <string name="explorer">Explorador</string>
@@ -247,12 +247,12 @@
     <string name="golocker">Go Locker</string>
     <string name="googlecurrents">Google Currents</string>
     <string name="googletalk">Google Talk</string>
-    <string name="gosms">Go SMS</string>
+    <string name="gosms">Go Sms</string>
     <string name="meebo">Meebo</string>
     <string name="maps2">Maps2</string>
     <string name="memorycleaner">Limpiador de memoria</string>
     <string name="navigation">Navegación</string>
-    <string name="pulse">Pulso</string>
+    <string name="pulse">Pulse</string>
     <string name="shazam">Shazam</string>
     <string name="swiftkey">SwiftKey</string>
     <string name="tmobile">T-mobile</string>
@@ -477,7 +477,7 @@
     <string name="status_bar_logo_style_decepticons">Decepticons</string>
     <string name="status_bar_logo_style_ironman">Ironman</string>
     <string name="status_bar_logo_style_minions">Minions</string>
-    <string name="status_bar_logo_style_spiderman">Spiderman</string>
+    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
     <string name="status_bar_logo_style_superman">Superman</string>
     <!-- Expanded Desktop -->
     <string name="expanded_desktop_title">Escritorio expandido</string>
@@ -660,9 +660,9 @@
     <string name="pulse_filled_block_size">Tamaño del bloque</string>
     <string name="pulse_empty_block_size">Espaciado de los bloques</string>
     <string name="pulse_blacklist_title">Lista negra de aplicaciones</string>
-    <string name="pulse_blacklist_summary">Aplicaciones omitidas por el pulso</string>
+    <string name="pulse_blacklist_summary">Aplicaciones omitidas por Pulse</string>
     <string name="pulse_blacklist_apps_cat_title">Lista negra</string>
-    <string name="pulse_blacklist_apps_title">Lista negra de aplicaciones</string>
+    <string name="pulse_blacklist_apps_title">Lista negra de apps</string>
     <string name="pulse_blacklist_apps_summary">Ocultar aplicaciones en el panel</string>
     <string name="pulse_blacklist_add_apps_title">Agregar aplicación</string>
     <string name="pulse_blacklist_add_apps_summary">Tocar aquí para agregar, tocar en una aplicación agregada para quitarla</string>
@@ -769,6 +769,7 @@
     <string name="status_bar_battery_style_solid">Sólido</string>
     <string name="status_bar_battery_style_text">Texto</string>
     <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_style_q">Estilo Q</string>
     <string name="status_bar_battery_style_tile_title">Anular la baldosa de la batería</string>
     <string name="status_bar_battery_style_tile_summary">Utilizar el mismo estilo de icono que en la ficha de batería QS</string>
     <!-- Status bar - Battery custom charging symbol -->
@@ -1451,8 +1452,8 @@
     <string name="weather_config_title">Configuración del servicio</string>
     <string name="weather_config_summary">Configurar servicio para habilitar los detalles meteorológicos</string>
     <string name="weather_icon_pack_title">Paquete de iconos de condición</string>
-    <string name="weather_icon_pack_note">"Nota:
-puede instalar nuevos paquetes de iconos desde la play store buscando \"Chronus iconos\""</string>
+    <string name="weather_icon_pack_note">Nota:
+puede instalar nuevos paquetes de iconos desde la play store buscando \"Chronus iconos\"</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Ícono 4G</string>
     <string name="show_fourg_icon_summary">Mostrar ícono de 4G en lugar de LTE</string>
@@ -1791,9 +1792,9 @@ puede instalar nuevos paquetes de iconos desde la play store buscando \"Chronus 
     <string name="lockscreen_clock_selection_hidden">Escondido</string>
     <string name="lockscreen_clock_selection_digital">Digital</string>
     <string name="lockscreen_clock_selection_digital_bold">Digital (negrita)</string>
-    <string name="lockscreen_clock_selection_digital_accent">Digital (negrita en las horas y color de realce en todo)</string>
-    <string name="lockscreen_clock_selection_digital_accent_hour">Digital (negrita y color de realce en las horas)</string>
-    <string name="lockscreen_clock_selection_digital_accent_min">Digital (negrita en las horas y color de realce en los minutos)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Digital (horas en negrita y color de realce en todo)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Digital (horas en negrita y color de realce)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Digital (horas en negrita y color de realce en los minutos)</string>
     <string name="lockscreen_clock_selection_sammy">Vertical</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (negrita)</string>
     <string name="lockscreen_clock_selection_sammy_accent">Vertical (color de realce en los minutos)</string>
@@ -1801,7 +1802,7 @@ puede instalar nuevos paquetes de iconos desde la play store buscando \"Chronus 
     <string name="lockscreen_clock_selection_analog">Análogo</string>
     <string name="lockscreen_clock_selection_analog_dark">Analógico (oscuro)</string>
     <string name="lockscreen_clock_selection_analog_deadpool">Deadpool</string>
-    <string name="lockscreen_clock_selection_analog_spidey">Spider-man</string>
+    <string name="lockscreen_clock_selection_analog_spidey">Spider-Man</string>
     <string name="lockscreen_clock_selection_analog_dot">Punto</string>
     <string name="lockscreen_clock_selection_analog_spectrum">Espectro</string>
     <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
@@ -1814,8 +1815,8 @@ puede instalar nuevos paquetes de iconos desde la play store buscando \"Chronus 
     <!-- Edge gestures -->
     <string name="edge_gestures_title">Habilitar gestos</string>
     <string name="edge_gestures_summary">Navegar usando gestos \"Edge\"</string>
-    <string name="edge_gestures_description">"Desliza desde la parte de abajo de la pantalla para activar la acción de Home, mantén presionado para abrir recientes.
-Desliza de izquierda a derecha para regresar."</string>
+    <string name="edge_gestures_description">Desliza desde la parte de abajo de la pantalla para activar la acción de Home, mantén presionado para abrir recientes.
+Desliza de izquierda a derecha para regresar.</string>
     <string name="edge_gestures_feedback_duration_title">Duración de retroalimentación háptica</string>
     <string name="edge_gestures_long_press_delay_title">Demora hasta que comience la acción de presión prolongada</string>
     <string name="edge_gestures_back_category_title">Gesto de retroceso</string>
@@ -1823,8 +1824,7 @@ Desliza de izquierda a derecha para regresar."</string>
     <string name="edge_gestures_landscape_back_edges_title">Lanzar gesto de retroceso en posición vertical de</string>
     <string name="edge_gestures_back_screen_percent_title">Gesto de retroceder debe empezar por debajo de este porcentaje de la pantalla</string>
     <string name="edge_gestures_back_screen_percent_summary">Lanzar debajo de cierto porcentaje de pantalla</string>
-    <string name="edge_gestures_back_edges_left">"Izquierda
-"</string>
+    <string name="edge_gestures_back_edges_left">Izquierda</string>
     <string name="edge_gestures_back_edges_right">Derecha</string>
     <string name="edge_gestures_back_edges_both">Ambos lados</string>
     <string name="edge_gestures_back_show_ui_feedback_title">Animación del gesto atrás</string>
@@ -1877,7 +1877,7 @@ Desliza de izquierda a derecha para regresar."</string>
     <string name="device_restart_required">Reinicia tu dispositivo para aplicar los cambios</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">Predeterminado</string>
+    <string name="custom_seekbar_default_value">predeterminado</string>
     <string name="custom_seekbar_default_value_to_set">Valor predeterminado: <xliff:g id="v">%s</xliff:g>\nMantén presionado para establecer</string>
     <string name="custom_seekbar_default_value_is_set">Está establecido el valor predeterminado</string>
     <!-- Blink flashlight for incoming calls -->
@@ -1895,9 +1895,9 @@ Desliza de izquierda a derecha para regresar."</string>
     <string name="style_global_entry_dark">Oscuro</string>
     <string name="style_global_entry_time">Automático (hora del día)</string>
     <string name="accent_picker_dialog_title">Seleccionar el color de realce</string>
-    <string name="theme_accent_picker_title">Color de realce</string>
+    <string name="theme_accent_picker_title">Color de acento</string>
     <string name="theme_accent_picker_summary">Seleccionar color de realce del tema del sistema</string>
-    <string name="theme_accent_picker_default">Predeterminado</string>
+    <string name="theme_accent_picker_default">Por defecto</string>
     <string name="accent_picker_material_colors">Paleta de colores estilo material</string>
     <string name="accent_picker_custom_colors">Paleta de colores solicitada por los usuarios</string>
     <string name="style_dark_overlay_title">Modo oscuro</string>
@@ -1939,7 +1939,7 @@ Desliza de izquierda a derecha para regresar."</string>
     <string name="qstile_cookie">Galletas</string>
     <string name="qstile_dottedcircle">Círculos punteados</string>
     <string name="qstile_circle_dualtone">Círculos de doble tono</string>
-    <string name="qstile_dual_tone_circle">Círculos de doble tono (Borde)</string>
+    <string name="qstile_dual_tone_circle">Círculos de doble tono (borde)</string>
     <string name="qstile_ink">Círculos de tinta</string>
     <string name="qstile_inkdrop">Gotas de tinta</string>
     <string name="qstile_mountain">Montañas</string>
@@ -2080,4 +2080,7 @@ Desliza de izquierda a derecha para regresar."</string>
     <string name="ime_fullscreen_summary">Permitir al teclado ocupar toda la pantalla en modo horizontal</string>
     <string name="ime_show_enter_key_title">Mostrar la tecla enter</string>
     <string name="ime_show_enter_key_summary">Forzar al teclado a mostrar la tecla enter en lugar de la de emoticonos</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Animación de carga</string>
+    <string name="lockscreen_charging_animation_summary">Mostrar animación al cargar</string>
 </resources>

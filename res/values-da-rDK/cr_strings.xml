@@ -769,6 +769,7 @@
     <string name="status_bar_battery_style_solid">Optrukken</string>
     <string name="status_bar_battery_style_text">Tekst</string>
     <string name="status_bar_battery_style_hidden">Skjult</string>
+    <string name="status_bar_battery_style_q">Q-stil</string>
     <string name="status_bar_battery_style_tile_title">Tilsidesætte batteriflise</string>
     <string name="status_bar_battery_style_tile_summary">Benyt samme ikonstil som ovenfor i QS-batteriflise</string>
     <!-- Status bar - Battery custom charging symbol -->
@@ -1495,8 +1496,7 @@
     <string name="show_carrier_disabled">Deaktiveret</string>
     <string name="show_carrier_keyguard">Kun på låseskærm</string>
     <string name="show_carrier_statusbar">Kun på statusbjælke</string>
-    <string name="show_carrier_enabled">"Låseskærm og statusbjælke
-"</string>
+    <string name="show_carrier_enabled">Låseskærm og statusbjælke</string>
     <string name="status_bar_carrier_color">Udbyderetiketfarve</string>
     <string name="status_bar_carrier_size">Udbyderetikets tekststørrelse</string>
     <string name="status_bar_carrier_title">Statusbjælkeudbyder</string>
@@ -1805,7 +1805,7 @@
     <string name="lockscreen_clock_selection_analog_dot">Prik</string>
     <string name="lockscreen_clock_selection_analog_spectrum">Spektrum</string>
     <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
-    <string name="lockscreen_clock_selection_qstyle">Q Style</string>
+    <string name="lockscreen_clock_selection_qstyle">Q-stil</string>
     <string name="lockscreen_date_selection_title">Datostil</string>
     <string name="lockscreen_date_selection_default">Standard</string>
     <string name="lockscreen_date_selection_default_big">Standard (stor)</string>
@@ -2078,4 +2078,7 @@
     <string name="ime_fullscreen_summary">Tilad tastatur at benytte hele skærmen i landskabstilstand</string>
     <string name="ime_show_enter_key_title">Vis Returtast</string>
     <string name="ime_show_enter_key_summary">Tving tastatur til at vise Enter i stedet for emoticon-tast</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Opladningsanimation</string>
+    <string name="lockscreen_charging_animation_summary">Vis animation under opladning</string>
 </resources>

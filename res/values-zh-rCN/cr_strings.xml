@@ -78,8 +78,7 @@
     <string name="network_traffic_hidearrow">隐藏箭头</string>
     <string name="network_traffic_hidearrow_summary">隐藏流量监控中的箭头</string>
     <string name="network_traffic_refresh_interval_title">刷新间隔</string>
-    <string name="network_traffic_refresh_interval_summary">"网速显示持续时间
-"</string>
+    <string name="network_traffic_refresh_interval_summary">网速显示持续时间</string>
     <!-- Settings suggestions  -->
     <string name="disable_settings_suggestions_title">禁用建议</string>
     <string name="disable_settings_suggestions_summary">在设置内禁用建议</string>
@@ -770,6 +769,7 @@
     <string name="status_bar_battery_style_solid">实心图标</string>
     <string name="status_bar_battery_style_text">文本</string>
     <string name="status_bar_battery_style_hidden">隐藏</string>
+    <string name="status_bar_battery_style_q">Q 样式</string>
     <string name="status_bar_battery_style_tile_title">覆盖电池磁贴</string>
     <string name="status_bar_battery_style_tile_summary">在 QS 电池磁贴中使用相同的图标样式</string>
     <!-- Status bar - Battery custom charging symbol -->
@@ -2078,4 +2078,7 @@
     <string name="ime_fullscreen_summary">允许键盘在横屏中全屏显示</string>
     <string name="ime_show_enter_key_title">显示回车键</string>
     <string name="ime_show_enter_key_summary">强制键盘显示回车键，而不是表情符号键</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">充电动画</string>
+    <string name="lockscreen_charging_animation_summary">充电时显示动画</string>
 </resources>

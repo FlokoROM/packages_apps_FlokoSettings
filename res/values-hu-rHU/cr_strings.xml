@@ -769,6 +769,7 @@
     <string name="status_bar_battery_style_solid">Kitöltött</string>
     <string name="status_bar_battery_style_text">Szöveg</string>
     <string name="status_bar_battery_style_hidden">Rejtett</string>
+    <string name="status_bar_battery_style_q">Q stílusú</string>
     <string name="status_bar_battery_style_tile_title">Akkumulátor csempe felülírása</string>
     <string name="status_bar_battery_style_tile_summary">Használjon a Gyorsbeállítások ikoncsempéjéhez hasonló ikonstílust</string>
     <!-- Status bar - Battery custom charging symbol -->
@@ -2077,4 +2078,7 @@
     <string name="ime_fullscreen_summary">Megengedi a billentyűzetnek, hogy fekvő módban elfoglalja a teljes képernyőt</string>
     <string name="ime_show_enter_key_title">Az Enter megjelenítése</string>
     <string name="ime_show_enter_key_summary">A billentyűzet kényszerítése, hogy az Enter gombot jelenítse meg a hangulatjelek helyett</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Töltési animáció</string>
+    <string name="lockscreen_charging_animation_summary">A töltést jelző animáció megjelenítése</string>
 </resources>

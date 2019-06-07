@@ -70,7 +70,7 @@
     <string name="network_traffic_show_units_summary">Mostrar visualizador de música cuando esté disponible</string>
     <string name="network_traffic_units_title">Unidades de medida de tráfico</string>
     <string name="network_traffic_units_bits">Bits por segundo (b/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobits por segundo (kb/s)</string>
+    <string name="network_traffic_units_kilobits">Kilobits por segundo (Kb/s)</string>
     <string name="network_traffic_units_megabits">Megabits por segundo (Mb/s)</string>
     <string name="network_traffic_units_bytes">Bytes por segundo (B/s)</string>
     <string name="network_traffic_units_kilobytes">Kilobytes por segundo (kB/s)</string>
@@ -477,7 +477,7 @@
     <string name="status_bar_logo_style_decepticons">Decepticons</string>
     <string name="status_bar_logo_style_ironman">Ironman</string>
     <string name="status_bar_logo_style_minions">Minions</string>
-    <string name="status_bar_logo_style_spiderman">Spiderman</string>
+    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
     <string name="status_bar_logo_style_superman">Superman</string>
     <!-- Expanded Desktop -->
     <string name="expanded_desktop_title">Escritorio expandido</string>
@@ -769,6 +769,7 @@
     <string name="status_bar_battery_style_solid">Sólido</string>
     <string name="status_bar_battery_style_text">Texto</string>
     <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_style_q">Estilo Q</string>
     <string name="status_bar_battery_style_tile_title">Reemplazar ajuste rápido de la batería</string>
     <string name="status_bar_battery_style_tile_summary">Utilizar el mismo estilo de icono que en el ajuste rápido de la batería</string>
     <!-- Status bar - Battery custom charging symbol -->
@@ -1001,8 +1002,8 @@
     <!-- Share crDroid -->
     <string name="share_crdroid_title">Compartir crDroid</string>
     <string name="share_crdroid_summary">Haz saber a los demás qué es crDroid</string>
-    <string name="share_message">"Mira de que va #crDroid
-https://plus.google.com/u/0/communities/118297646046960923906"</string>
+    <string name="share_message">Mira de que va #crDroid
+https://plus.google.com/u/0/communities/118297646046960923906</string>
     <string name="share_chooser_title">Compartir crDroid</string>
     <!-- Sites crDroid -->
     <string name="crdroid_source_title">GitHub</string>
@@ -1790,18 +1791,18 @@ https://plus.google.com/u/0/communities/118297646046960923906"</string>
     <string name="lockscreen_clock_selection_title">Estilo del reloj</string>
     <string name="lockscreen_clock_selection_hidden">Escondido</string>
     <string name="lockscreen_clock_selection_digital">Digital</string>
-    <string name="lockscreen_clock_selection_digital_bold">Digital (negrita en las horas)</string>
-    <string name="lockscreen_clock_selection_digital_accent">Digital (negrita en las horas y color de realce en todo)</string>
-    <string name="lockscreen_clock_selection_digital_accent_hour">Digital (negrita y color de realce en las horas)</string>
-    <string name="lockscreen_clock_selection_digital_accent_min">Digital (negrita en las horas y color de realce en los minutos)</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (horas en negrita)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Digital (horas en negrita y color de realce en todo)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Digital (horas en negrita y color de realce)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Digital (horas en negrita y color de realce en los minutos)</string>
     <string name="lockscreen_clock_selection_sammy">Vertical</string>
-    <string name="lockscreen_clock_selection_sammy_bold">Vertical (negrita en las horas)</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Vertical (horas en negrita)</string>
     <string name="lockscreen_clock_selection_sammy_accent">Vertical (color de realce en los minutos)</string>
     <string name="lockscreen_clock_selection_sammy_accent_dark">Vertical (oscuro en las horas y color de realce en los minutos)</string>
     <string name="lockscreen_clock_selection_analog">Analógico</string>
     <string name="lockscreen_clock_selection_analog_dark">Analógico (oscuro)</string>
     <string name="lockscreen_clock_selection_analog_deadpool">Deadpool</string>
-    <string name="lockscreen_clock_selection_analog_spidey">Spider-man</string>
+    <string name="lockscreen_clock_selection_analog_spidey">Spider-Man</string>
     <string name="lockscreen_clock_selection_analog_dot">Punto</string>
     <string name="lockscreen_clock_selection_analog_spectrum">Espectro</string>
     <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
@@ -1822,8 +1823,7 @@ https://plus.google.com/u/0/communities/118297646046960923906"</string>
     <string name="edge_gestures_landscape_back_edges_title">Activar el gesto de volver atrás en posición horizontal desde</string>
     <string name="edge_gestures_back_screen_percent_title">El gesto de volver atrás debe empezar por debajo de este porcentaje de pantalla</string>
     <string name="edge_gestures_back_screen_percent_summary">Activar gesto por debajo de cierto % de pantalla</string>
-    <string name="edge_gestures_back_edges_left">"Izquierda
-"</string>
+    <string name="edge_gestures_back_edges_left">Izquierda</string>
     <string name="edge_gestures_back_edges_right">Derecha</string>
     <string name="edge_gestures_back_edges_both">Ambos lados</string>
     <string name="edge_gestures_back_show_ui_feedback_title">Animación del gesto de volver atrás</string>
@@ -1938,7 +1938,7 @@ https://plus.google.com/u/0/communities/118297646046960923906"</string>
     <string name="qstile_cookie">Galletas</string>
     <string name="qstile_dottedcircle">Círculos punteados</string>
     <string name="qstile_circle_dualtone">Círculos de doble tono</string>
-    <string name="qstile_dual_tone_circle">Círculos de doble tono (Borde)</string>
+    <string name="qstile_dual_tone_circle">Círculos de doble tono (borde)</string>
     <string name="qstile_ink">Círculos de tinta</string>
     <string name="qstile_inkdrop">Gotas de tinta</string>
     <string name="qstile_mountain">Montañas</string>
@@ -2079,4 +2079,7 @@ https://plus.google.com/u/0/communities/118297646046960923906"</string>
     <string name="ime_fullscreen_summary">Permitir al teclado ocupar toda la pantalla en modo horizontal</string>
     <string name="ime_show_enter_key_title">Mostrar la tecla enter</string>
     <string name="ime_show_enter_key_summary">Forzar al teclado a mostrar la tecla enter en lugar de la de emoticonos</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Animación de carga</string>
+    <string name="lockscreen_charging_animation_summary">Mostrar animación al cargar</string>
 </resources>

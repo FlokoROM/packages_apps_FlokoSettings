@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid paramètres</string>
+    <string name="crdroid_settings_title">Paramètres crDroid</string>
     <string name="crdroid_settings_summary">Ouvrir les bonnes choses</string>
     <string name="crdroid_personalization_category">Personnalisation</string>
     <string name="crdroid_addons_category">Suppléments</string>
@@ -122,8 +122,8 @@
     <string name="lockscreen_shortcuts_single_tap">Appui simple</string>
     <string name="lockscreen_shortcuts_double_tap">Double appui</string>
     <string name="lockscreen_shortcuts_longpress">Appui long</string>
-    <string name="lockscreen_shortcuts_title">Shortcuts</string>
-    <string name="lockscreen_shortcuts_summary">Configure shortcuts on bottom of the screen</string>
+    <string name="lockscreen_shortcuts_title">Raccourcis</string>
+    <string name="lockscreen_shortcuts_summary">Configurer les raccourcis en bas de l\'écran</string>
     <!-- Slim DSLV -->
     <string name="shortcut_action_longpress">Appui long :</string>
     <string name="shortcut_action_select_action_longpress">Choisir l\'action associée à un appui long :</string>
@@ -332,7 +332,7 @@
     <string name="shortcut_picker_select_system_icon_title">Sélectionnez l\'icône système :</string>
     <string name="shortcut_picker_icon_type_custom_title">Galerie</string>
     <!-- Music Visualizer -->
-    <string name="music_visualizer_title">Spectre musical</string>
+    <string name="music_visualizer_title">Spectre sonore</string>
     <string name="music_visualizer_summary">Afficher le Visualiseur de musique lorsqu\'il est disponible</string>
     <!-- Media art -->
     <string name="media_art_title">Pochette de l\'album</string>
@@ -769,6 +769,7 @@
     <string name="status_bar_battery_style_solid">Solide</string>
     <string name="status_bar_battery_style_text">Texte</string>
     <string name="status_bar_battery_style_hidden">Caché</string>
+    <string name="status_bar_battery_style_q">Q style</string>
     <string name="status_bar_battery_style_tile_title">Remplacer la tuile de batterie</string>
     <string name="status_bar_battery_style_tile_summary">Utiliser le même style d\'icône que celle de la tuile de batterie Quick Scroll</string>
     <!-- Status bar - Battery custom charging symbol -->
@@ -1001,8 +1002,8 @@
     <!-- Share crDroid -->
     <string name="share_crdroid_title">Partager crDroid</string>
     <string name="share_crdroid_summary">Informez les autres sur crDroid</string>
-    <string name="share_message">"Accéder au blog de #crDroid @
-https://plus.google.com/communities/118297646046960923906"</string>
+    <string name="share_message">Accéder au blog de #crDroid @
+https://plus.google.com/communities/118297646046960923906</string>
     <string name="share_chooser_title">Partager crDroid</string>
     <!-- Sites crDroid -->
     <string name="crdroid_source_title">GitHub</string>
@@ -2041,9 +2042,9 @@ https://plus.google.com/communities/118297646046960923906"</string>
     <string name="lockscreen_autocolor_lavalamp">Nécessite une lampe de lave désactivée</string>
     <string name="lockscreen_lavalamp_title">Lampe à lave</string>
     <string name="lockscreen_lavalamp_summary">Animate smooth lava lamp style color blend</string>
-    <string name="lockscreen_lavalamp_speed_title">Lava lamp color blend interval</string>
+    <string name="lockscreen_lavalamp_speed_title">Intervalle de changement de couleur</string>
     <string name="lockscreen_solid_units_count_title">Nombre de lignes</string>
-    <string name="lockscreen_solid_fudge_factor_title">Sanity level</string>
+    <string name="lockscreen_solid_fudge_factor_title">Niveau d\'intensité</string>
     <string name="lockscreen_solid_units_opacity_title">Opacité des lignes</string>
     <!-- Display cutout options -->
     <string name="cutout_main">Afficher la coupure</string>
@@ -2062,20 +2063,23 @@ https://plus.google.com/communities/118297646046960923906"</string>
     <string name="lockscreen_albumart_filter_blur">Flou</string>
     <string name="lockscreen_albumart_filter_grayblur">Niveaux de gris et flou</string>
     <!-- Notifications while screen on -->
-    <string name="notification_sound_vib_screen_on_title">Noisy notifications</string>
+    <string name="notification_sound_vib_screen_on_title">Notifications sonores</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibrate_connect_title">Vibrer à la connexion</string>
+    <string name="incall_vibrate_call_wait_title">Vibrer si appel en attente</string>
+    <string name="incall_vibrate_disconnect_title">Vibrer lors de la déconnexion</string>
     <!-- Keyboard and IME  -->
-    <string name="ime_settings_title">Keyboard settings</string>
-    <string name="ime_settings_summary">Customize advanced keyboard settings</string>
+    <string name="ime_settings_title">Paramètres Clavier</string>
+    <string name="ime_settings_summary">Personnaliser les options avancées du clavier</string>
     <string name="ime_switcher_notification_title">IME selector notification</string>
     <string name="ime_switcher_notification_summary">Display input method selector in notification</string>
-    <string name="ime_fullscreen_title">Fullscreen keyboard</string>
+    <string name="ime_fullscreen_title">Clavier en mode plein écran</string>
     <string name="ime_fullscreen_summary">Allow keyboard to take up entire screen in landscape</string>
-    <string name="ime_show_enter_key_title">Show enter key</string>
+    <string name="ime_show_enter_key_title">Afficher la touche entrée</string>
     <string name="ime_show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Animation de charge</string>
+    <string name="lockscreen_charging_animation_summary">Afficher une animation lors de la charge</string>
 </resources>

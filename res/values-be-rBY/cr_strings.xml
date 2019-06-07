@@ -769,6 +769,7 @@
     <string name="status_bar_battery_style_solid">Суцэльны</string>
     <string name="status_bar_battery_style_text">Тэкст</string>
     <string name="status_bar_battery_style_hidden">Схавана</string>
+    <string name="status_bar_battery_style_q">Стыль Q</string>
     <string name="status_bar_battery_style_tile_title">Карыстацкі стыль пліткі батарэі</string>
     <string name="status_bar_battery_style_tile_summary">Дазволіць усталёўваць той жа стыль значка батарэі, што і ў радку стану</string>
     <!-- Status bar - Battery custom charging symbol -->
@@ -1804,7 +1805,7 @@
     <string name="lockscreen_clock_selection_analog_dot">Кропкавыя</string>
     <string name="lockscreen_clock_selection_analog_spectrum">Спектр</string>
     <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
-    <string name="lockscreen_clock_selection_qstyle">Q Style</string>
+    <string name="lockscreen_clock_selection_qstyle">Стыль Q</string>
     <string name="lockscreen_date_selection_title">Стыль даты</string>
     <string name="lockscreen_date_selection_default">Па змаўчанні</string>
     <string name="lockscreen_date_selection_default_big">Па змаўчанні (вялікая)</string>
@@ -2077,4 +2078,7 @@
     <string name="ime_fullscreen_summary">Дазволіць клавіятуры займаць увесь экран у ландшафтным рэжыме</string>
     <string name="ime_show_enter_key_title">Паказваць кнопку ўводу</string>
     <string name="ime_show_enter_key_summary">Прымусова паказваць кнопку ўводу замест кнопкі смайлікаў</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Анімацыя зарадкі</string>
+    <string name="lockscreen_charging_animation_summary">Паказваць анімацыю пры зарадцы</string>
 </resources>
