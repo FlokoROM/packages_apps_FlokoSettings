@@ -24,6 +24,7 @@
     <string name="share_floko_message">#FlokoROM についてもっと知る: https://floko.maud.io/</string>
     <string name="share_floko_chooser_title">FlokoROM をシェアする...</string>
     <!-- App Title -->
+    <string name="floko_settings_title">Floko の設定</string>
     <string name="crdroid_settings_title">crDroid の設定</string>
     <string name="crdroid_settings_summary">高度な設定</string>
     <string name="crdroid_personalization_category">パーソナライズ</string>
