@@ -1806,6 +1806,7 @@
     <string name="lockscreen_clock_selection_analog_spectrum">스펙트럼</string>
     <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
     <string name="lockscreen_clock_selection_qstyle">Q 스타일</string>
+    <string name="lockscreen_clock_selection_qstyle_accent">Q 스타일 (accent)</string>
     <string name="lockscreen_date_selection_title">날짜 스타일</string>
     <string name="lockscreen_date_selection_default">기본값</string>
     <string name="lockscreen_date_selection_default_big">기본값 (굵게표시)</string>
@@ -1935,10 +1936,10 @@
     <string name="qstile_circle_gradient">원 (그라데이션)</string>
     <string name="qstile_circle_trim">원 (자름)</string>
     <string name="qstile_cookie">쿠키</string>
-    <string name="qstile_cosmos">Cosmos</string>
+    <string name="qstile_cosmos">우주</string>
     <string name="qstile_dottedcircle">점선 원</string>
     <string name="qstile_circle_dualtone">듀얼 톤 원</string>
-    <string name="qstile_divided_circle">Divided Circle</string>
+    <string name="qstile_divided_circle">점선 원 (일부만)</string>
     <string name="qstile_dual_tone_circle">듀얼 톤 원 (자름)</string>
     <string name="qstile_ink">잉크</string>
     <string name="qstile_inkdrop">Inkdrop</string>
@@ -1949,7 +1950,7 @@
     <string name="qstile_oreo_circle_trim">오레오 (원으로 자름)</string>
     <string name="qstile_squaremedo">Squaremedo</string>
     <string name="qstile_squircle">둥근 사각형</string>
-    <string name="qstile_neon_like">Neon Like</string>
+    <string name="qstile_neon_like">네온</string>
     <string name="qstile_oreo_squircle_trim">오레오 (둥근 사각형으로 자름)</string>
     <string name="qstile_pokesign">Pokesign</string>
     <string name="qstile_squircle_trim">둥근 사각형 (자름)</string>
@@ -2089,4 +2090,29 @@
     <!-- Charging animation -->
     <string name="lockscreen_charging_animation_title">충전 중 애니메이션</string>
     <string name="lockscreen_charging_animation_summary">충전시 애니메이션 표시</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">게이밍 모드</string>
+    <string name="gaming_mode_summary">게이밍 모드 사용자 설정</string>
+    <string name="gaming_mode_enabled_summary">게이밍 모드 켜기 허용</string>
+    <string name="gaming_mode_app_picker_title">이 앱들에 한하여 자동으로 켜짐</string>
+    <string name="add_gaming_mode_package_title">게이밍 모드에 앱 추가</string>
+    <string name="add_gaming_mode_package_summary">게이밍 모드는 자동으로 이 앱들과 같이 실행되고 꺼집니다.</string>
+    <string name="gaming_mode_headsup_title">알림 차단</string>
+    <string name="gaming_mode_headsup_summary">전화 및 알람 무시</string>
+    <string name="gaming_mode_hardware_keys_title">잠금 버튼</string>
+    <string name="gaming_mode_hardware_keys_summary">게이밍 모드가 켜질 때 버튼은 잠깁니다</string>
+    <string name="gaming_mode_brightness_title">자동 밝기 해제</string>
+    <string name="gaming_mode_brightness_summary">게이밍 모드가 켜져 있을 때 화면 밝기 잠김</string>
+    <string name="gaming_mode_ringer_title">게이밍 모드 중 전화 수신 시</string>
+    <string name="gaming_mode_ringer_off_title">변경 안함</string>
+    <string name="gaming_mode_ringer_vibrate_title">진동</string>
+    <string name="gaming_mode_ringer_dnd_title">방해 금지</string>
+    <string name="gaming_mode_ringer_silent_title">무음</string>
+    <string name="gaming_mode_notifications_title">게이밍 모드 상태 표시</string>
+    <string name="gaming_mode_notifications_off_title">비활성화</string>
+    <string name="gaming_mode_notifications_notif_title">알림 표시</string>
+    <string name="gaming_mode_notifications_toast_title">토스트 표시</string>
+    <string name="gaming_mode_notifications_all_title">토스트 및 알림 표시</string>
+    <string name="gaming_mode_dynamic_title">탐지 모드</string>
+    <string name="gaming_mode_dynamic_summary">자동으로 게임 앱을 탐지하여 추가</string>
 </resources>

@@ -19,7 +19,7 @@
     <!-- App Title -->
     <string name="crdroid_settings_title">Configurações crDroid</string>
     <string name="crdroid_settings_summary">Bondade aberta</string>
-    <string name="crdroid_personalization_category">Personalizar</string>
+    <string name="crdroid_personalization_category">Personalização</string>
     <string name="crdroid_addons_category">Complementos</string>
     <!-- Personalization Categories -->
     <string name="button_title">Botões</string>
@@ -1806,6 +1806,7 @@
     <string name="lockscreen_clock_selection_analog_spectrum">Espectro</string>
     <string name="lockscreen_clock_selection_analog_sneeky">Enganado</string>
     <string name="lockscreen_clock_selection_qstyle">Estilo Q</string>
+    <string name="lockscreen_clock_selection_qstyle_accent">Estilo Q (acento)</string>
     <string name="lockscreen_date_selection_title">Estilo da data</string>
     <string name="lockscreen_date_selection_default">Padrão</string>
     <string name="lockscreen_date_selection_default_big">Padrão (grande)</string>
@@ -1938,23 +1939,23 @@
     <string name="qstile_cosmos">Cosmos</string>
     <string name="qstile_dottedcircle">Círculo Pontilhado</string>
     <string name="qstile_circle_dualtone">Círculo Duplo-Tonificado</string>
-    <string name="qstile_divided_circle">Divided Circle</string>
+    <string name="qstile_divided_circle">Círculo Dividido</string>
     <string name="qstile_dual_tone_circle">Círculo de duplo tom (recortado)</string>
     <string name="qstile_ink">Tinta</string>
     <string name="qstile_inkdrop">Gota de Tinta</string>
-    <string name="qstile_just_icons">Just Icons</string>
+    <string name="qstile_just_icons">Apenas Ícones</string>
     <string name="qstile_mountain">Montanha</string>
     <string name="qstile_ninja">Ninja</string>
     <string name="qstile_oreo">Oreo</string>
     <string name="qstile_oreo_circle_trim">Oreo (guarnição do círculo)</string>
     <string name="qstile_squaremedo">Squaremedo</string>
     <string name="qstile_squircle">Quadrado arredondado</string>
-    <string name="qstile_neon_like">Neon Like</string>
+    <string name="qstile_neon_like">Tipo Neon</string>
     <string name="qstile_oreo_squircle_trim">Oreo (guarnição do círculo)</string>
     <string name="qstile_pokesign">Pokémon</string>
     <string name="qstile_squircle_trim">Quadrado arredondado (com recorte)</string>
     <string name="qstile_teardrop">Lágrima</string>
-    <string name="qstile_triangle">Triangle</string>
+    <string name="qstile_triangle">Triângulo</string>
     <string name="qstile_wavey">Ondulado</string>
     <!-- QS header styles -->
     <string name="qs_header_style_title">Estilo do cabeçalho das configurações rápidas</string>
@@ -2089,4 +2090,29 @@
     <!-- Charging animation -->
     <string name="lockscreen_charging_animation_title">Animação de carregamento</string>
     <string name="lockscreen_charging_animation_summary">Exibir animação ao carregar</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Modo de jogo</string>
+    <string name="gaming_mode_summary">Personalizar as definições do modo de jogo</string>
+    <string name="gaming_mode_enabled_summary">Permitir ativar o modo de jogo</string>
+    <string name="gaming_mode_app_picker_title">Ativar automaticamente para estas aplicações</string>
+    <string name="add_gaming_mode_package_title">Adicionar aplicações para o modo de jogo</string>
+    <string name="add_gaming_mode_package_summary">O Modo de jogo será ativado automaticamente quando estas aplicações forem abertas e desativado quando forem fechados</string>
+    <string name="gaming_mode_headsup_title">Bloquear notificações</string>
+    <string name="gaming_mode_headsup_summary">Chamadas e alarmes estão um exemplo</string>
+    <string name="gaming_mode_hardware_keys_title">Bloquear botões</string>
+    <string name="gaming_mode_hardware_keys_summary">Quando o modo de jogo estiver ativado, os botões serão bloqueados</string>
+    <string name="gaming_mode_brightness_title">Desativar o brilho automático</string>
+    <string name="gaming_mode_brightness_summary">Bloquear o brilho do ecrã de bloqueio quando o modo de jogo estiver ativado</string>
+    <string name="gaming_mode_ringer_title">Toque no modo de jogo</string>
+    <string name="gaming_mode_ringer_off_title">Não mudar</string>
+    <string name="gaming_mode_ringer_vibrate_title">Vibrar</string>
+    <string name="gaming_mode_ringer_dnd_title">Não incomodar</string>
+    <string name="gaming_mode_ringer_silent_title">Silencioso</string>
+    <string name="gaming_mode_notifications_title">Indicação do modo de jogo</string>
+    <string name="gaming_mode_notifications_off_title">Desativado</string>
+    <string name="gaming_mode_notifications_notif_title">Mostrar notificação</string>
+    <string name="gaming_mode_notifications_toast_title">Mostrar alertas</string>
+    <string name="gaming_mode_notifications_all_title">Mostrar alertas e notificações</string>
+    <string name="gaming_mode_dynamic_title">Modo dinâmico</string>
+    <string name="gaming_mode_dynamic_summary">Tentar detetar e adicionar jogos automaticamente</string>
 </resources>

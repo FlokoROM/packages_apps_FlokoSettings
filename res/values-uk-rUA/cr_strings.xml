@@ -1806,6 +1806,7 @@
     <string name="lockscreen_clock_selection_analog_spectrum">Спектр</string>
     <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
     <string name="lockscreen_clock_selection_qstyle">Стиль Q</string>
+    <string name="lockscreen_clock_selection_qstyle_accent">Q стиль (відтінок)</string>
     <string name="lockscreen_date_selection_title">Стиль дати</string>
     <string name="lockscreen_date_selection_default">За замовчуванням</string>
     <string name="lockscreen_date_selection_default_big">За замовчуванням (більший розмір)</string>
@@ -2089,4 +2090,29 @@
     <!-- Charging animation -->
     <string name="lockscreen_charging_animation_title">Анімація зарядки</string>
     <string name="lockscreen_charging_animation_summary">Відображати анімацію під час зарядки</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Ігровий режим</string>
+    <string name="gaming_mode_summary">Налаштувати ігровий режим</string>
+    <string name="gaming_mode_enabled_summary">Дозволити вмикання ігрового режиму</string>
+    <string name="gaming_mode_app_picker_title">Включати автоматично для наступних програм</string>
+    <string name="add_gaming_mode_package_title">Додати програми до ігрового режиму</string>
+    <string name="add_gaming_mode_package_summary">Ігровий режим автоматично вмикається, коли ці програми відкриваються і вимикається, якщо їх закрити</string>
+    <string name="gaming_mode_headsup_title">Блокувати сповіщення</string>
+    <string name="gaming_mode_headsup_summary">Дзвінки та будильники виключно</string>
+    <string name="gaming_mode_hardware_keys_title">Блокувати кнопки</string>
+    <string name="gaming_mode_hardware_keys_summary">Якщо ігровий режим включено, кнопки буде заблоковано</string>
+    <string name="gaming_mode_brightness_title">Вимкнути автоматичну яскравість</string>
+    <string name="gaming_mode_brightness_summary">Заблокувати яскравість екрана, якщо увімкнено ігровий режим</string>
+    <string name="gaming_mode_ringer_title">Дзвінок в ігровому режимі</string>
+    <string name="gaming_mode_ringer_off_title">Не змінювати</string>
+    <string name="gaming_mode_ringer_vibrate_title">Вібрувати</string>
+    <string name="gaming_mode_ringer_dnd_title">Не турбувати</string>
+    <string name="gaming_mode_ringer_silent_title">Без звуку</string>
+    <string name="gaming_mode_notifications_title">Індикатор ігрового режиму</string>
+    <string name="gaming_mode_notifications_off_title">Вимкнено</string>
+    <string name="gaming_mode_notifications_notif_title">Показувати сповіщення</string>
+    <string name="gaming_mode_notifications_toast_title">Показати спливаючі сповіщення</string>
+    <string name="gaming_mode_notifications_all_title">Показати постійні сповіщення</string>
+    <string name="gaming_mode_dynamic_title">Динамічний режим</string>
+    <string name="gaming_mode_dynamic_summary">Спробувати автоматично виявляти і додавати ігрові додатки</string>
 </resources>
