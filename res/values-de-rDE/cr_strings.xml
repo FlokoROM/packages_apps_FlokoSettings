@@ -381,8 +381,14 @@
     <string name="show_su_indicator_title">Superusersymbol</string>
     <string name="show_su_indicator_summary">Superuser-Symbol anzeigen oder ausblenden</string>
     <!-- Launch music player when headset is connected -->
-    <string name="headset_connect_player_title">Musik-Player starten</string>
-    <string name="headset_connect_player_summary">Standard Musik-Player starten, wenn Kopfhörer angeschlossen ist</string>
+    <string name="headset_connect_player_title">Launch music app</string>
+    <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
+    <string name="headset_connect_player_disabled">Disabled</string>
+    <string name="headset_connect_player_wired">When wired headset is plugged in</string>
+    <string name="headset_connect_player_bt_no_carkit">When BT headset (no carkit) is plugged in</string>
+    <string name="headset_connect_player_bt">When BT headset is plugged in</string>
+    <string name="headset_connect_player_both_no_carkit">When wired or BT headset (no carkit) is plugged in</string>
+    <string name="headset_connect_player_both">When wired or BT headset is plugged in</string>
     <!-- Quick setting categories -->
     <string name="qs_tiles_category">Kacheln</string>
     <string name="qs_toggles_category">Schalter</string>
@@ -840,6 +846,7 @@
     <string name="ticker_animation_mode_title">Ticker Animationsstil</string>
     <string name="ticker_animation_mode_alpha_fade">Verblassen</string>
     <string name="ticker_animation_mode_scroll">Bildlauf</string>
+    <string name="ticker_tick_duration_title">Ticker-Dauer</string>
     <!-- Pie -->
     <string name="pie_settings">Pie-Einstellungen</string>
     <string name="pie_enable_title">Pie aktivieren</string>
@@ -1805,8 +1812,8 @@
     <string name="lockscreen_clock_selection_analog_dot">Punkt</string>
     <string name="lockscreen_clock_selection_analog_spectrum">Spektrum</string>
     <string name="lockscreen_clock_selection_analog_sneeky">Sneeky</string>
-    <string name="lockscreen_clock_selection_qstyle">Q style</string>
-    <string name="lockscreen_clock_selection_qstyle_accent">Q style (accent)</string>
+    <string name="lockscreen_clock_selection_qstyle">Q Stil</string>
+    <string name="lockscreen_clock_selection_qstyle_accent">Q-Stil (Akzent)</string>
     <string name="lockscreen_date_selection_title">Datumsstil</string>
     <string name="lockscreen_date_selection_default">Standard</string>
     <string name="lockscreen_date_selection_default_big">Standard (groß)</string>
@@ -1951,6 +1958,7 @@
     <string name="qstile_squaremedo">Squaremedo</string>
     <string name="qstile_squircle">Squircle</string>
     <string name="qstile_neon_like">Neon</string>
+    <string name="qstile_oos">OxygenOS</string>
     <string name="qstile_oreo_squircle_trim">Oreo (Squircle Rand)</string>
     <string name="qstile_pokesign">Pokesign</string>
     <string name="qstile_squircle_trim">Squircle (Rand)</string>
@@ -2091,28 +2099,34 @@
     <string name="lockscreen_charging_animation_title">Ladeanimation</string>
     <string name="lockscreen_charging_animation_summary">Animation beim Laden anzeigen</string>
     <!-- Gaming mode -->
-    <string name="gaming_mode_title">Gaming mode</string>
-    <string name="gaming_mode_summary">Customize Gaming mode preferences</string>
-    <string name="gaming_mode_enabled_summary">Allow turning on Gaming mode</string>
-    <string name="gaming_mode_app_picker_title">Automatically turn on for these apps</string>
-    <string name="add_gaming_mode_package_title">Add apps for Gaming mode</string>
-    <string name="add_gaming_mode_package_summary">Gaming mode will turn on automatically when these apps are opened and turn off when they are closed</string>
-    <string name="gaming_mode_headsup_title">Block notifications</string>
-    <string name="gaming_mode_headsup_summary">Calls and alarms are exempted</string>
-    <string name="gaming_mode_hardware_keys_title">Lock buttons</string>
-    <string name="gaming_mode_hardware_keys_summary">When Gaming mode is turned on, buttons will be locked</string>
-    <string name="gaming_mode_brightness_title">Disable automatic brightness</string>
-    <string name="gaming_mode_brightness_summary">Lock screen brightness when Gaming mode is turned on</string>
-    <string name="gaming_mode_ringer_title">Ringer in Gaming mode</string>
-    <string name="gaming_mode_ringer_off_title">Do not change</string>
-    <string name="gaming_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="gaming_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="gaming_mode_ringer_silent_title">Silent</string>
-    <string name="gaming_mode_notifications_title">Gaming mode indication</string>
-    <string name="gaming_mode_notifications_off_title">Disabled</string>
-    <string name="gaming_mode_notifications_notif_title">Show notification</string>
-    <string name="gaming_mode_notifications_toast_title">Show toasts</string>
-    <string name="gaming_mode_notifications_all_title">Show toasts and notification</string>
-    <string name="gaming_mode_dynamic_title">Dynamic mode</string>
-    <string name="gaming_mode_dynamic_summary">Try detecting and adding gaming apps automatically</string>
+    <string name="gaming_mode_title">Spielmodus</string>
+    <string name="gaming_mode_summary">Spielmodus-Einstellungen anpassen</string>
+    <string name="gaming_mode_enabled_summary">Aktiviere Spielmodus</string>
+    <string name="gaming_mode_app_picker_title">Automatisch für diese Apps einschalten</string>
+    <string name="add_gaming_mode_package_title">Apps für den Spielmodus hinzufügen</string>
+    <string name="add_gaming_mode_package_summary">Spielmodus wird automatisch aktiviert, wenn diese Apps geöffnet und deaktiviert werden, wenn sie geschlossen sind</string>
+    <string name="gaming_mode_headsup_title">Blockiere Benachrichtigungen</string>
+    <string name="gaming_mode_headsup_summary">Anrufe und Alarme sind befreit</string>
+    <string name="gaming_mode_hardware_keys_title">Tasten sperren</string>
+    <string name="gaming_mode_hardware_keys_summary">Wenn der Spielmodus aktiviert ist, werden Tasten gesperrt</string>
+    <string name="gaming_mode_brightness_title">Automatische Helligkeit deaktivieren</string>
+    <string name="gaming_mode_brightness_summary">Bildschirmhelligkeit sperren, wenn der Spielmodus eingeschaltet ist</string>
+    <string name="gaming_mode_ringer_title">Rufton im Spielmodus</string>
+    <string name="gaming_mode_ringer_off_title">Nicht ändern</string>
+    <string name="gaming_mode_ringer_vibrate_title">Vibrieren</string>
+    <string name="gaming_mode_ringer_dnd_title">Nicht Stören</string>
+    <string name="gaming_mode_ringer_silent_title">Lautlos</string>
+    <string name="gaming_mode_notifications_title">Spielmodus-Anzeige</string>
+    <string name="gaming_mode_notifications_off_title">Deaktiviert</string>
+    <string name="gaming_mode_notifications_notif_title">Benachrichtigung anzeigen</string>
+    <string name="gaming_mode_notifications_toast_title">Toast-Benachrichtigungen anzeigen</string>
+    <string name="gaming_mode_notifications_all_title">Toasts und Benachrichtigung anzeigen</string>
+    <string name="gaming_mode_dynamic_title">Dynamischer Modus</string>
+    <string name="gaming_mode_dynamic_summary">Versuchen Sie, Spiele-Apps automatisch zu erkennen und hinzuzufügen</string>
+    <!-- Data disabled indicator -->
+    <string name="data_disabled_icon_title">Symbol für ausgeschaltete Mobile Daten anzeigen</string>
+    <string name="data_disabled_icon_summary">Zeige das Kreuzzeichen neben dem Signalbalken wenn Mobile Daten ausgeschaltet sind</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Weniger langweilig</string>
+    <string name="less_boring_heads_up_summary">Popup-Benachrichtigungen nur für Alarm-, Dialer- und Nachrichtenanwendung anzeigen</string>
 </resources>

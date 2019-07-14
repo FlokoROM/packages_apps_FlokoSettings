@@ -388,8 +388,14 @@
     <string name="show_su_indicator_title">スーパーユーザーのアイコン</string>
     <string name="show_su_indicator_summary">ネイティブ root 権限が有効な場合、スーパーユーザーのアイコンを表示します</string>
     <!-- Launch music player when headset is connected -->
-    <string name="headset_connect_player_title">音楽プレイヤーの起動</string>
-    <string name="headset_connect_player_summary">ヘッドセット接続時にデフォルトの音楽アプリを起動します</string>
+    <string name="headset_connect_player_title">音楽アプリを起動</string>
+    <string name="headset_connect_player_summary">ヘッドフォン接続時にデフォルトの音楽アプリを起動します</string>
+    <string name="headset_connect_player_disabled">無効</string>
+    <string name="headset_connect_player_wired">有線ヘッドフォン接続時</string>
+    <string name="headset_connect_player_bt_no_carkit">Bluetooth ヘッドフォン (車以外) 接続時</string>
+    <string name="headset_connect_player_bt">Bluetooth ヘッドフォン接続時</string>
+    <string name="headset_connect_player_both_no_carkit">有線または Bluetooth ヘッドフォン（車以外）接続時</string>
+    <string name="headset_connect_player_both">有線または Bluetooth ヘッドフォン接続時</string>
     <!-- Quick setting categories -->
     <string name="qs_tiles_category">タイル</string>
     <string name="qs_toggles_category">トグル</string>
@@ -847,6 +853,7 @@
     <string name="ticker_animation_mode_title">ティッカーアニメーションのスタイル</string>
     <string name="ticker_animation_mode_alpha_fade">フェード</string>
     <string name="ticker_animation_mode_scroll">スクロール</string>
+    <string name="ticker_tick_duration_title">ティッカーの動作時間</string>
     <!-- Pie -->
     <string name="pie_settings">Pie 設定</string>
     <string name="pie_enable_title">Pie を有効化</string>
@@ -1958,6 +1965,7 @@
     <string name="qstile_squaremedo">Squaremedo</string>
     <string name="qstile_squircle">角丸四角形</string>
     <string name="qstile_neon_like">ネオン風</string>
+    <string name="qstile_oos">OxygenOS</string>
     <string name="qstile_oreo_squircle_trim">Oreo（角丸四角形・トリム）</string>
     <string name="qstile_pokesign">Pokesign</string>
     <string name="qstile_squircle_trim">角丸四角形（トリム）</string>
@@ -2122,4 +2130,10 @@
     <string name="gaming_mode_notifications_all_title">トーストと通知を表示</string>
     <string name="gaming_mode_dynamic_title">ダイナミックモード</string>
     <string name="gaming_mode_dynamic_summary">ゲームアプリを自動的に判別して追加しようとします</string>
+    <!-- Data disabled indicator -->
+    <string name="data_disabled_icon_title">データ通信無効の表示</string>
+    <string name="data_disabled_icon_summary">モバイルデータ通信が無効な場合、アンテナピクトの隣に×を表示します</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">一部のアプリに制限する</string>
+    <string name="less_boring_heads_up_summary">アラーム、電話、メッセージアプリからの通知だけをポップアップ表示します</string>
 </resources>

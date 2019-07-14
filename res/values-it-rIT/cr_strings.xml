@@ -382,7 +382,13 @@
     <string name="show_su_indicator_summary">Mostra l\'indicatore superuser quando una sessione è attiva</string>
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">Avvia il lettore musicale</string>
-    <string name="headset_connect_player_summary">Avvia il lettore musicale predefinito quando si collega un auricolare</string>
+    <string name="headset_connect_player_summary">Avvia il lettore musicale predefinito quando vengono connesse le cuffie</string>
+    <string name="headset_connect_player_disabled">Disabilitato</string>
+    <string name="headset_connect_player_wired">Quando è collegato l\'auricolare con cavo</string>
+    <string name="headset_connect_player_bt_no_carkit">Quando le cuffie bluetooth sono collegate (nessun kit per auto)</string>
+    <string name="headset_connect_player_bt">Quando le cuffie bluetooth sono collegate</string>
+    <string name="headset_connect_player_both_no_carkit">Quando è collegato l\'auricolare con cavo o bluetooth (nessun kit per auto)</string>
+    <string name="headset_connect_player_both">Quando è collegato l\'auricolare con cavo o bluetooth</string>
     <!-- Quick setting categories -->
     <string name="qs_tiles_category">Tile</string>
     <string name="qs_toggles_category">Toggle</string>
@@ -840,8 +846,9 @@
     <string name="ticker_animation_mode_title">Stile animazione Ticker</string>
     <string name="ticker_animation_mode_alpha_fade">Dissolvenza</string>
     <string name="ticker_animation_mode_scroll">Scorrimento</string>
+    <string name="ticker_tick_duration_title">Durata del ticker</string>
     <!-- Pie -->
-    <string name="pie_settings">Imposstazioni Pie</string>
+    <string name="pie_settings">Impostazioni Pie</string>
     <string name="pie_enable_title">Abilita Pie</string>
     <string name="pie_settings_summary">Aggiusta i controlli a torta a tuo piacimento</string>
     <string name="pie_theme_mode_title">Tema</string>
@@ -1951,6 +1958,7 @@
     <string name="qstile_squaremedo">Squaremedo</string>
     <string name="qstile_squircle">Supercerchio</string>
     <string name="qstile_neon_like">Neon Like</string>
+    <string name="qstile_oos">OxygenOS</string>
     <string name="qstile_oreo_squircle_trim">Oreo (Supercerchio Trim)</string>
     <string name="qstile_pokesign">Pokesign</string>
     <string name="qstile_squircle_trim">Supercerchio (Trim)</string>
@@ -2115,4 +2123,10 @@
     <string name="gaming_mode_notifications_all_title">Mostra toasts e notifica</string>
     <string name="gaming_mode_dynamic_title">Modalità dinamica</string>
     <string name="gaming_mode_dynamic_summary">Prova a rilevare e aggiungere automaticamente le app di gioco</string>
+    <!-- Data disabled indicator -->
+    <string name="data_disabled_icon_title">Data disabled indicator</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal icon when data is disabled</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Notifiche invadenti</string>
+    <string name="less_boring_heads_up_summary">Visualizza solo le notifiche popup per l\'app la sveglia, chiamate e messaggistica</string>
 </resources>

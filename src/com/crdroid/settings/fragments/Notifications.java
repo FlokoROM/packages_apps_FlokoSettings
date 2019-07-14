@@ -37,6 +37,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
 import com.crdroid.settings.R;
+import com.crdroid.settings.fragments.notifications.Ticker;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -92,17 +93,20 @@ public class Notifications extends SettingsPreferenceFragment implements Indexab
         Settings.System.putIntForUser(resolver,
                 Settings.System.HEADS_UP_NOTIFICATION_SNOOZE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.HEADS_UP_TIMEOUT, 0, UserHandle.USER_CURRENT);
+                Settings.System.HEADS_UP_TIMEOUT, 5000, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.NOTIFICATION_SOUND_VIB_SCREEN_ON, 1, UserHandle.USER_CURRENT);
+                Settings.System.LESS_BORING_HEADS_UP, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, 30000, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.NOTIFICATION_SOUND_VIB_SCREEN_ON, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.VIBRATE_ON_CONNECT, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.VIBRATE_ON_CALLWAITING, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.VIBRATE_ON_DISCONNECT, 0, UserHandle.USER_CURRENT);
+        Ticker.reset(mContext);
     }
 
     @Override

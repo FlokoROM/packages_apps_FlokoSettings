@@ -385,8 +385,14 @@ choose_action_title
     <string name="show_su_indicator_title">சிறப்புப்பயனர் படவுரு</string>
     <string name="show_su_indicator_summary">சொந்த வேர் பயன்படுத்தும்போது சிறப்புப்பயனர் படவுருவை காண்பி</string>
     <!-- Launch music player when headset is connected -->
-    <string name="headset_connect_player_title">இசை பிளேயரை தொடங்க</string>
-    <string name="headset_connect_player_summary">ஹெட்செட் இணைக்கப்படும்போது முன்னிருப்பு மியூசிக் பிளேயர் தொடங்குக</string>
+    <string name="headset_connect_player_title">Launch music app</string>
+    <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
+    <string name="headset_connect_player_disabled">Disabled</string>
+    <string name="headset_connect_player_wired">When wired headset is plugged in</string>
+    <string name="headset_connect_player_bt_no_carkit">When BT headset (no carkit) is plugged in</string>
+    <string name="headset_connect_player_bt">When BT headset is plugged in</string>
+    <string name="headset_connect_player_both_no_carkit">When wired or BT headset (no carkit) is plugged in</string>
+    <string name="headset_connect_player_both">When wired or BT headset is plugged in</string>
     <!-- Quick setting categories -->
     <string name="qs_tiles_category">ஓடுகள்</string>
     <string name="qs_toggles_category">மாற்றி</string>
@@ -847,6 +853,7 @@ fling_left_up_swipe
     <string name="ticker_animation_mode_title">Ticker animation style</string>
     <string name="ticker_animation_mode_alpha_fade">Fade</string>
     <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
     <!-- Pie -->
     <string name="pie_settings">Pie settings</string>
     <string name="pie_enable_title">Enable pie</string>
@@ -1958,6 +1965,7 @@ fling_left_up_swipe
     <string name="qstile_squaremedo">Squaremedo</string>
     <string name="qstile_squircle">Squircle</string>
     <string name="qstile_neon_like">Neon Like</string>
+    <string name="qstile_oos">OxygenOS</string>
     <string name="qstile_oreo_squircle_trim">Oreo (Squircle Trim)</string>
     <string name="qstile_pokesign">Pokesign</string>
     <string name="qstile_squircle_trim">Squircle (Trim)</string>
@@ -2122,4 +2130,10 @@ fling_left_up_swipe
     <string name="gaming_mode_notifications_all_title">Show toasts and notification</string>
     <string name="gaming_mode_dynamic_title">Dynamic mode</string>
     <string name="gaming_mode_dynamic_summary">Try detecting and adding gaming apps automatically</string>
+    <!-- Data disabled indicator -->
+    <string name="data_disabled_icon_title">Data disabled indicator</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal icon when data is disabled</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Less boring</string>
+    <string name="less_boring_heads_up_summary">Display popup notifications only for alarm, dialer and messaging app</string>
 </resources>

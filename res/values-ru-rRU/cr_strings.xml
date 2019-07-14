@@ -381,8 +381,14 @@
     <string name="show_su_indicator_title">Иконка SU</string>
     <string name="show_su_indicator_summary">Включение или выключение отображения иконки суперпользователя</string>
     <!-- Launch music player when headset is connected -->
-    <string name="headset_connect_player_title">Запуск музыкального плеера</string>
-    <string name="headset_connect_player_summary">Запускать плеер по умолчанию при подключении гарнитуры</string>
+    <string name="headset_connect_player_title">Автозапуск плеера</string>
+    <string name="headset_connect_player_summary">Запускать плеер при подключении наушников</string>
+    <string name="headset_connect_player_disabled">Выключен</string>
+    <string name="headset_connect_player_wired">Когда проводные наушники подключены</string>
+    <string name="headset_connect_player_bt_no_carkit">Когда BT наушники (не Carkit) подключены</string>
+    <string name="headset_connect_player_bt">Когда BT наушники подключены</string>
+    <string name="headset_connect_player_both_no_carkit">Когда проводные или BT наушники (не Carkit) подключены</string>
+    <string name="headset_connect_player_both">Когда проводные или BT наушники подключены</string>
     <!-- Quick setting categories -->
     <string name="qs_tiles_category">Плитки</string>
     <string name="qs_toggles_category">Переключатели</string>
@@ -840,6 +846,7 @@
     <string name="ticker_animation_mode_title">Стиль анимации бегущей строки</string>
     <string name="ticker_animation_mode_alpha_fade">Затухание</string>
     <string name="ticker_animation_mode_scroll">Прокрутка</string>
+    <string name="ticker_tick_duration_title">Продолжительность бегущей строки</string>
     <!-- Pie -->
     <string name="pie_settings">Настройки Pie</string>
     <string name="pie_enable_title">Включить Pie</string>
@@ -1006,7 +1013,7 @@
     <string name="share_chooser_title">Рассказать о crDroid</string>
     <!-- Sites crDroid -->
     <string name="crdroid_source_title">Github</string>
-    <string name="crdroid_source_summary">Исхоный код проекта</string>
+    <string name="crdroid_source_summary">Исходный код проекта</string>
     <string name="crdroid_google_plus_title">Google+</string>
     <string name="crdroid_google_plus_summary">Присоединяйтесь к нам на G+ для получения быстрых обновлений и поддержки</string>
     <string name="crdroid_telegram_title">Telegram</string>
@@ -1951,6 +1958,7 @@
     <string name="qstile_squaremedo">Squaremedo</string>
     <string name="qstile_squircle">Округлый квадрат</string>
     <string name="qstile_neon_like">Неоновый Like</string>
+    <string name="qstile_oos">OxygenOS</string>
     <string name="qstile_oreo_squircle_trim">Oreo (Скруглённый порядок)</string>
     <string name="qstile_pokesign">Стиль Pokeball</string>
     <string name="qstile_squircle_trim">Округлый квадрат (с вырезкой)</string>
@@ -2115,4 +2123,10 @@
     <string name="gaming_mode_notifications_all_title">Показать постоянные уведомление</string>
     <string name="gaming_mode_dynamic_title">Динамический режим</string>
     <string name="gaming_mode_dynamic_summary">Попробовать автоматически обнаруживать и добавлять игровые приложения</string>
+    <!-- Data disabled indicator -->
+    <string name="data_disabled_icon_title">Индикатор отключения передачи данных</string>
+    <string name="data_disabled_icon_summary">Показывать крестик у значка сети, когда передача данных отключена</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Не надоедать</string>
+    <string name="less_boring_heads_up_summary">Показывать всплывающие уведомления только для будильника, набора номера и сообщений</string>
 </resources>
