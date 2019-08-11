@@ -2359,6 +2359,8 @@
     <string name="gaming_mode_headsup_summary">Calls and alarms are exempted</string>
     <string name="gaming_mode_hardware_keys_title">Lock buttons</string>
     <string name="gaming_mode_hardware_keys_summary">When Gaming mode is turned on, buttons will be locked</string>
+    <string name="gaming_mode_adb_title">Disable ADB</string>
+    <string name="gaming_mode_adb_summary">Disable ADB when Gaming mode is turned on</string>
     <string name="gaming_mode_brightness_title">Disable automatic brightness</string>
     <string name="gaming_mode_brightness_summary">Lock screen brightness when Gaming mode is turned on</string>
     <string name="gaming_mode_ringer_title">Ringer in Gaming mode</string>
