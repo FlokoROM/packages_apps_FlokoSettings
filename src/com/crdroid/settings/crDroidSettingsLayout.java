@@ -51,9 +51,7 @@ import com.crdroid.settings.fragments.QuickSettings;
 import com.crdroid.settings.fragments.Sound;
 import com.crdroid.settings.fragments.StatusBar;
 import com.crdroid.settings.fragments.UserInterface;
-/*
 import com.crdroid.settings.fragments.Recents;
-*/
 
 public class crDroidSettingsLayout extends SettingsPreferenceFragment {
 
@@ -134,11 +132,9 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
 
         @Override
         protected Void doInBackground(Void... params) {
-/*
-            Recents.reset(rContext);
-*/
             Buttons.reset(rContext);
             LockScreen.reset(rContext);
+            Recents.reset(rContext);
             Miscellaneous.reset(rContext);
             Navigation.reset(rContext);
             Notifications.reset(rContext);
@@ -170,19 +166,17 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
 
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
-/*
-            frags[3] = new Recents();
-*/
             frags[0] = new StatusBar();
             frags[1] = new QuickSettings();
             frags[2] = new LockScreen();
-            frags[3] = new Navigation();
-            frags[4] = new Buttons();
-            frags[5] = new UserInterface();
-            frags[6] = new Notifications();
-            frags[7] = new Sound();
-            frags[8] = new Miscellaneous();
-            frags[9] = new About();
+            frags[3] = new Recents();
+            frags[4] = new Navigation();
+            frags[5] = new Buttons();
+            frags[6] = new UserInterface();
+            frags[7] = new Notifications();
+            frags[8] = new Sound();
+            frags[9] = new Miscellaneous();
+            frags[10] = new About();
         }
 
         @Override
@@ -204,12 +198,10 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
     private String[] getTitles() {
         String titleString[];
         titleString = new String[] {
-/*
-            getString(R.string.recents_title),
-*/
             getString(R.string.statusbar_title),
             getString(R.string.quicksettings_title),
             getString(R.string.lockscreen_title),
+            getString(R.string.recents_title),
             getString(R.string.navbar_title),
             getString(R.string.button_title),
             getString(R.string.ui_title),

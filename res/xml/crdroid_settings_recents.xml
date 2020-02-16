@@ -16,7 +16,13 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <Preference
+        android:key="recents_info"
+        android:title="@string/recents_information"
+        android:summary="@string/recents_information_summary" />
 
     <com.crdroid.settings.preferences.SystemSettingListPreference
         android:key="recents_component"
@@ -33,11 +39,11 @@
         android:title="@string/recents_icon_pack_title"
         android:summary="@string/recents_icon_pack_summary" />
 
-    <PreferenceCategory 
+    <!--PreferenceCategory
         android:key="stock_recents"
         android:title="@string/recents_default_category">
 
-        <!--<ListPreference
+        <ListPreference
             android:key="immersive_recents"
             android:icon="@drawable/ic_recents"
             android:title="@string/immersive_recents_title"
@@ -55,7 +61,7 @@
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.settings"
                 android:targetClass="com.crdroid.settings.fragments.HAFRAppListActivity" />
-        </PreferenceScreen>-->
+        </PreferenceScreen>
 
         <com.crdroid.settings.preferences.SystemSettingSwitchPreference
             android:key="systemui_recents_mem_display"
@@ -64,7 +70,7 @@
             android:summary="@string/systemui_recents_mem_display_summary"
             android:defaultValue="false" />
 
-        <!--<com.crdroid.settings.preferences.ColorPickerPreference
+        <com.crdroid.settings.preferences.ColorPickerPreference
             android:key="systemui_recents_mem_barcolor"
             android:icon="@drawable/ic_memory"
             android:title="@string/systemui_recents_mem_display_color"
@@ -78,7 +84,7 @@
             android:title="@string/systemui_recents_mem_display_text_color"
             android:defaultValue="#00ffffff"
             android:dependency="systemui_recents_mem_display"
-            alphaSlider="true" />-->
+            alphaSlider="true" />
 
         <com.crdroid.settings.preferences.SystemSettingSwitchPreference
             android:key="show_clear_all_recents"
@@ -96,7 +102,7 @@
             android:defaultValue="3"
             android:dependency="show_clear_all_recents" />
 
-        <!--<com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
             android:key="recents_dismiss_icon"
             android:icon="@drawable/ic_dismiss"
             android:title="@string/recents_dismiss_icon_title"
@@ -122,10 +128,10 @@
             android:key="recents_use_grid"
             android:icon="@drawable/ic_grid_view"
             android:title="@string/recents_use_grid_title"
-            android:summary="@string/recents_use_grid_summary" />-->
+            android:summary="@string/recents_use_grid_summary" />
     </PreferenceCategory>
 
-    <!--<PreferenceCategory 
+    <PreferenceCategory
         android:title="@string/recents_omni_category">
 
         <SwitchPreference
@@ -141,9 +147,9 @@
             android:title="@string/omniswitch_start_settings_title"
             android:summary="@string/omniswitch_start_settings_summary"
             android:persistent="false" />
-    </PreferenceCategory> -->
+    </PreferenceCategory>
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
         android:key="slim_recents"
         android:title="@string/slim_recents_title">
 
@@ -163,4 +169,21 @@
             android:dependency="use_slim_recents"
             android:persistent="false" />
     </PreferenceCategory>-->
+
+    <PreferenceCategory
+        android:key="omni_recents"
+        android:title="@string/recents_omni_category">
+        <Preference
+            android:key="recents_omni_switch"
+            android:icon="@drawable/ic_omni"
+            android:title="@string/recents_use_omniswitch_title"
+            android:summary="@string/recents_use_omniswitch_summary"
+            android:persistent="false"
+            android:defaultValue="false">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="org.omnirom.omniswitch"
+                android:targetClass="org.omnirom.omniswitch.SettingsActivity" />
+        </Preference>
+    </PreferenceCategory>
 </PreferenceScreen>
