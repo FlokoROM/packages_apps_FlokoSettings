@@ -493,7 +493,7 @@
     <string name="expanded_hide_status">Peida olekuriba</string>
     <string name="expanded_hide_navigation">Peida navigeerimisriba</string>
     <string name="expanded_hide_both">Peida mõlemad</string>
-    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+    <string name="expanded_nothing_to_show">Rakenduse kohandatud seadistuse laiendatud olekusse lisamiseks sea \"Lubatud kõigile\" välja lülitatud asendisse</string>
     <string name="expanded_desktop_state">Laiendatud olek</string>
     <string name="expanded_enabled_for_all">Lubatud kõigile</string>
     <string name="expanded_user_configurable">Kasutaja-seadistatav</string>
@@ -560,7 +560,7 @@
     <string name="smartbar_doubletap_sleep_title">Koputa unerežiimiks</string>
     <string name="smartbar_doubletap_sleep_summary">Topeltkoputa navigeerimisriba tühje alasid, et viia ekraan unerežiimi</string>
     <string name="one_handed_mode_title">Ühe käe režiim</string>
-    <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
+    <string name="one_handed_mode_summary">Võimaldab ühe käe režiimi lubamiseks navigeerimisriba pühkimise</string>
     <!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="choose_action_title">Vali tegevus</string>
     <string name="action_entry_default_action">Vaikeseaded</string>
@@ -571,8 +571,8 @@
     <string name="fling_settings_summary">Kohanda Fling-žeste</string>
     <string name="fling_interface">Fling</string>
     <string name="fling_enable_title">Luba Fling</string>
-    <string name="fling_back_home_policy">Back and Home are required to be set at all times. To change a Back or Home assignment, set the desired assignment first</string>
-    <string name="fling_split_bar_policy">When only a right or left action is assigned, the action applies to the full bar</string>
+    <string name="fling_back_home_policy">Tagasi ja Kodu peavad olema alati seadistatud. Tagasi või Kodu määrangu muutmiseks seadke esmalt soovitud määrang</string>
+    <string name="fling_split_bar_policy">Kui määratud on ainult parem- või vasakpoolne toiming, rakendub see kogu ribale</string>
     <string name="fling_def_summary">Tegevus määramata</string>
     <string name="fling_swipe_actions">Viipežestid</string>
     <string name="fling_tap_actions">Koputusžestid</string>
@@ -600,7 +600,7 @@
     <string name="down_swipe_title">Viipa alla</string>
     <string name="long_swipe_reset">Lähtesta</string>
     <string name="fling_advanced">Lisavalikud</string>
-    <string name="fling_long_swipe_title">Long swipe thresholds</string>
+    <string name="fling_long_swipe_title">Pika pühkimise künnised</string>
     <string name="fling_long_swipe_summary">Fine tune long swipe thresholds based on a percentage of Fling interface width or height</string>
     <string name="fling_trails_enable_title">Luba žestijäljed</string>
     <string name="fling_trails_enable_summary">Kuva viipežestidel jälge</string>
@@ -609,18 +609,18 @@
     <string name="fling_appearance">Välimus</string>
     <string name="fling_show_logo_title">Kuva Flingi logo</string>
     <string name="fling_animate_logo_title">Animeeri logo</string>
-    <string name="fling_animate_logo_summary">Logo animates on touch events</string>
+    <string name="fling_animate_logo_summary">Puutesündmuste logo animeerimine</string>
     <string name="fling_logo_color">Logo värv</string>
     <string name="fling_logo_custom_logo_pick_title">Kohandatud logo ikoon</string>
     <string name="fling_logo_custom_logo_image_pick_title">Kohandatud logo pilt</string>
     <string name="fling_logo_custom_logo_reset_title">Lähtesta logo ikoon</string>
     <string name="fling_show_ripple_title">Näita lainetust</string>
-    <string name="fling_show_ripple_summary">Ripple effect on touch events</string>
+    <string name="fling_show_ripple_summary">Lainetuse efekt puutesündmustele</string>
     <string name="fling_ripple_color">Lainetuse värv</string>
     <string name="fling_longpress_timeout_label_left">Väiksem viivitus</string>
     <string name="fling_longpress_timeout_label_right">Pikem viivitus</string>
     <string name="fling_longpress_title">Pika vajutuse viivitus</string>
-    <string name="fling_longpress_summary">Increase or decrease the time it takes to execute a long press</string>
+    <string name="fling_longpress_summary">Pika vajutamise aja suurendamine või vähendamine</string>
     <string name="fling_keyboard_cursors_title">Dünaamilise klaviatuurikursori tegevus</string>
     <string name="fling_keyboard_cursors_summary">Double tap left and right actions becomes left and right keyboard cursor actions if keyboard is open</string>
     <string name="fling_logo_opacity_title">Flingi logo läbipaistmatus</string>
@@ -837,7 +837,7 @@
     <string name="battery_bar_style_reversed">Pööratud</string>
     <string name="battery_bar_use_charging_color">Kohandatud laadimisvärv</string>
     <string name="battery_bar_blend_color_title">Sega värvid</string>
-    <string name="battery_bar_blend_color_summary">Blend full/empty colors corresponding to battery percentage</string>
+    <string name="battery_bar_blend_color_summary">Sega täis/tühjad värvid vastavalt aku protsendile</string>
     <string name="battery_bar_blend_color_reverse_title">Pööra värvi suund</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Täis &#8594; tühi: punane &#8592; roheline &#8592; sinine &#8592; punane</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Täis &#8594; tühi: punane &#8594; roheline &#8594; sinine &#8594; punane</string>
@@ -935,7 +935,7 @@
     <string name="three_finger_gesture_summary">Ekraanipildi tegemiseks viipa kolme sõrmega</string>
     <!-- Transparency porn -->
     <string name="trans">Läbipaistvus</string>
-    <string name="trans_summary">Customize transparency level for various elements</string>
+    <string name="trans_summary">Kohandage erinevate elementide läbipaistvuse taset</string>
     <string name="trans_qs">Kiirseaded</string>
     <string name="trans_vol_dialog">Helitugevuse dialoog</string>
     <string name="trans_power_menu">Toitemenüü</string>
@@ -966,7 +966,7 @@
     <string name="summary_doze_enabled">Lubatud</string>
     <string name="summary_doze_disabled">Keelatud</string>
     <string name="doze_overwrite_value_title">Kirjuta vaikesätted üle</string>
-    <string name="doze_overwrite_value_summary">Allow override of default values with user config</string>
+    <string name="doze_overwrite_value_summary">Luba vaikeväärtusi alistada kasutaja konfiguratsiooniga</string>
     <string name="doze_pulse_title">Kasutaja-seadistatavad seaded</string>
     <string name="doze_fade_in_pickup_title">Fade in (Pick up)</string>
     <string name="doze_fade_in_doubletap_title">Fade in (Double tap)</string>
@@ -1070,9 +1070,9 @@
     <string name="hardware_keys_action_single_handed_left">Ühe käe režiim (vasakul)</string>
     <string name="hardware_keys_action_single_handed_right">Ühe käe režiim (paremal)</string>
     <string name="camera_sleep_on_release_title">Ekraani piilumine</string>
-    <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
+    <string name="camera_sleep_on_release_summary">Poolvajutus hoiab ekraani sees vaid nupu allhoidmise ajal</string>
     <string name="camera_launch_title">Käivita kaamera</string>
-    <string name="camera_launch_summary">A longpress and release will launch camera</string>
+    <string name="camera_launch_summary">Pikk vajutus ja vabastamine käivitab kaamera</string>
     <string name="volbtn_music_controls_title">Juhi muusika taasesitust</string>
     <string name="volbtn_music_controls_summary">Liigu lugude vahel, vajutades helitugevusklahve pikalt, kui ekraan on väljas</string>
     <string name="volbtn_cursor_control_title">Klaviatuurikursori juhtimine</string>
@@ -1201,14 +1201,14 @@
     <string name="restart_app_required">Efekti nägemiseks taaskäivita vastav rakendus</string>
     <!-- Scrolling Animation Controls -->
     <string name="scrolling_title">Kerimise animatsioon</string>
-    <string name="scrolling_summary">Customize scrolling animation parameters</string>
+    <string name="scrolling_summary">Kohanda kerimise animatsiooni parameetreid</string>
     <string name="animation_fling_velocity_title">Flingi kiirus</string>
     <string name="animation_scroll_friction_title">Kerimise hõõrdumine</string>
     <string name="animation_overscroll_distance_title">Ülekerimise kaugus</string>
     <string name="animation_overfling_distance_title">Overflingi kaugus</string>
     <string name="animation_duration_summary">Määra kestus</string>
     <string name="animation_no_scroll_title">Kasuta kohandatud väärtusi</string>
-    <string name="scroll_disclaimer_summary">Most apps need to be restarted for custom values to take effect</string>
+    <string name="scroll_disclaimer_summary">Enamik rakendusi tuleb kohandatud väärtuste jõustamiseks taaskäivitada</string>
     <string name="animation_settings_reset_message">Lähtestad kõik animatsiooniseaded vaikeväärtustele?</string>
     <!-- Alarm Fullscreen -->
     <string name="show_alarm_fullscreen_title">Täisekraanis äratus</string>
@@ -1219,15 +1219,15 @@
     <!-- Custom System Animations -->
     <string name="system_animation_title">Süsteemianimatsioonid</string>
     <string name="system_animation_summary">Kohanda iga süsteemiakna animatsioone</string>
-    <string name="activity_open_title">Activity open animation</string>
-    <string name="activity_close_title">Activity close animation</string>
-    <string name="task_open_title">Task open animation</string>
+    <string name="activity_open_title">Tegevuse avamise animatsioon</string>
+    <string name="activity_close_title">Tegevuse sulgemise animatsioon</string>
+    <string name="task_open_title">Ülesande avamise animatsioon</string>
     <string name="task_open_behind_title">Task open behind animation</string>
-    <string name="task_close_title">Task close animation</string>
-    <string name="task_move_to_front_title">Move to front animation</string>
-    <string name="task_move_to_back_title">Move to back animation</string>
-    <string name="wallpaper_open_title">Wallpaper open animation</string>
-    <string name="wallpaper_close_title">Wallpaper close animation</string>
+    <string name="task_close_title">Ülesande sulgemise animatsioon</string>
+    <string name="task_move_to_front_title">Ette liigutamise animatsioon</string>
+    <string name="task_move_to_back_title">Taha liigutamise animatsioon</string>
+    <string name="wallpaper_open_title">Taustapildi avamise animatsioon</string>
+    <string name="wallpaper_close_title">Taustapildi sulgemise animatsioon</string>
     <string name="wallpaper_intra_open_title">Wallpaper intra open animation</string>
     <string name="wallpaper_intra_close_title">Wallpaper intra close animation</string>
     <string name="animation_duration_title">Animatsiooni kestus</string>
@@ -1250,8 +1250,8 @@
     <string name="toast_GrowFadeCenter_animation">Grow fade center</string>
     <string name="toast_GrowFadeBottom_animation">Grow fade bottom</string>
     <string name="toast_Translucent_animation">Läbipaistev</string>
-    <string name="toast_SlideLeftRight_animation">Slide left to right</string>
-    <string name="toast_SlideRightLeft_animation">Slide right to left</string>
+    <string name="toast_SlideLeftRight_animation">Libista vasakule paremale</string>
+    <string name="toast_SlideRightLeft_animation">Libista paremalt vasakule</string>
     <!-- ListView animation -->
     <string name="listview_animation_title">Loendivaate animatsioon</string>
     <string name="listview_off">Vaikimisi</string>
@@ -1259,8 +1259,8 @@
     <string name="listview_wave_right">Laine (paremal)</string>
     <string name="listview_alpha">Alfa</string>
     <string name="listview_scale">Skaala</string>
-    <string name="listview_stack_top">Stack (top)</string>
-    <string name="listview_stack_bottom">Stack (bottom)</string>
+    <string name="listview_stack_top">Virn (ülemine)</string>
+    <string name="listview_stack_bottom">Virn (alumine)</string>
     <string name="listview_unfold">Voldi lahti</string>
     <string name="listview_fold">Voldi kokku</string>
     <string name="listview_translate_left">Translate (left)</string>
@@ -1308,15 +1308,15 @@
     <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
     <!-- Fancy tiles animation -->
     <string name="qs_fancy_animation_title">Uhke kiirseadete animatsioon</string>
-    <string name="qs_fancy_animation_summary">Animate when pulling down the statusbar</string>
+    <string name="qs_fancy_animation_summary">Animatsioon olekuribal alla tõmmates</string>
     <!-- Disable animations -->
     <string name="disable_animations">Keela animatsioonid</string>
     <string name="disable_animations_summary">Disables transition animations such as when launching an app</string>
     <!-- XOSP Blur personalizations -->
     <string name="settings_blur_cat">Hägustamine</string>
-    <string name="settings_blur_cat_summary">Apply blur personalizations to various elements</string>
+    <string name="settings_blur_cat_summary">Rakendage hägu kohandusi erinevatele elementidele</string>
     <string name="blurred_status_bar_expanded_enabled_pref">Hägusta olekuriba tausta</string>
-    <string name="blurred_status_bar_expanded_enabled_pref_summary">Blur the background when you pull down the status bar</string>
+    <string name="blurred_status_bar_expanded_enabled_pref_summary">Olekuriba alla tõmmates hägustage taust</string>
     <string name="translucent_notifications_pref">Läbipaistvad teated</string>
     <string name="translucent_notifications_pref_summary">Muuda teadete taust läbipaistvaks</string>
     <string name="translucent_quick_settings_pref">Hägustatud kiirseaded</string>
@@ -1328,7 +1328,7 @@
     <string name="blurred_recent_app_enabled_pref_summary">Hägusta viimatiste rakenduste vaate tausta</string>
     <string name="blur_light_color">Hele pildi värvifilter</string>
     <string name="blur_dark_color">Tume pildi värvifilter</string>
-    <string name="blur_mixed_color">Mixed image color filter</string>
+    <string name="blur_mixed_color">Segatud pildi värvifilter</string>
     <string name="blur_notice">Hägustamise teave</string>
     <string name="blur_notice_summary">Blur personalizations are disabled during keyguard view. Only translucent notifications are enabled.</string>
     <string name="blur_colors_notice">Mida need värvid teevad?</string>
@@ -1348,9 +1348,9 @@
     <string name="blur_cat_notice_summary">Blur personalizations are disabled during keyguard view. Only translucent notifications are enabled.</string>
     <!-- Sounds: Charging sounds -->
     <string name="charging_sounds_settings_title">Laadimise helid</string>
-    <string name="charging_sounds_settings_summary">Customize sound played when connecting or disconnecting a power source</string>
+    <string name="charging_sounds_settings_summary">Kohanda vooluallika ühendamisel või lahtiühendamisel esitatav heli</string>
     <string name="charging_sounds_enabled_title">Luba</string>
-    <string name="charging_sounds_enabled_summary">Play a sound when connecting or disconnecting a power source</string>
+    <string name="charging_sounds_enabled_summary">Mängi heli vooluallika ühendamisel või lahtiühendamisel</string>
     <string name="power_notifications_vibrate_title">Vibreeri</string>
     <string name="charging_sounds_ringtone_title">Teavituse heli</string>
     <string name="charging_sounds_ringtone_silent">Hääletu</string>
@@ -1372,7 +1372,7 @@
     <string name="alarm_blocker_warning">Alarmide blokeerimine võib põhjustada ebastabiilsust, kokkujooksmisi või andmekadu.</string>
     <!-- Custom header -->
     <string name="custom_header_title">Kohandatud päis</string>
-    <string name="custom_header_summary">Display image at top of the notification panel</string>
+    <string name="custom_header_summary">Kuva pilt teavituspaneeli ülaosas</string>
     <string name="daylight_header_pack_title">Päisepildi kollektsioon</string>
     <string name="status_bar_custom_header_shadow_title">Päisepildi vari</string>
     <string name="status_bar_custom_header_shadow_summary">Paremaks nähtavuseks heledate piltide korral</string>
@@ -1384,28 +1384,28 @@
     <string name="custom_header_browse_summary">Click on any image to use for static mode</string>
     <string name="custom_header_browse_summary_new">Browse all available header collections</string>
     <string name="custom_header_pick_title">Vali päisepilt</string>
-    <string name="custom_header_pick_summary">Select an image to use for static mode</string>
+    <string name="custom_header_pick_summary">Valige pilt, mida kasutada staatilises režiimis</string>
     <string name="header_provider_disabled">Keelatud</string>
     <string name="file_header_select_title">Vali pilt</string>
     <string name="file_header_select_summary">Vali kohandatud pilt</string>
     <string name="file_header_provider_title">Kohandatud pilt</string>
     <!-- Screen state service -->
     <string name="screen_state_toggles_title">Suspend actions</string>
-    <string name="screen_state_toggles_summary">Actions executed on screen off</string>
+    <string name="screen_state_toggles_summary">Väljalülitatud ekraaniga sooritatavad tegevused</string>
     <string name="screen_state_toggles_enable_title">Luba</string>
-    <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
+    <string name="screen_state_toggles_enable_summary">Tegevused sooritatakse väljalülitatud ekraaniga. Ekraani sisselülitamisel eelmine olukord taastatakse.</string>
     <string name="screen_state_toggles_mobile_title">Mobiilivõrgud</string>
     <string name="screen_state_toggles_location_title">Asukoht</string>
     <string name="screen_state_toggles_twog">Lülita 2G-le</string>
     <string name="screen_state_toggles_twog_summary">Ekraani väljasolekul lülitatakse võrk 2G-le</string>
     <string name="screen_state_toggles_gps">Keela GPS</string>
-    <string name="screen_state_toggles_gps_summary">GPS based location service will be disabled on screen off</string>
+    <string name="screen_state_toggles_gps_summary">Asukohapõhine GPS keelatakse, kui ekraan on välja lülitatud</string>
     <string name="screen_state_toggles_mobile_data">Keela andmeside</string>
-    <string name="screen_state_toggles_mobile_data_summary">Mobile data will be disabled on screen off</string>
+    <string name="screen_state_toggles_mobile_data_summary">Mobiilse andmeside lülitatakse välja, kui ekraan on väljalülitatud</string>
     <string name="screen_state_off_delay_title">Tegevuste viivitus väljalülitatud ekraaniga</string>
-    <string name="screen_state_off_delay_summary">Number of seconds to wait before performing actions after screen off</string>
+    <string name="screen_state_off_delay_summary">Mitu sekundit peab ootama enne toimingute sooritamist pärast ekraani väljalülitamist</string>
     <string name="screen_state_on_delay_title">Tegevuste viivitus sisselülitatud ekraaniga</string>
-    <string name="screen_state_on_delay_summary">Number of seconds to wait before performing actions after screen on</string>
+    <string name="screen_state_on_delay_summary">Mitu sekundit peab ootama enne toimingute sooritamist pärast ekraani sisselülitamist</string>
     <!-- Data/Wifi activity arrows -->
     <string name="data_activity_arrows_title">Andmeside tegevus</string>
     <string name="data_activity_arrows_summary">Kuva andmeside tegevuse nooli</string>
@@ -1428,7 +1428,7 @@
     <string name="recents_max_apps_title">Maksimaalne lubatud rakenduste hulk</string>
     <string name="recent_panel_scale_title">Suurus</string>
     <string name="recent_panel_expanded_mode_title">Laiendatud režiim</string>
-    <string name="recent_panel_expanded_mode_summary">Recent tasks expanded preview mode</string>
+    <string name="recent_panel_expanded_mode_summary">Täpsem eelvaade hiljutiste rakenduste jaoks</string>
     <string name="recent_panel_expanded_mode_auto">Automaatne (vaikimisi)</string>
     <string name="recent_panel_expanded_mode_always">Alati</string>
     <string name="recent_panel_expanded_mode_never">Mitte kunagi</string>
@@ -1441,7 +1441,7 @@
     <string name="recent_reset_confirm">Are you sure you want to reset Slim Recents to stock settings?</string>
     <string name="default_auto_string">Vaikimisi (rakendusepõhine)</string>
     <string name="recents_icon_pack_title">Ikoonipakk</string>
-    <string name="recents_icon_pack_summary">Apply a custom icon pack for apps in the panel</string>
+    <string name="recents_icon_pack_summary">Rakendage rakenduste jaoks paneelil kohandatud ikoonipakk</string>
     <string name="no_iconpacks_summary">Ühtegi ikoonipakki pole installitud</string>
     <string name="dialog_pick_iconpack_title">Vali ikoonipakk</string>
     <string name="default_iconpack_title">Vaikimisi ikoonid</string>
@@ -1450,10 +1450,10 @@
     <string name="slim_recents_corner_radius_title">Kasuta kaartidel ümardatud nurki</string>
     <string name="slim_blacklist_apps_cat_title">Mustas nimekirjas rakendused</string>
     <string name="slim_blacklist_apps_title">Rakenduste must nimekiri</string>
-    <string name="slim_blacklist_apps_summary">Exclude apps to be shown in the panel</string>
+    <string name="slim_blacklist_apps_summary">Välistage paneelis kuvatavad rakendused</string>
     <string name="slim_blacklist_add_apps_title">Lisa rakendus</string>
-    <string name="slim_blacklist_add_apps_summary">Tap here to add app to the blacklist</string>
-    <string name="slim_blacklist_apps_info">Tap on the added app to remove it</string>
+    <string name="slim_blacklist_add_apps_summary">Rakenduse lisamiseks musta nimekirja puudutage siin</string>
+    <string name="slim_blacklist_apps_info">Eemaldamiseks puudutage lisatud rakendust</string>
     <string name="slim_recents_hints_footer">To clear all apps, pinch-in with two fingers on the panel. To block an app from being cleared, long press on its icon to star it.\n\nFor additional recents features such as multiwindow or to kill an app, long press or drag an app card in the panel.</string>
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Kuva vasakus servas</string>
@@ -1465,7 +1465,7 @@
     <string name="omnijaws_settings_title">Ilmateenus</string>
     <string name="omnijaws_settings_summary">Kohanda teenuse seadeid ja ikoonipakki</string>
     <string name="weather_config_title">Teenuse seaded</string>
-    <string name="weather_config_summary">Configure service to enable weather details</string>
+    <string name="weather_config_summary">Seadista teenus ilmateate lubamiseks</string>
     <string name="weather_icon_pack_title">Ilmateate ikoonipakk</string>
     <string name="weather_icon_pack_note">Märkus\u003a uusi ikoonipakke saab Play poest, otsides \"Chronus icons\"</string>
     <!-- 4G icon -->
@@ -1482,7 +1482,7 @@
     <string name="bluetooth_battery_summary">Kuva ühendatud Bluetooth-seadme aku olek, kui see on saadaval</string>
     <!-- Status bar temperature -->
     <string name="status_bar_weather_title">Ilm</string>
-    <string name="status_bar_weather_summary">Display and customize weather on status bar</string>
+    <string name="status_bar_weather_summary">Kuva ja kohanda ilmateadet olekuribal</string>
     <string name="status_bar_temperature_title">Ilm</string>
     <string name="status_bar_temperature_hidden">Peidetud</string>
     <string name="status_bar_temperature_location_title">Asukoht</string>
@@ -1490,12 +1490,12 @@
     <string name="status_bar_temperature_location_left">Kuva vasakul</string>
     <string name="status_bar_weather_color_title">Temperatuurivärv</string>
     <string name="status_bar_weather_hidden">Peida ilm</string>
-    <string name="status_bar_temperature_image_show_scale">Display image and temp with scale</string>
-    <string name="status_bar_temperature_image_hide_scale">Display image and temp without scale</string>
-    <string name="status_bar_temperature_show_scale_hide_image">Display only temp with scale</string>
-    <string name="status_bar_temperature_hide_scale_hide_image">Display only temp without scale</string>
-    <string name="status_bar_show_image">Display only condition image</string>
-    <string name="status_bar_weather_image_color_title">Condition image color</string>
+    <string name="status_bar_temperature_image_show_scale">Kuva pilt ja temperatuur skaalaga</string>
+    <string name="status_bar_temperature_image_hide_scale">Kuva pilt ja temperatuur skaalata</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Kuva ainult temperatuur skaalaga</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Kuva ainult temperatuur skaalata</string>
+    <string name="status_bar_show_image">Kuva ainult ilmaolude pilt</string>
+    <string name="status_bar_weather_image_color_title">Ilmaolude pildi värv</string>
     <string name="volte_icon_title">VoLTE ikoon</string>
     <string name="volte_icon_summary">Kuva võimalusel VoLTE ikoon</string>
     <!-- Ad Away -->
@@ -1551,7 +1551,7 @@
     <string name="recents_use_grid_title">Ruudustiku stiilis viimatised</string>
     <string name="recents_use_grid_summary">Lülita ruudustiku stiilis viimatisi</string>
     <!-- Recents dismiss icon -->
-    <string name="recents_dismiss_icon_title">Dismiss task</string>
+    <string name="recents_dismiss_icon_title">Loobu ülesandest</string>
     <string name="recents_dismiss_icon_summary">Toggle dismiss task icon in recent app view</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Rakenduse sundsulgemise nupp</string>
@@ -1728,10 +1728,10 @@
     <string name="fp_wake_and_unlock_summary">Allow unlocking device using fingerprint when screen is off or dozing</string>
     <!-- Force disable transition animation -->
     <string name="disable_transition_animations_title">Keela üleminekuanimatsioonid</string>
-    <string name="disable_transition_animations_summary">Force disable all transition animations</string>
+    <string name="disable_transition_animations_summary">Keela jõuga kõik üleminekuanimatsioonid</string>
     <!-- Swipe FP to dismiss notifications -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">Pühi sõrmega vasakule või paremale, et teatised tagasi lükata</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Teatiste tagasilükkamiseks libista sõrme sõrmejälje anduril vasakule või paremale.</string>
     <!-- Full screen aspect ratio -->
     <string name="full_screen_aspect_ratio_title">Täisekraanis kuvasuhe</string>
     <string name="full_screen_aspect_ratio_summary">Sunni rakendusi kasutama täisekraanis kuvasuhet, teatud rakendused ei pruugi täisekraanis korralikult töötada</string>
@@ -1833,7 +1833,7 @@
     <string name="edge_gestures_title">Servažestid</string>
     <string name="edge_gestures_summary">Navigeeri, kasutades servažeste</string>
     <string name="edge_gestures_description">Swipe from bottom of the screen to trigger home action, keep it pressed to open recents screen. Swipe from left or right to go back.</string>
-    <string name="edge_gestures_feedback_duration_title">Haptic feedback duration</string>
+    <string name="edge_gestures_feedback_duration_title">Vibratsiooni tagasiside kestus</string>
     <string name="edge_gestures_long_press_delay_title">Delay until long press action starts</string>
     <string name="edge_gestures_back_category_title">Tagasižest</string>
     <string name="edge_gestures_back_edges_title">Käivita tagasiviibe asukohast</string>
@@ -1890,7 +1890,7 @@
     <string name="recents_style_title">Hiljutiste rakenduste valija stiil</string>
     <string name="recents_style_quickstep">QuickStep</string>
     <string name="recents_style_aosp">AOSP</string>
-    <string name="device_restart_required">Restart your device to apply changes</string>
+    <string name="device_restart_required">Taaskäivita seade muudatuste jõustamiseks</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Väärtus: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">vaikimisi</string>
@@ -1969,7 +1969,7 @@
     <string name="qstile_ninja">Ninja</string>
     <string name="qstile_oreo">Oreo</string>
     <string name="qstile_oreo_circle_trim">Oreo (ringi piirjoon)</string>
-    <string name="qstile_squaremedo">Squaremedo</string>
+    <string name="qstile_squaremedo">Rombis ruut</string>
     <string name="qstile_squircle">Ümarruut</string>
     <string name="qstile_neon_like">Neooni sarnane</string>
     <string name="qstile_oos">OxygenOS</string>
@@ -2003,8 +2003,8 @@
     <string name="unit_milliseconds">millisekundid</string>
     <string name="unit_pixels">dp</string>
     <!-- Thermal control -->
-    <string name="thermal_controller">Thermal Controller</string>
-    <string name="thermal_control_per_app">Thermal profile</string>
+    <string name="thermal_controller">Temperatuuri kontroller</string>
+    <string name="thermal_control_per_app">Temperatuuri profiil</string>
     <string name="thermal_control_per_app_default">Puudub</string>
     <string name="thermal_control_per_app_benchmark">Jõudlus</string>
     <string name="thermal_control_per_app_games">Mängud</string>
@@ -2028,8 +2028,8 @@
     <string name="qs_footer_users_icon_summary">Display multiuser accessibility icon when available</string>
     <string name="qs_footer_edit_icon_title">Paanide muutmise ikoon</string>
     <string name="qs_footer_edit_icon_summary">Kuva paanide muutmise ikooni</string>
-    <string name="qs_footer_services_icon_title">Running services shortcut</string>
-    <string name="qs_footer_services_icon_summary">Display running services shortcut</string>
+    <string name="qs_footer_services_icon_title">Töötavate teenuste otsetee</string>
+    <string name="qs_footer_services_icon_summary">Kuva töötavate teenuste otsetee</string>
     <string name="qs_footer_settings_icon_title">Seadete otsetee</string>
     <string name="qs_footer_settings_icon_summary">Kuva seadete rakenduse otseteed</string>
     <!-- Old mobiletype icon style -->
@@ -2069,7 +2069,7 @@
     <string name="wifi_wps_failed_wifi_disconnected">Wi\u2011Fi katkestatud. WPS-seadistus tühistatud.</string>
     <!-- Lockscreen Visualizer -->
     <string name="lockscreen_autocolor_title">Automaatne värv</string>
-    <string name="lockscreen_autocolor_summary">Sync color with background</string>
+    <string name="lockscreen_autocolor_summary">Sünkrooni värv taustaga</string>
     <string name="lockscreen_autocolor_lavalamp">Nõuab laavalambi keelamist</string>
     <string name="lockscreen_lavalamp_title">Laavalamp</string>
     <string name="lockscreen_lavalamp_summary">Animeeri sujuv laavalambi stiilis värvide üleminek</string>
@@ -2151,12 +2151,12 @@
     <string name="aggressive_battery_title">Agressiivne aku</string>
     <string name="aggressive_battery_summary">More strict battery savings</string>
     <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
+    <string name="aggressive_idle_title">Agressiivne jõudeolek</string>
     <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
+    <string name="aggressive_standby_title">Agressiivne ooteseisund</string>
+    <string name="aggressive_standby_summary">Piirake rakenduste taustal töötamist</string>
     <string name="aggressive_battery_saver_title">Luba akusäästjaga automaatselt</string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <string name="aggressive_battery_saver_summary">Lubage agressiivne sääst automaatselt, kui kasutad akusäästjat</string>
     <!-- Battery percent -->
     <string name="battery_percentage_title">Aku protsent</string>
     <string name="battery_percentage_off">Keelatud</string>

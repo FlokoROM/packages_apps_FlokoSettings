@@ -50,10 +50,12 @@ public class Notifications extends SettingsPreferenceFragment implements Indexab
 
     public static final String TAG = "Notifications";
 
+    private static final String ALERT_SLIDER_PREF = "alert_slider_notifications";
     private static final String BATTERY_LIGHTS_PREF = "battery_lights";
     private static final String NOTIFICATION_LIGHTS_PREF = "notification_lights";
     private static final String FLASHLIGHT_ON_CALL = "flashlight_on_call";
 
+    private Preference mAlertSlider;
     private Preference mBatLights;
     private Preference mNotLights;
     private PreferenceCategory lightsCategory;
@@ -69,6 +71,12 @@ public class Notifications extends SettingsPreferenceFragment implements Indexab
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final Resources res = getResources();
+
+        mAlertSlider = (Preference) prefScreen.findPreference(ALERT_SLIDER_PREF);
+        boolean mAlertSliderAvailable = res.getBoolean(
+                com.android.internal.R.bool.config_hasAlertSlider);
+        if (!mAlertSliderAvailable)
+            prefScreen.removePreference(mAlertSlider);
 
         mBatLights = (Preference) prefScreen.findPreference(BATTERY_LIGHTS_PREF);
         boolean mBatLightsSupported = res.getInteger(
@@ -97,6 +105,8 @@ public class Notifications extends SettingsPreferenceFragment implements Indexab
         ContentResolver resolver = mContext.getContentResolver();
         Settings.Global.putInt(resolver,
                 Settings.Global.HEADS_UP_NOTIFICATIONS_ENABLED, 1);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.ALERT_SLIDER_NOTIFICATIONS, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LESS_BORING_HEADS_UP, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
@@ -142,6 +152,11 @@ public class Notifications extends SettingsPreferenceFragment implements Indexab
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
                     final Resources res = context.getResources();
+
+                    boolean mAlertSliderAvailable = res.getBoolean(
+                            com.android.internal.R.bool.config_hasAlertSlider);
+                    if (!mAlertSliderAvailable)
+                        keys.add(ALERT_SLIDER_PREF);
 
                     boolean mBatLightsSupported = res.getInteger(
                             org.lineageos.platform.internal.R.integer.config_deviceLightCapabilities) >= 64;
