@@ -3,9 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceCategory
+    <!--<PreferenceCategory
         android:title="@string/trans_qs">
-        <com.crdroid.settings.preferences.SeekBarPreference
+        <com.crdroid.settings.preferences.CustomSeekBarPreference
             android:key="qs_transparent_shade"
             android:title="@string/qs_transparent_shade"
             android:max="255"
@@ -21,11 +21,11 @@
             android:entryValues="@array/qs_stroke_values"
             android:defaultValue="0" />
 
-        <com.crdroid.settings.preferences.ColorPickerPreference
+        <com.crdroid.settings.preferences.colorpicker.ColorPickerPreference
             android:key="qs_stroke_color"
             android:title="@string/qs_stroke_color_title" />
 
-        <com.crdroid.settings.preferences.SeekBarPreference
+        <com.crdroid.settings.preferences.CustomSeekBarPreference
             android:key="qs_stroke_thickness"
             android:title="@string/qs_stroke_thickness_title"
             android:max="25"
@@ -33,7 +33,7 @@
             settings:units="px"
             android:persistent="false" />
 
-        <com.crdroid.settings.preferences.SeekBarPreference
+        <com.crdroid.settings.preferences.CustomSeekBarPreference
             android:key="qs_corner_radius"
             android:title="@string/qs_corner_radius_title"
             android:max="50"
@@ -41,7 +41,7 @@
             settings:units="px"
             android:persistent="false" />
 
-        <com.crdroid.settings.preferences.SeekBarPreference
+        <com.crdroid.settings.preferences.CustomSeekBarPreference
             android:key="qs_dash_width"
             android:title="@string/qs_dash_width_title"
             android:max="50"
@@ -49,26 +49,26 @@
             settings:units="px"
             android:persistent="false" />
 
-        <com.crdroid.settings.preferences.SeekBarPreference
+        <com.crdroid.settings.preferences.CustomSeekBarPreference
             android:key="qs_dash_gap"
             android:title="@string/qs_dash_gap_title"
             android:max="50"
             settings:min="1"
             settings:units="px"
             android:persistent="false" />
-   </PreferenceCategory>
+   </PreferenceCategory>-->
 
    <PreferenceCategory
         android:title="@string/trans_vol_dialog">
-        <com.crdroid.settings.preferences.SeekBarPreference
+        <com.crdroid.settings.preferences.CustomSeekBarPreference
             android:key="transparent_volume_dialog"
             android:title="@string/volume_dialog_transparency"
-            android:max="255"
-            settings:min="0"
-            settings:units=""
+            android:max="100"
+            settings:min="1"
+            settings:units="%"
             android:persistent="false" />
 
-        <ListPreference
+        <!--<ListPreference
             android:key="volume_dialog_stroke"
             android:title="@string/volume_dialog_stroke_title"
             android:dialogTitle="@string/volume_dialog_stroke_title"
@@ -76,12 +76,12 @@
             android:entryValues="@array/volume_dialog_stroke_values"
             android:defaultValue="0" />
 
-        <com.crdroid.settings.preferences.ColorPickerPreference
+        <com.crdroid.settings.preferences.colorpicker.ColorPickerPreference
             android:key="volume_dialog_stroke_color"
             android:title="@string/volume_dialog_stroke_color_title"
             android:defaultValue="0xffffffff" />
 
-        <com.crdroid.settings.preferences.SeekBarPreference
+        <com.crdroid.settings.preferences.CustomSeekBarPreference
             android:key="volume_dialog_stroke_thickness"
             android:title="@string/volume_dialog_stroke_thickness_title"
             android:max="25"
@@ -89,7 +89,7 @@
             settings:units="px"
             android:persistent="false" />
 
-        <com.crdroid.settings.preferences.SeekBarPreference
+        <com.crdroid.settings.preferences.CustomSeekBarPreference
             android:key="volume_dialog_corner_radius"
             android:title="@string/volume_dialog_corner_radius_title"
             android:max="50"
@@ -97,7 +97,7 @@
             settings:units="px"
             android:persistent="false" />
 
-        <com.crdroid.settings.preferences.SeekBarPreference
+        <com.crdroid.settings.preferences.CustomSeekBarPreference
             android:key="volume_dialog_dash_width"
             android:title="@string/volume_dialog_dash_width_title"
             android:max="50"
@@ -105,31 +105,31 @@
             settings:units="px"
             android:persistent="false" />
 
-        <com.crdroid.settings.preferences.SeekBarPreference
+        <com.crdroid.settings.preferences.CustomSeekBarPreference
             android:key="volume_dialog_dash_gap"
             android:title="@string/volume_dialog_dash_gap_title"
             android:max="50"
             settings:min="1"
             settings:units="px"
-            android:persistent="false" />
+            android:persistent="false" />-->
     </PreferenceCategory>
 
     <PreferenceCategory
         android:title="@string/trans_power_menu">
-        <com.crdroid.settings.preferences.SeekBarPreference
-            android:key="transparent_power_menu"
+        <com.crdroid.settings.preferences.CustomSeekBarPreference
+            android:key="transparent_actions_dialog"
             android:title="@string/power_menu_transparency"
             android:max="100"
-            settings:min="0"
+            settings:min="1"
             settings:units="%"
             android:persistent="false" />
 
-        <com.crdroid.settings.preferences.SeekBarPreference
+        <!--<com.crdroid.settings.preferences.CustomSeekBarPreference
             android:key="transparent_power_dialog_dim"
             android:title="@string/power_menu_dialog_dim"
             android:max="100"
             settings:min="0"
             settings:units="%"
-            android:persistent="false" />
+            android:persistent="false" />-->
     </PreferenceCategory>
 </PreferenceScreen>

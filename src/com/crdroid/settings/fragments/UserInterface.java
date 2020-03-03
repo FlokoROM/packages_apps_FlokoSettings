@@ -49,6 +49,7 @@ import com.crdroid.settings.fragments.ui.DozeSettings;
 import com.crdroid.settings.fragments.ui.RoundedCorners;
 import com.crdroid.settings.fragments.ui.SmartPixels;
 import com.crdroid.settings.fragments.ui.ThemeSettings;
+import com.crdroid.settings.fragments.ui.TransparencyFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -93,6 +94,7 @@ public class UserInterface extends SettingsPreferenceFragment implements Indexab
         RoundedCorners.reset(mContext);
         SmartPixels.reset(mContext);
         ThemeSettings.reset(mContext);
+        TransparencyFragment.reset(mContext);
     }
 
     @Override
