@@ -48,8 +48,8 @@ import com.crdroid.settings.fragments.ui.Animations;
 import com.crdroid.settings.fragments.ui.DozeSettings;
 import com.crdroid.settings.fragments.ui.RoundedCorners;
 import com.crdroid.settings.fragments.ui.SmartPixels;
-import com.crdroid.settings.fragments.ui.ThemeSettings;
 import com.crdroid.settings.fragments.ui.TransparencyFragment;
+import com.crdroid.settings.utils.DeviceUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -89,11 +89,12 @@ public class UserInterface extends SettingsPreferenceFragment implements Indexab
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
+        Settings.System.putIntForUser(resolver,
+                Settings.System.BERRY_DARK_STYLE, 0, UserHandle.USER_CURRENT);
         Animations.reset(mContext);
         DozeSettings.reset(mContext);
         RoundedCorners.reset(mContext);
         SmartPixels.reset(mContext);
-        ThemeSettings.reset(mContext);
         TransparencyFragment.reset(mContext);
     }
 
