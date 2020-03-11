@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2019 crDroid Android Project
+     Copyright (C) 2016-2020 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -150,12 +150,13 @@
             android:summary="@string/hide_lockscreen_alarm_summary"
             android:defaultValue="true" /> -->
 
-        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
-            android:key="lockscreen_charging_animation"
+        <com.crdroid.settings.preferences.SystemSettingListPreference
+            android:key="lockscreen_charging_animation_style"
             android:icon="@drawable/ic_flash_outline"
             android:title="@string/lockscreen_charging_animation_title"
-            android:summary="@string/lockscreen_charging_animation_summary"
-            android:defaultValue="true" />
+            android:entries="@array/lockscreen_charging_animation_entries"
+            android:entryValues="@array/lockscreen_charging_animation_values"
+            android:defaultValue="1" />
 
         <com.crdroid.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_battery_info"
@@ -173,10 +174,9 @@
             android:defaultValue="0" />-->
     </PreferenceCategory>
 
-    <!-- FOD customization options -->
     <PreferenceCategory
             android:key="fod_icon_picker"
-            android:title="@string/fod_icon_picker_category_title" >
+            android:title="@string/fod_icon_picker_title" >
 
             <!-- FOD icon picker -->
             <Preference
@@ -202,21 +202,11 @@
                 android:defaultValue="false" />
 
             <com.crdroid.settings.preferences.SystemSettingListPreference
-                android:key="fod_anim"
-                android:icon="@drawable/ic_fp_animation"
-                android:title="@string/fod_recog_animation_effect_title"
-                android:summary="%s"
-                android:entries="@array/fod_recog_animation_entries"
-                android:entryValues="@array/fod_recog_animation_values"
-                android:defaultValue="0"
-                android:dependency="fod_recognizing_animation" />
-
-            <com.crdroid.settings.preferences.SystemSettingListPreference
                 android:key="fod_pressed_state"
                 android:icon="@drawable/ic_fp"
                 android:dialogTitle="@string/fod_pressed_state_title"
                 android:title="@string/fod_pressed_state_title"
-                android:summary="%s"
+                android:summary="@string/fod_pressed_state_summary"
                 android:entries="@array/fod_pressed_state_entries"
                 android:entryValues="@array/fod_pressed_state_values"
                 android:defaultValue="0" />
