@@ -1111,7 +1111,6 @@
     <string name="power_menu_reboot_title">Menu mulai ulang</string>
     <string name="power_menu_screenshot_title">Tangkap layar</string>
     <string name="power_menu_screenshot_summary">Tekan lama untuk menangkap layar sebagian</string>
-    <string name="power_menu_screenrecord_title">Rekam layar</string>
     <string name="power_menu_onthego_title">Mode On-The-Go</string>
     <string name="power_menu_airplane_title">Mode pesawat</string>
     <string name="power_menu_users_title">Beralih pengguna</string>
@@ -2081,7 +2080,11 @@
     <string name="ime_show_enter_key_summary">Paksa keyboard untuk menampilkan enter bukan tombol emotikon</string>
     <!-- Charging animation -->
     <string name="lockscreen_charging_animation_title">Animasi pengisian daya</string>
-    <string name="lockscreen_charging_animation_summary">Tampilkan animasi saat mengisi daya</string>
+    <string name="lockscreen_charging_animation_flash">Flash</string>
+    <string name="lockscreen_charging_animation_battery">Battery</string>
+    <string name="lockscreen_charging_animation_drop">Drop</string>
+    <string name="lockscreen_charging_animation_explosion">Explosion</string>
+    <string name="lockscreen_charging_animation_water">Water</string>
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Mode permainan</string>
     <string name="gaming_mode_summary">Kustomisasi preferensi mode Permainan</string>
@@ -2164,6 +2167,7 @@
     <string name="smart_charging_reset_stats_summary">Pulihkan statistik baterai saat mencapai batas pengisian</string>
     <string name="smart_charging_footer">Pengisian Pintar mengizinkan anda untuk mengatur batas maksimal pengisian, guna memperpanjang usia baterai. Ketika dinyalakan, baterai akan berhenti diisi saat mencapai batas maksimal picu dan diisi pada titik mulai picu. Batas maksimal picu harus diatas titik mulai.</string>
     <!--FOD -->
+    <string name="fod_icon_picker_category_title">FOD customization options</string>
     <string name="fod_icon_picker_title">Pemilih ikon FOD</string>
     <string name="fod_icon_picker_summary">Pilih ikon sidikjari favoritmu</string>
     <string name="fod_icon_picker_footer">In order to add your own icon, select the top left icon and use the OnePlus 6T FP Customizer app to select the icon you want.</string>
@@ -2171,6 +2175,7 @@
     <string name="fod_wallpaper_color_summary">Uses adjusted primary wallpaper color for FOD icon\nNOTE: might look good only with some wallpapers</string>
     <string name="fod_recog_animation">FOD recognizing animation</string>
     <string name="fod_recog_animation_summary">Shows animation while reading your finger</string>
+    <string name="fod_recog_animation_effect_title">FOD recognizing animation effect</string>
     <!-- QS background opacity -->
     <string name="qs_panel_alpha_title">Transparansi Latar Belakang</string>
     <!-- Navigation mode settings -->
@@ -2181,7 +2186,6 @@
     <string name="back_gesture_haptic">Enable haptic tick effect on back gesture</string>
     <!-- FOD pressed state behavior -->
     <string name="fod_pressed_state_title">FOD pressed state behavior</string>
-    <string name="fod_pressed_state_summary">Choose the appropriate pressed state behavior for your device</string>
     <string name="fod_pressed_state_footer">Icons/colors may vary depending on which device you are using.</string>
     <string name="fod_pressed_state_icon">Icon (usually Cyan)</string>
     <string name="fod_pressed_state_icon_white">Icon (White)</string>

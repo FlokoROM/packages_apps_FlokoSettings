@@ -1111,7 +1111,6 @@
     <string name="power_menu_reboot_title">Menù riavvio</string>
     <string name="power_menu_screenshot_title">Cattura schermata</string>
     <string name="power_menu_screenshot_summary">Premi a lungo per creare uno screenshot parziale</string>
-    <string name="power_menu_screenrecord_title">Registra schermo</string>
     <string name="power_menu_onthego_title">Modalità On-The-Go</string>
     <string name="power_menu_airplane_title">Modalità aereo</string>
     <string name="power_menu_users_title">Cambio utente</string>
@@ -2081,7 +2080,11 @@
     <string name="ime_show_enter_key_summary">Forza la tastiera a mostrare il tasto invio invece che il tasto delle emoticon</string>
     <!-- Charging animation -->
     <string name="lockscreen_charging_animation_title">Animazione di ricarica</string>
-    <string name="lockscreen_charging_animation_summary">Visualizza animazione in fase di carica</string>
+    <string name="lockscreen_charging_animation_flash">Fulmine</string>
+    <string name="lockscreen_charging_animation_battery">Batteria</string>
+    <string name="lockscreen_charging_animation_drop">Rilascia</string>
+    <string name="lockscreen_charging_animation_explosion">Esplosione</string>
+    <string name="lockscreen_charging_animation_water">Acqua</string>
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Modalità di gioco</string>
     <string name="gaming_mode_summary">Personalizza le preferenze della modalità gioco</string>
@@ -2164,6 +2167,7 @@
     <string name="smart_charging_reset_stats_summary">Ripristina statistiche batteria dopo aver raggiunto il livello stabilito dall\'utente</string>
     <string name="smart_charging_footer">La ricarica intelligente ti permette di impostare un livello massimo di carica per estendere la durata della tua batteria. Se abilitato, la batteria ferma la carica al livello massimo impostato e riprende la carica al livello minimo impostato. Il livello massimo deve essere sempre maggiore del livello minimo.</string>
     <!--FOD -->
+    <string name="fod_icon_picker_category_title">FOD customization options</string>
     <string name="fod_icon_picker_title">Scegli l\'icona FOD</string>
     <string name="fod_icon_picker_summary">Scegli la tua icona preferita</string>
     <string name="fod_icon_picker_footer">Per aggiungere la tua icona, seleziona l\'icona in alto a sinistra e utilizza OnePlus 6T FP Customizer app per selezionare l\'icona desiderata.</string>
@@ -2171,6 +2175,7 @@
     <string name="fod_wallpaper_color_summary">Utilizza il colore dello sfondo primario modificato per l\'icona del FOD\nNOTA: potrebbe avere un bell\'aspetto solo con alcuni sfondi</string>
     <string name="fod_recog_animation">Animazione di riconoscimento FOD</string>
     <string name="fod_recog_animation_summary">Mostra un\'animazione durante la scansione dell\'impronta digitale</string>
+    <string name="fod_recog_animation_effect_title">FOD recognizing animation effect</string>
     <!-- QS background opacity -->
     <string name="qs_panel_alpha_title">Opacità sfondo</string>
     <!-- Navigation mode settings -->
@@ -2181,7 +2186,6 @@
     <string name="back_gesture_haptic">Attiva la vibrazione su gesto INDIETRO</string>
     <!-- FOD pressed state behavior -->
     <string name="fod_pressed_state_title">Comportamento alla pressione del Sensore Biometrico</string>
-    <string name="fod_pressed_state_summary">Scegli il comportamento desiderato alla pressione del sensore biometrico</string>
     <string name="fod_pressed_state_footer">Icons/colori possono variare a seconda del dispositivo che stai usando.</string>
     <string name="fod_pressed_state_icon">Icona (solitamente Ciano)</string>
     <string name="fod_pressed_state_icon_white">Icona (Bianco)</string>

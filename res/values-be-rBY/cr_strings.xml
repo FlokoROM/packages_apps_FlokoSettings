@@ -1111,7 +1111,6 @@
     <string name="power_menu_reboot_title">Меню перазагрузкі</string>
     <string name="power_menu_screenshot_title">Здымак экрана</string>
     <string name="power_menu_screenshot_summary">Утрымлівайце, каб вылучыць вобласць для здымку экрана</string>
-    <string name="power_menu_screenrecord_title">Запіс экрана</string>
     <string name="power_menu_onthego_title">Рэжым «На хаду»</string>
     <string name="power_menu_airplane_title">Рэжым палёту</string>
     <string name="power_menu_users_title">Змяніць карыстальніка</string>
@@ -2081,7 +2080,11 @@
     <string name="ime_show_enter_key_summary">Прымусова паказваць кнопку ўводу замест кнопкі смайлікаў</string>
     <!-- Charging animation -->
     <string name="lockscreen_charging_animation_title">Анімацыя зарадкі</string>
-    <string name="lockscreen_charging_animation_summary">Паказваць анімацыю пры зарадцы</string>
+    <string name="lockscreen_charging_animation_flash">Маланка</string>
+    <string name="lockscreen_charging_animation_battery">Батарэя</string>
+    <string name="lockscreen_charging_animation_drop">Выкінуць</string>
+    <string name="lockscreen_charging_animation_explosion">Выбух</string>
+    <string name="lockscreen_charging_animation_water">Вада</string>
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Гульнявы рэжым</string>
     <string name="gaming_mode_summary">Наладзіць параметры гульнявога рэжыму</string>
@@ -2164,6 +2167,7 @@
     <string name="smart_charging_reset_stats_summary">Скідаць статыстыку батарэі пасля дасягнення зададзенага ўзроўню зараду</string>
     <string name="smart_charging_footer">Разумная зарадка дазваляе вам усталяваць максімальны ўзровень зарада для павелічэння тэрміна жыцця акумулятара. Пры уключанай функцыі акумулятар спыніць зарадку па дасягненню ўзроўню максімальнага зарада і адновіць зарадку па дасягненню ўзроўню мінімальнага зарада.</string>
     <!--FOD -->
+    <string name="fod_icon_picker_category_title">FOD customization options</string>
     <string name="fod_icon_picker_title">Значок \"Адбітак пальца\"</string>
     <string name="fod_icon_picker_summary">Выберыце любімы значок адбітаку пальца</string>
     <string name="fod_icon_picker_footer">Каб дадаць свой уласны значок, выберыце левы значок і выкарыстоўвайце наладчык OnePlus 6T FP, каб выбраць патрэбны значок.</string>
@@ -2171,6 +2175,7 @@
     <string name="fod_wallpaper_color_summary">Выкарыстоўвайце скарэкціраваны асноўны колер шпалер для значка адбітка пальца \nУВАГА: З\'яўляюцца толькі на некаторых шпалерах</string>
     <string name="fod_recog_animation">Анімацыя распазнавання адбіткаў пальцаў</string>
     <string name="fod_recog_animation_summary">Паказвае анімацыю пры распазнаванне адбітка пальца</string>
+    <string name="fod_recog_animation_effect_title">FOD recognizing animation effect</string>
     <!-- QS background opacity -->
     <string name="qs_panel_alpha_title">Фон непразрыстасці</string>
     <!-- Navigation mode settings -->
@@ -2181,7 +2186,6 @@
     <string name="back_gesture_haptic">Уключыць тактычны эфект на жэст назад</string>
     <!-- FOD pressed state behavior -->
     <string name="fod_pressed_state_title">Дзеянне пры націску на сканер адбітка пальца</string>
-    <string name="fod_pressed_state_summary">Абярыце неабходныя паводзіны пры націсканні для вашай прылады</string>
     <string name="fod_pressed_state_footer">Значкі/колеры могуць адрознівацца ў залежнасці ад таго, якую прыладу вы выкарыстоўваеце.</string>
     <string name="fod_pressed_state_icon">Значок (звычайна блакітны)</string>
     <string name="fod_pressed_state_icon_white">Значок (белы)</string>

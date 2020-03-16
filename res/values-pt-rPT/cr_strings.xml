@@ -1111,7 +1111,6 @@
     <string name="power_menu_reboot_title">Menu de reinicialização</string>
     <string name="power_menu_screenshot_title">Captura de ecrã</string>
     <string name="power_menu_screenshot_summary">Pressão longa para captura de ecrã parcial</string>
-    <string name="power_menu_screenrecord_title">Gravação de ecrã</string>
     <string name="power_menu_onthego_title">Modo On-The-Go</string>
     <string name="power_menu_airplane_title">Modo avião</string>
     <string name="power_menu_users_title">Mudar de utilizador</string>
@@ -2081,7 +2080,11 @@
     <string name="ime_show_enter_key_summary">Forçar teclado a mostrar enter em vez da tecla de emojis</string>
     <!-- Charging animation -->
     <string name="lockscreen_charging_animation_title">Animação de carregamento</string>
-    <string name="lockscreen_charging_animation_summary">Mostrar uma animação enquanto carrega</string>
+    <string name="lockscreen_charging_animation_flash">Flash</string>
+    <string name="lockscreen_charging_animation_battery">Bateria</string>
+    <string name="lockscreen_charging_animation_drop">Largar</string>
+    <string name="lockscreen_charging_animation_explosion">Explosão</string>
+    <string name="lockscreen_charging_animation_water">Água</string>
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Modo de jogo</string>
     <string name="gaming_mode_summary">Personalizar as definições do modo de jogo</string>
@@ -2164,6 +2167,7 @@
     <string name="smart_charging_reset_stats_summary">Redefinir estatísticas da bateria após atingir o nível de carregamento definido pelo usuário</string>
     <string name="smart_charging_footer">O carregamento inteligente permite que você defina o nível máximo de carregamento para estender a duração da sua bateria. Quando ativado, a bateria para de carregamento em Parar nível de gatilho e retomar o carregamento no nível de disparo Inicial. Parar nível de acionamento deve ser sempre maior que o nível de disparo Inicial.</string>
     <!--FOD -->
+    <string name="fod_icon_picker_category_title">FOD customization options</string>
     <string name="fod_icon_picker_title">Escolha a imagem para a sacola de dados</string>
     <string name="fod_icon_picker_summary">Escolha seu ícone de impressão digital favorita</string>
     <string name="fod_icon_picker_footer">Para adicionar seu próprio ícone, selecione o ícone superior esquerdo e use o aplicativo customizador OnePlus 6T FP para selecionar o ícone que você quer.</string>
@@ -2171,6 +2175,7 @@
     <string name="fod_wallpaper_color_summary">Usos ajustados cor de papel de parede primário para o ícone FOD\nNOTA: pode parecer bem somente com alguns papéis de parede</string>
     <string name="fod_recog_animation">FOD está a reconhecer a animação</string>
     <string name="fod_recog_animation_summary">Mostrar animação ao ler o seu dedo</string>
+    <string name="fod_recog_animation_effect_title">FOD recognizing animation effect</string>
     <!-- QS background opacity -->
     <string name="qs_panel_alpha_title">Opacidade do fundo</string>
     <!-- Navigation mode settings -->
@@ -2181,7 +2186,6 @@
     <string name="back_gesture_haptic">Ativar o efeito de seleção tátil no gesto para trás</string>
     <!-- FOD pressed state behavior -->
     <string name="fod_pressed_state_title">Comportamento do estado pressionado do FOD</string>
-    <string name="fod_pressed_state_summary">Escolha o comportamento de estado pressionado apropriado para o seu dispositivo</string>
     <string name="fod_pressed_state_footer">Ícones/cores podem variar dependendo do dispositivo que você está usando.</string>
     <string name="fod_pressed_state_icon">Ícone (normalmente ciano)</string>
     <string name="fod_pressed_state_icon_white">Ícone (Branco)</string>
