@@ -117,12 +117,6 @@ public class Notifications extends SettingsPreferenceFragment implements Indexab
                 Settings.System.VIBRATE_ON_NOTIFICATIONS, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.FLASHLIGHT_ON_CALL, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.VIBRATE_ON_CONNECT, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.VIBRATE_ON_CALLWAITING, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.VIBRATE_ON_DISCONNECT, 0, UserHandle.USER_CURRENT);
         Ticker.reset(mContext);
     }
 
