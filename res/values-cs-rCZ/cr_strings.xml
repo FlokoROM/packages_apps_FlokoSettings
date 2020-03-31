@@ -354,10 +354,10 @@
     <string name="double_tap_sleep_anywhere_summary">Dvojím poklepáním na jakékoliv místo na obrazovce uzamčení uvést zařízení do režimu spánku</string>
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Menu napájení</string>
-    <string name="lockscreen_enable_power_menu_summary">Umožnit přístup do Menu napájení na zabezpečené obrazovce uzamčení</string>
+    <string name="lockscreen_enable_power_menu_summary">Povolit přístup do Menu napájení na zabezpečené obrazovce uzamčení</string>
     <!-- Quick settings on secure lockscreen -->
     <string name="lockscreen_enable_qs_title">Rychlé nastavení</string>
-    <string name="lockscreen_enable_qs_summary">Umožnit přístup do Rychlého nastavení a\u00a0k\u00a0zástupcům na zabezpečené obrazovce uzamčení</string>
+    <string name="lockscreen_enable_qs_summary">Povolit přístup do Rychlého nastavení na zabezpečené obrazovce uzamčení</string>
     <!-- Screenshot Sound  -->
     <string name="screenshot_sound_title">Zvuk snímku obrazovky</string>
     <string name="screenshot_sound_summary">Přehrát zvuk při pořízení snímku obrazovky</string>
@@ -1036,7 +1036,7 @@
     <string name="crdroid_website_title">Oficiální web</string>
     <string name="crdroid_website_summary">Navštivte naše oficiální webové stránky</string>
     <string name="crdroid_translate_title">Překlady</string>
-    <string name="crdroid_translate_summary">Pomozte nám s\u00a0lokalizací ROM ve vašem jazyce!</string>
+    <string name="crdroid_translate_summary">Pomozte nám s\u00a0lokalizací ROM do vašeho jazyka!</string>
     <!-- Maintainers -->
     <string name="maintainers_crdroid_title">Zařízení a\u00a0správci</string>
     <string name="maintainers_crdroid_summary">Seznam podporovaných zařízení a\u00a0jejich oficiální správci</string>
@@ -1116,6 +1116,7 @@
     <string name="power_menu_reboot_title">Menu restartu</string>
     <string name="power_menu_screenshot_title">Snímek obrazovky</string>
     <string name="power_menu_screenshot_summary">Dlouhým stiskem zhotovit částečný snímek obrazovky</string>
+    <string name="power_menu_screenrecord_title">Screenrecord</string>
     <string name="power_menu_onthego_title">Režim On‑The‑Go</string>
     <string name="power_menu_airplane_title">Režim Letadlo</string>
     <string name="power_menu_users_title">Přepínání uživatelů</string>
@@ -2149,7 +2150,7 @@
     <!-- QS battery -->
     <string name="qs_battery_location_title">Umístění baterie</string>
     <string name="qs_battery_location_qs_panel">Panel Rychlého nastavení</string>
-    <string name="qs_battery_location_qs_statusbar">Panel Rychlého nastavení</string>
+    <string name="qs_battery_location_qs_statusbar">Stavový řádek Rychlého nastavení</string>
     <string name="qs_use_status_bar_battery_style">Použít styl stavového řádku</string>
     <!-- QS battery -->
     <string name="lockscreen_lock_icon_title">Ikona zámku</string>
@@ -2214,31 +2215,35 @@
     <string name="device_identifier_access_restrictions_summary">Vypnout nová omezení přístupu pro identifikátory zařízení</string>
     <!-- Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">Upozornění Alert Slideru</string>
-    <string name="alert_slider_notifications_summary">Display notification when changing alert slider position</string>
+    <string name="alert_slider_notifications_summary">Zobrazit oznámení, když se změní poloha Alert Slideru</string>
     <!-- QS blur -->
     <string name="qs_blur_title">Rozostření pozadí</string>
     <string name="qs_blur_summary">Rozostřit prázdné místo pod rychlým nastavením v\u00a0panelu oznámení</string>
     <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">In-Call vibration</string>
-    <string name="incall_feeedback_summary">Vibrate to indicate call status</string>
+    <string name="incall_feeedback_vibrate_title">Vibrace příchozího hovoru</string>
+    <string name="incall_feeedback_summary">Vibrovat pro indikaci stavu hovoru</string>
     <!-- Custom Vibration fragment -->
-    <string name="vibration_preferences">Vibration &amp; haptics</string>
-    <string name="summary_vibration_preferences">Change intensities, patterns and more</string>
-    <string name="keywords_vibration_preferences">vibration pattern, vibration intensity, incall, haptics, tap, vibration strength</string>
-    <string name="ringtone_vibration_pattern">Ringtone vibration pattern</string>
-    <string name="vibration_intensity_ringer">Ringtone vibration intensity</string>
-    <string name="vibration_intensity_notification">Notification vibration intensity</string>
-    <string name="vibration_intensity_disabled">Disabled</string>
-    <string name="vibration_intensity_light">Low</string>
-    <string name="vibration_intensity_medium">Medium</string>
-    <string name="vibration_intensity_strong">High</string>
-    <string name="vibration_intensity_custom">Custom</string>
+    <string name="vibration_preferences">Vibrace a\u00a0hmatová odezva</string>
+    <string name="summary_vibration_preferences">Změnit intenzity, vzory a\u00a0další</string>
+    <string name="keywords_vibration_preferences">vzor vibrací, intenzita vibrací, příchozí hovor, hmatová odezva, klepnutí, síla vibrací</string>
+    <string name="ringtone_vibration_pattern">Vzor vibrací vyzvánění</string>
+    <string name="vibration_intensity_ringer">Intenzita vibrací vyzvánění</string>
+    <string name="vibration_intensity_notification">Intenzita vibrací oznámení</string>
+    <string name="vibration_intensity_disabled">Zakázány</string>
+    <string name="vibration_intensity_light">Slabá</string>
+    <string name="vibration_intensity_medium">Střední</string>
+    <string name="vibration_intensity_strong">Vysoká</string>
+    <string name="vibration_intensity_custom">Vlastní</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <!-- QS data usage -->
-    <string name="qs_datausage_title">Show data usage in qs header</string>
-    <string name="qs_datausage_subtitle">Shows data usage in quick settings header of sim used for data</string>
+    <string name="qs_datausage_title">Zobrazit využití dat v\u00a0záhlaví\u00a0QS</string>
+    <string name="qs_datausage_subtitle">Zobrazí využití dat v\u00a0záhlaví Rychlého nastavení SIM\u00a0karty používané pro data</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">Vyzváněcí tón telefonu – SIM 1</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">Vyzváněcí tón telefonu – SIM 2</string>
 </resources>

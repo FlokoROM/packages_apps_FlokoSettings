@@ -56,7 +56,7 @@ Laluan Rangkaian</string>
     <string name="network_traffic_settings_summary">Memaparkan dan menyesuaikan monitor lalai rangkaian</string>
     <string name="network_traffic_location_title">tajuk_laluan_lokasi_rangkaian</string>
     <string name="network_traffic_location_disable">lokasi_laluan_rangkain_dimatikan</string>
-    <string name="network_traffic_location_statusbar">Statusbar</string>
+    <string name="network_traffic_location_statusbar">Bar status</string>
     <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
     <string name="network_traffic_mode_title">Display mode</string>
     <string name="network_traffic_mode_up">Upload only</string>
@@ -355,10 +355,10 @@ Laluan Rangkaian</string>
     <string name="double_tap_sleep_anywhere_summary">Tekan dua kali di mana sahaja pada skrin kunci untuk meletakkan alat tidur</string>
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Menu kuasa</string>
-    <string name="lockscreen_enable_power_menu_summary">Membenarkan mengakses menu kuasa pada skrin kunci selamat</string>
+    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
     <!-- Quick settings on secure lockscreen -->
     <string name="lockscreen_enable_qs_title">Tetapan pantas</string>
-    <string name="lockscreen_enable_qs_summary">Membenarkan mengakses tetapan pantas dan pintasan sapu pada skrin kunci selamat</string>
+    <string name="lockscreen_enable_qs_summary">Allow accessing quick settings on secure lockscreen</string>
     <!-- Screenshot Sound  -->
     <string name="screenshot_sound_title">Bunyi skrin</string>
     <string name="screenshot_sound_summary">Togol bunyi sambil mengambil screenshot</string>
@@ -1117,6 +1117,7 @@ Laluan Rangkaian</string>
     <string name="power_menu_reboot_title">Restart menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
+    <string name="power_menu_screenrecord_title">Screenrecord</string>
     <string name="power_menu_onthego_title">On-The-Go mode</string>
     <string name="power_menu_airplane_title">Airplane mode</string>
     <string name="power_menu_users_title">User switcher</string>
@@ -2242,4 +2243,8 @@ Laluan Rangkaian</string>
     <!-- QS data usage -->
     <string name="qs_datausage_title">Show data usage in qs header</string>
     <string name="qs_datausage_subtitle">Shows data usage in quick settings header of sim used for data</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
 </resources>

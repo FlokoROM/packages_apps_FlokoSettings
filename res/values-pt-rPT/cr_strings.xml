@@ -357,7 +357,7 @@
     <string name="lockscreen_enable_power_menu_summary">Permitir o acesso ao menu de ligar/desligar no ecrã de bloqueio seguro</string>
     <!-- Quick settings on secure lockscreen -->
     <string name="lockscreen_enable_qs_title">Configurações rápidas</string>
-    <string name="lockscreen_enable_qs_summary">Permitir acesso a configurações rápidas e atalhos de deslize no ecrã de bloqueio seguro</string>
+    <string name="lockscreen_enable_qs_summary">Permitir o acesso às configurações rápidas no écran de bloqueio seguro</string>
     <!-- Screenshot Sound  -->
     <string name="screenshot_sound_title">Som da captura de ecrã</string>
     <string name="screenshot_sound_summary">Alternar o som reproduzido ao tirar a captura de ecrã</string>
@@ -1116,6 +1116,7 @@
     <string name="power_menu_reboot_title">Menu de reinicialização</string>
     <string name="power_menu_screenshot_title">Captura de ecrã</string>
     <string name="power_menu_screenshot_summary">Pressão longa para captura de ecrã parcial</string>
+    <string name="power_menu_screenrecord_title">Screenrecord</string>
     <string name="power_menu_onthego_title">Modo On-The-Go</string>
     <string name="power_menu_airplane_title">Modo avião</string>
     <string name="power_menu_users_title">Mudar de utilizador</string>
@@ -2241,4 +2242,8 @@
     <!-- QS data usage -->
     <string name="qs_datausage_title">Mostrar uso de dados no cabeçalho qs</string>
     <string name="qs_datausage_subtitle">Mostra o uso de dados em configurações rápidas no cabeçalho do Sim usado para dados</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">Toque do telemóvel - SIM 1</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">Toque do telemóvel - SIM 2</string>
 </resources>
