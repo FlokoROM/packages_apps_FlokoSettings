@@ -2087,6 +2087,8 @@
     <string name="recents_style_aosp">AOSP</string>
     <string name="recents_style_omni">OmniSwitch</string>
     <string name="device_restart_required">Restart your device to apply changes</string>
+    <string name="recents_information">Abour recents style</string>
+    <string name="recents_information_summary">Customize the recents style when 3-button navigation</string>
 
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>

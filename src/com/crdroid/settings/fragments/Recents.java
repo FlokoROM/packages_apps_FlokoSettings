@@ -71,6 +71,7 @@ public class Recents extends SettingsPreferenceFragment
 
     public static final String TAG = "Recents";
 
+    private static final String PREF_RECENTS_INFO = "recents_info";
     private static final String PREF_RECENTS_STYLE = "recents_component";
     private static final String PREF_RECENTS_ICONPACK = "recents_icon_pack";
     private static final String CATEGORY_STOCK = "stock_recents";
@@ -91,6 +92,8 @@ public class Recents extends SettingsPreferenceFragment
     private ListView mListView;
 
     private ListPreference mRecentsStyle;
+    private Preference mRecentsInfo;
+    private Preference mIconSettings;
     private Preference mStockSettings;
     private Preference mOmniSettings;
 
@@ -102,41 +105,64 @@ public class Recents extends SettingsPreferenceFragment
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
-        mRecentsStyle = (ListPreference) findPreference(PREF_RECENTS_STYLE);
-        mRecentsStyle.setOnPreferenceChangeListener(this);
+        int navbarMode = Settings.Secure.getIntForUser(getContentResolver(),
+                Settings.Secure.NAVIGATION_MODE, 3, UserHandle.USER_CURRENT);
 
         int recentsStyle = Settings.System.getIntForUser(getContentResolver(),
                 Settings.System.RECENTS_COMPONENT, 0, UserHandle.USER_CURRENT);
 
-        mStockSettings = (PreferenceCategory) findPreference(CATEGORY_STOCK);
+        mRecentsInfo = (Preference) findPreference(PREF_RECENTS_INFO);
+        mRecentsStyle = (ListPreference) findPreference(PREF_RECENTS_STYLE);
+        mRecentsStyle.setOnPreferenceChangeListener(this);
+        mIconSettings = (Preference) findPreference(PREF_RECENTS_ICONPACK);
+        //mStockSettings = (PreferenceCategory) findPreference(CATEGORY_STOCK);
         mOmniSettings = (PreferenceCategory) findPreference(CATEGORY_OMNI);
 
-        switch (recentsStyle) {
-            case 0:
-                mStockSettings.setEnabled(false);
-                mStockSettings.setSelectable(false);
-                mOmniSettings.setEnabled(false);
-                mOmniSettings.setSelectable(false);
-                break;
-            case 1:
-                mStockSettings.setEnabled(true);
-                mStockSettings.setSelectable(true);
-                mOmniSettings.setEnabled(false);
-                mOmniSettings.setSelectable(false);
-                break;
-            case 2:
-                boolean SwitchRunning = OmniSwitchConstants.isOmniSwitchRunning(getContext());
-                if (!SwitchRunning) {
-                    Toast.makeText(getActivity(), R.string.omniswitch_first_time_message,
-                        Toast.LENGTH_LONG).show();
-                    Settings.System.putInt(getContentResolver(),
-                        Settings.System.RECENTS_OMNI_SWITCH_ENABLED, 0);
-                }
-                mStockSettings.setEnabled(false);
-                mStockSettings.setSelectable(false);
-                mOmniSettings.setEnabled(true);
-                mOmniSettings.setSelectable(true);
-                break;
+        mRecentsInfo.setEnabled(true);
+
+        if (navbarMode == 0) {
+            mRecentsStyle.setEnabled(true);
+            mRecentsStyle.setSelectable(true);
+            mIconSettings.setEnabled(true);
+            mIconSettings.setSelectable(true);
+
+            switch (recentsStyle) {
+                case 0:
+                    //mStockSettings.setEnabled(false);
+                    //mStockSettings.setSelectable(false);
+                    mOmniSettings.setEnabled(false);
+                    mOmniSettings.setSelectable(false);
+                    break;
+                case 1:
+                    //mStockSettings.setEnabled(true);
+                    //mStockSettings.setSelectable(true);
+                    mOmniSettings.setEnabled(false);
+                    mOmniSettings.setSelectable(false);
+                    break;
+                case 2:
+                    boolean SwitchRunning = OmniSwitchConstants.isOmniSwitchRunning(getContext());
+                    if (!SwitchRunning) {
+                        Toast.makeText(getActivity(), R.string.omniswitch_first_time_message,
+                            Toast.LENGTH_LONG).show();
+                        Settings.System.putInt(getContentResolver(),
+                            Settings.System.RECENTS_OMNI_SWITCH_ENABLED, 0);
+                    }
+                    //mStockSettings.setEnabled(false);
+                    //mStockSettings.setSelectable(false);
+                    mOmniSettings.setEnabled(true);
+                    mOmniSettings.setSelectable(true);
+                    break;
+                default:
+            }
+        } else {
+            mRecentsStyle.setEnabled(false);
+            mRecentsStyle.setSelectable(false);
+            mIconSettings.setEnabled(false);
+            mIconSettings.setSelectable(false);
+            //mStockSettings.setEnabled(false);
+            //mStockSettings.setSelectable(false);
+            mOmniSettings.setEnabled(false);
+            mOmniSettings.setSelectable(false);
         }
     }
 
@@ -153,22 +179,22 @@ public class Recents extends SettingsPreferenceFragment
     private void updateRecentStyleSettings(int recentsStyle) {
         switch (recentsStyle) {
             case 0:
-                mStockSettings.setEnabled(false);
-                mStockSettings.setSelectable(false);
+                //mStockSettings.setEnabled(false);
+                //mStockSettings.setSelectable(false);
                 mOmniSettings.setEnabled(false);
                 mOmniSettings.setSelectable(false);
                 Settings.System.putInt(getContentResolver(),
                     Settings.System.RECENTS_OMNI_SWITCH_ENABLED, 0);
-                Toast.makeText(getActivity(), R.string.device_restart_required, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(), R.string.device_restart_required, Toast.LENGTH_SHORT).show();
                 break;
             case 1:
-                mStockSettings.setEnabled(true);
-                mStockSettings.setSelectable(true);
+                //mStockSettings.setEnabled(true);
+                //mStockSettings.setSelectable(true);
                 mOmniSettings.setEnabled(false);
                 mOmniSettings.setSelectable(false);
                 Settings.System.putInt(getContentResolver(),
                     Settings.System.RECENTS_OMNI_SWITCH_ENABLED, 0);
-                Toast.makeText(getActivity(), R.string.device_restart_required, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(), R.string.device_restart_required, Toast.LENGTH_SHORT).show();
                 break;
             case 2:
                 boolean SwitchRunning = OmniSwitchConstants.isOmniSwitchRunning(getContext());
@@ -177,8 +203,8 @@ public class Recents extends SettingsPreferenceFragment
                         Toast.LENGTH_LONG).show();
                     startActivity(OmniSwitchConstants.INTENT_LAUNCH_APP);
                 }
-                mStockSettings.setEnabled(false);
-                mStockSettings.setSelectable(false);
+                //mStockSettings.setEnabled(false);
+                //mStockSettings.setSelectable(false);
                 mOmniSettings.setEnabled(true);
                 mOmniSettings.setSelectable(true);
                 Settings.System.putInt(getContentResolver(),
