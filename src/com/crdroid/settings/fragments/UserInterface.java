@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016-2019 crDroid Android Project
+ * Copyright (C) 2016-2020 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -70,6 +70,8 @@ public class UserInterface extends SettingsPreferenceFragment implements Indexab
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.crdroid_settings_ui);
 
+        Context mContext = getActivity().getApplicationContext();
+
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final Resources res = getResources();
 
@@ -79,11 +81,8 @@ public class UserInterface extends SettingsPreferenceFragment implements Indexab
         if (!mSmartPixelsSupported)
             prefScreen.removePreference(mSmartPixels);
 
-        final boolean hasNotch = res.getBoolean(
-                org.lineageos.platform.internal.R.bool.config_haveNotch);
-
         mDisplayCutout = (Preference) prefScreen.findPreference(DISPLAY_CUTOUT);
-        if (!hasNotch)
+        if (!DeviceUtils.hasNotch(mContext))
             prefScreen.removePreference(mDisplayCutout);
     }
 
@@ -125,9 +124,7 @@ public class UserInterface extends SettingsPreferenceFragment implements Indexab
                     List<String> keys = super.getNonIndexableKeys(context);
                     final Resources res = context.getResources();
 
-                    boolean hasNotch = res.getBoolean(
-                            org.lineageos.platform.internal.R.bool.config_haveNotch);
-                    if (!hasNotch)
+                    if (!DeviceUtils.hasNotch(context))
                         keys.add(DISPLAY_CUTOUT);
                     boolean mSmartPixelsSupported = res.getBoolean(
                             com.android.internal.R.bool.config_supportSmartPixels);
