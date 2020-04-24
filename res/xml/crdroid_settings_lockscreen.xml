@@ -251,13 +251,6 @@
             android:summary="@string/fp_wake_and_unlock_summary"
             android:persistent="false" />-->
 
-
-        <com.crdroid.settings.preferences.SecureSettingSwitchPreference
-            android:key="unlock_without_bouncer"
-            android:icon="@drawable/ic_fp"
-            android:title="@string/unlock_without_bouncer_title"
-            android:summary="@string/unlock_without_bouncer_summary" />
-
         <com.crdroid.settings.preferences.SystemSettingSwitchPreference
             android:key="fp_success_vibrate"
             android:icon="@drawable/ic_fp"
@@ -307,6 +300,14 @@
                android:title="@string/lockscreen_enable_power_menu_title"
                android:summary="@string/lockscreen_enable_power_menu_summary"
                android:defaultValue="true" />
+
+        <com.crdroid.settings.preferences.GlobalSettingSwitchPreference
+               android:key="lockscreen_powermenu_secure"
+               android:icon="@drawable/ic_lock_outline"
+               android:title="@string/lockscreen_secure_power_menu_title"
+               android:summary="@string/lockscreen_secure_power_menu_summary"
+               android:dependency="lockscreen_enable_power_menu"
+               android:defaultValue="false" />
 
         <com.crdroid.settings.preferences.GlobalSettingSwitchPreference
                android:key="lockscreen_enable_qs"

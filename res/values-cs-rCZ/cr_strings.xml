@@ -355,6 +355,8 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Menu napájení</string>
     <string name="lockscreen_enable_power_menu_summary">Povolit přístup do Menu napájení na zabezpečené obrazovce uzamčení</string>
+    <string name="lockscreen_secure_power_menu_title">Zabezpečené menu napájení</string>
+    <string name="lockscreen_secure_power_menu_summary">Povolit vstup do menu napájení pouze po ověření</string>
     <!-- Quick settings on secure lockscreen -->
     <string name="lockscreen_enable_qs_title">Rychlé nastavení</string>
     <string name="lockscreen_enable_qs_summary">Povolit přístup do Rychlého nastavení na zabezpečené obrazovce uzamčení</string>
@@ -2244,4 +2246,11 @@
     <string name="ringtone1_title">Vyzváněcí tón telefonu – SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Vyzváněcí tón telefonu – SIM 2</string>
+    <!-- Display cutout -->
+    <string name="sysui_display_cutout_title">Výřez displeje</string>
+    <string name="sysui_display_cutout_summary">Vynutit černé zbarvení oblasti výřezu displeje</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_title">Adaptivní přehrávání</string>
+    <string name="adaptive_playback_summary">Pozastavit média, je‑li ztlumena hlasitost a\u00a0pokračovat v\u00a0přehrávání zvyšováním hlasitosti v\u00a0rozmezí časového limitu</string>
+    <string name="adaptive_playback_timeout_title">Časový limit přehrávání</string>
 </resources>

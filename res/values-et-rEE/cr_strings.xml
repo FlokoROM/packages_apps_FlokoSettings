@@ -355,6 +355,8 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Toitemenüü</string>
     <string name="lockscreen_enable_power_menu_summary">Luba toitemenüü ligipääs turvalisel lukustuskuval</string>
+    <string name="lockscreen_secure_power_menu_title">Turvaline toitemenüü</string>
+    <string name="lockscreen_secure_power_menu_summary">Luba toitemenüü tegevused ainult peale autentimist</string>
     <!-- Quick settings on secure lockscreen -->
     <string name="lockscreen_enable_qs_title">Kiirsätted</string>
     <string name="lockscreen_enable_qs_summary">Luba kiirseadete ligipääs turvalisel lukustuskuval</string>
@@ -2017,7 +2019,7 @@
     <!-- Message in WPS dialog at start up [CHAR LIMIT=150] -->
     <string name="wifi_wps_setup_msg">WPSi käivitamine\u2026</string>
     <!-- Message in WPS dialog for PBC after start up [CHAR LIMIT=150] -->
-    <string name="wifi_wps_onstart_pbc">Press the Wi\u2011Fi Protected Setup button on your router. It may be called \u201cWPS\u201d or marked with this symbol:</string>
+    <string name="wifi_wps_onstart_pbc">Vajutage oma ruuteril WiFi Protected Setup nuppu. See võib olla nimega \"WPS\" või sisaldada seda sümbolit:</string>
     <!-- Message in WPS dialog for PIN after start up [CHAR LIMIT=150] -->
     <string name="wifi_wps_onstart_pin">Enter pin <xliff:g id="number">%1$s</xliff:g> on your Wi\u2011Fi router. The setup can take up to two minutes to complete.</string>
     <!-- Text displayed when WPS succeeds [CHAR LIMIT=150] -->
@@ -2244,4 +2246,11 @@
     <string name="ringtone1_title">Telefoni helin - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Telefoni helin - SIM 2</string>
+    <!-- Display cutout -->
+    <string name="sysui_display_cutout_title">Ekraani väljalõige</string>
+    <string name="sysui_display_cutout_summary">Tee ekraani väljalõike ala mustaks</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_title">Adaptive playback</string>
+    <string name="adaptive_playback_summary">Pause media when volume is muted and resume it by increasing volume within the timeout</string>
+    <string name="adaptive_playback_timeout_title">Playback timeout</string>
 </resources>

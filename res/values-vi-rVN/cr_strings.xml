@@ -355,6 +355,8 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Menu nguồn</string>
     <string name="lockscreen_enable_power_menu_summary">Cho phép truy cập menu nguồn từ màn hình khoá</string>
+    <string name="lockscreen_secure_power_menu_title">Menu nguồn màn hình khóa</string>
+    <string name="lockscreen_secure_power_menu_summary">Chỉ cho phép dùng menu nguồn sau khi mở khóa</string>
     <!-- Quick settings on secure lockscreen -->
     <string name="lockscreen_enable_qs_title">Cài đặt nhanh</string>
     <string name="lockscreen_enable_qs_summary">Cho phép truy cập cài đặt nhanh từ màn hình khoá</string>
@@ -2244,4 +2246,11 @@
     <string name="ringtone1_title">Nhạc chuông - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Nhạc chuông - SIM 2</string>
+    <!-- Display cutout -->
+    <string name="sysui_display_cutout_title">Vết cắt trên màn hình</string>
+    <string name="sysui_display_cutout_summary">Buộc hiển thị màu đen cho vùng cắt </string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_title">Phát nhạc linh động</string>
+    <string name="adaptive_playback_summary">Dừng bài hát khi tắt âm lượng và phát tiếp tục khi tăng âm lượng trong thời gian </string>
+    <string name="adaptive_playback_timeout_title">Thời gian phát lại</string>
 </resources>

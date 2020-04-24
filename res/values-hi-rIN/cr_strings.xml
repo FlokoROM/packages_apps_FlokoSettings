@@ -146,19 +146,19 @@
     <string name="shortcut_action_help_main">To add a %1$s, select the Add icon. Once a %1$s is added, selecting the row will change the target%2$s\n\nTo remove a %1$s, swipe the row horizontally left or right. Re-order a %1$s in the list by vertically dragging the anchor on the left.\n\nTo clear or reset to defaults, select the Reset icon.</string>
     <string name="shortcut_action_help_delete_last_entry">सूची में प्रत्येक %1$s को हटाने से सुविधा पूरी तरह से अक्षम हो जाएगी।</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Removing every %1$s in the list will disable the second pie layer entirely.</string>
-    <string name="shortcuts_applications">Applications</string>
+    <string name="shortcuts_applications">एप्लीकेशंस:</string>
     <string name="shortcuts_select_custom_app_title">Select custom application</string>
     <string name="shortcuts_icon_picker_type">Select icon type:</string>
-    <string name="shortcuts_icon_default">Default</string>
+    <string name="shortcuts_icon_default">डिफॉल्ट</string>
     <string name="shortcuts_icon_presets">System icons</string>
-    <string name="shortcuts_icon_custom">Gallery</string>
+    <string name="shortcuts_icon_custom">गैलरी</string>
     <string name="shortcuts_icon_picker_choose_icon_title">Choose icon</string>
-    <string name="shortcuts_icon_picker_alarm">Alarm</string>
+    <string name="shortcuts_icon_picker_alarm">अलार्म</string>
     <string name="shortcuts_icon_picker_andy">Andy</string>
-    <string name="shortcuts_icon_picker_battery">Battery</string>
-    <string name="shortcuts_icon_picker_browser">Browser</string>
-    <string name="shortcuts_icon_picker_calendar">Calendar</string>
-    <string name="shortcuts_icon_picker_camera">Camera</string>
+    <string name="shortcuts_icon_picker_battery">बैटरी</string>
+    <string name="shortcuts_icon_picker_browser">ब्राउज़र</string>
+    <string name="shortcuts_icon_picker_calendar">कैलेंडर</string>
+    <string name="shortcuts_icon_picker_camera">कैमरा</string>
     <string name="shortcuts_icon_picker_cloud">Cloud</string>
     <string name="shortcuts_icon_picker_contact">Contact</string>
     <string name="shortcuts_icon_picker_directdial">Direct Dial</string>
@@ -214,25 +214,25 @@
     <string name="browser">ब्राउज़र</string>
     <string name="browser2">Browser2</string>
     <string name="calculator">कैलकुलेटर</string>
-    <string name="calendar">Calendar</string>
+    <string name="calendar">कैलेंडर</string>
     <string name="calls">Calls</string>
-    <string name="camera">Camera</string>
+    <string name="camera">कैमरा</string>
     <string name="chrome">क्रोम</string>
     <string name="clock">घड़ी</string>
     <string name="cnn">Cnn</string>
     <string name="deezer2">Deezer2</string>
     <string name="deezer">Deezer</string>
     <string name="dolphin2">डॉल्फिन</string>
-    <string name="downloads">Downloads</string>
+    <string name="downloads">डाउनलोड</string>
     <string name="dropbox">Dropbox</string>
     <string name="ebay">Ebay</string>
     <string name="email">ईमेल</string>
     <string name="evernote">Evernote</string>
-    <string name="explorer">Explorer</string>
+    <string name="explorer">एक्सप्लोरर</string>
     <string name="falcon">Falcon</string>
     <string name="fb">फेसबुक</string>
     <string name="flipboard">फ्लिपबोर्ड</string>
-    <string name="foursquare">Foursquare</string>
+    <string name="foursquare">फोरस्क्वायर</string>
     <string name="firefox">फायरफॉक्स</string>
     <string name="googlebuzz">गूगल बज़</string>
     <string name="googledocs">गूगल डॉक्स</string>
@@ -241,10 +241,10 @@
     <string name="mic">माइक</string>
     <string name="newyorktimes">Newyork times</string>
     <string name="rootexplorer">Root explorer</string>
-    <string name="sim">Sim</string>
+    <string name="sim">सिम</string>
     <string name="teamviewer">Teamviewer</string>
     <string name="totalcommander">Total commander</string>
-    <string name="weather">Weather</string>
+    <string name="weather">मौसम</string>
     <string name="golocker">Go locker</string>
     <string name="googlecurrents">Google currents</string>
     <string name="googletalk">Google talk</string>
@@ -355,6 +355,8 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Power menu</string>
     <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+    <string name="lockscreen_secure_power_menu_title">Secure power menu</string>
+    <string name="lockscreen_secure_power_menu_summary">Allow power menu action only after authentication</string>
     <!-- Quick settings on secure lockscreen -->
     <string name="lockscreen_enable_qs_title">Quick settings</string>
     <string name="lockscreen_enable_qs_summary">Allow accessing quick settings on secure lockscreen</string>
@@ -2244,4 +2246,11 @@
     <string name="ringtone1_title">Phone ringtone - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <!-- Display cutout -->
+    <string name="sysui_display_cutout_title">Display cutout</string>
+    <string name="sysui_display_cutout_summary">Force the display cutout area to black</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_title">Adaptive playback</string>
+    <string name="adaptive_playback_summary">Pause media when volume is muted and resume it by increasing volume within the timeout</string>
+    <string name="adaptive_playback_timeout_title">Playback timeout</string>
 </resources>

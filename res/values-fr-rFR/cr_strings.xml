@@ -355,6 +355,8 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Menu Marche/Arrêt</string>
     <string name="lockscreen_enable_power_menu_summary">Permet l\'accès au menu Marche/Arrêt sur l\'écran de verrouillage</string>
+    <string name="lockscreen_secure_power_menu_title">Menu Marche/Arrêt sécurisé</string>
+    <string name="lockscreen_secure_power_menu_summary">Autoriser le menu Marche/Arrêt seulement après authentification</string>
     <!-- Quick settings on secure lockscreen -->
     <string name="lockscreen_enable_qs_title">Réglages rapides</string>
     <string name="lockscreen_enable_qs_summary">Permet l\'accès aux paramètres rapides sur l\'écran de déverrouillage</string>
@@ -2245,4 +2247,11 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="ringtone1_title">Sonnerie du téléphone - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Sonnerie du téléphone - SIM 2</string>
+    <!-- Display cutout -->
+    <string name="sysui_display_cutout_title">Afficher la coupure d\'écran</string>
+    <string name="sysui_display_cutout_summary">Force l\'affichage de la zone découpée en noir</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_title">Lecture adaptative</string>
+    <string name="adaptive_playback_summary">Mettre en pause lorsque le volume est mis en sourdine et reprendre la lecture en augmentant le volume suivant le délais réglé</string>
+    <string name="adaptive_playback_timeout_title">Délais de reprise</string>
 </resources>
