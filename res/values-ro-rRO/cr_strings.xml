@@ -1770,6 +1770,7 @@
     <string name="keywords_lights_brightness_level">diminuare luminozitatea led</string>
     <string name="notification_light_automagic">Alege culorile automat</string>
     <string name="notification_light_automagic_summary">Se aleg culorile automat</string>
+    <string name="notification_light_override">Suprascrie toate aplicațiile</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Setări de lumină</string>
     <string name="led_notification_text">Lumină LED activată de setări</string>
@@ -2266,4 +2267,6 @@
     <string name="ringtone_focus_mode_title">Când setul cu cască este conectat, apelul de intrare se execută</string>
     <string name="ringtone_focus_mode_dynamic">Cască doar dacă muzica este activă</string>
     <string name="ringtone_focus_mode_stock">Atât difuzorul, cât şi căştile</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Temperatura bateriei</string>
 </resources>

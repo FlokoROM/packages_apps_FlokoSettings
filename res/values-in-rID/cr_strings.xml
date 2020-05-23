@@ -1770,6 +1770,7 @@
     <string name="keywords_lights_brightness_level">Kecerahan led redup</string>
     <string name="notification_light_automagic">Pilih warna otomatis</string>
     <string name="notification_light_automagic_summary">Memilih warna secara otomatis</string>
+    <string name="notification_light_override">Override all apps</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Pengaturan cahaya</string>
     <string name="led_notification_text">Lampu LED diaktifkan oleh pengaturan</string>
@@ -2266,4 +2267,6 @@
     <string name="ringtone_focus_mode_title">Saat headset terhubung, panggilan masuk diputar</string>
     <string name="ringtone_focus_mode_dynamic">Hanya headset jika musik aktif</string>
     <string name="ringtone_focus_mode_stock">Baik speaker maupun headset</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Temperatur baterai</string>
 </resources>

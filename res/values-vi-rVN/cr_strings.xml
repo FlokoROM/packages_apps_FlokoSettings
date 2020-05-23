@@ -1770,6 +1770,7 @@
     <string name="keywords_lights_brightness_level">đèn Led mờ sáng</string>
     <string name="notification_light_automagic">Chọn màu tự động</string>
     <string name="notification_light_automagic_summary">Chọn màu một cách tự động</string>
+    <string name="notification_light_override">Ghi đè tất cả ứng dụng</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Cài đặt đèn báo</string>
     <string name="led_notification_text">Đèn LED đã bật theo cài đặt</string>
@@ -2266,4 +2267,6 @@
     <string name="ringtone_focus_mode_title">Khi tai nghe được kết nối, cuộc gọi đến sẽ bật</string>
     <string name="ringtone_focus_mode_dynamic">Tai nghe chỉ hoạt động khi nhạc đang phát</string>
     <string name="ringtone_focus_mode_stock">Cả loa và tai nghe</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Nhiệt độ pin</string>
 </resources>

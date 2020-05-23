@@ -1779,6 +1779,7 @@
     <string name="keywords_lights_brightness_level">暗く led 明るさ</string>
     <string name="notification_light_automagic">色を自動的に選択</string>
     <string name="notification_light_automagic_summary">色を自動的に選択します</string>
+    <string name="notification_light_override">Override all apps</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">ライトの設定</string>
     <string name="led_notification_text">設定によって LED ライトが有効になっています</string>
@@ -2275,4 +2276,6 @@
     <string name="ringtone_focus_mode_title">ヘッドセットを接続時、着信音を再生する</string>
     <string name="ringtone_focus_mode_dynamic">音楽有効時はヘッドセットのみ</string>
     <string name="ringtone_focus_mode_stock">スピーカーとヘッドセット両方</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Battery temperature</string>
 </resources>

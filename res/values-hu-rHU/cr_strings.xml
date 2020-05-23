@@ -1770,6 +1770,7 @@
     <string name="keywords_lights_brightness_level">LED fényerő halványítása</string>
     <string name="notification_light_automagic">Automatikus színválasztás</string>
     <string name="notification_light_automagic_summary">Automatikus színválasztás</string>
+    <string name="notification_light_override">Az összes alkalmazás felülírása</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">LED fény beállítások</string>
     <string name="led_notification_text">LED fény engedélyezve</string>
@@ -2266,4 +2267,6 @@
     <string name="ringtone_focus_mode_title">Ha épp fülhallgatót használ, a bejövő hívás csengése hol legyen hallható</string>
     <string name="ringtone_focus_mode_dynamic">Csak a fejhallgatón, ha zenelejátszás van folyamatban</string>
     <string name="ringtone_focus_mode_stock">A telefon hangszóróján és a fejhallgatón is</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Akkuhőmérséklet</string>
 </resources>

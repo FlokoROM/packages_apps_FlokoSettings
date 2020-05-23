@@ -1770,6 +1770,7 @@
     <string name="keywords_lights_brightness_level">brilho de leds escuros</string>
     <string name="notification_light_automagic">Escolha automática das cores</string>
     <string name="notification_light_automagic_summary">Escolher as cores automaticamente</string>
+    <string name="notification_light_override">Substituir todos os aplicativos</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Configurações de luz</string>
     <string name="led_notification_text">Luz de LED ativada nas configurações</string>
@@ -2266,4 +2267,6 @@
     <string name="ringtone_focus_mode_title">Quando o fone de ouvido estiver conectado, as chamadas recebidas serão reproduzidas</string>
     <string name="ringtone_focus_mode_dynamic">Fone de ouvido apenas se a música estiver ativa</string>
     <string name="ringtone_focus_mode_stock">Alto-falante e fone de ouvido</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Temperatura da bateria</string>
 </resources>
