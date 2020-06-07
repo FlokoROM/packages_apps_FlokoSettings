@@ -1704,9 +1704,9 @@
     <string name="anbi_title">Accidental touch</string>
     <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
 
-    <!-- Sensor block -->
-    <string name="sensor_block_title">Sensor block</string>
-    <string name="sensor_block_summary">Block access to significant motion sensors for few battery intensive apps</string>
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor block per-package</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
 
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Pocket detection</string>
@@ -1920,6 +1920,11 @@
     <!-- Full screen aspect ratio -->
     <string name="full_screen_aspect_ratio_title">Full screen aspect ratio</string>
     <string name="full_screen_aspect_ratio_summary">Force apps to use full screen aspect ratio, note that some apps may not work properly in full screen</string>
+
+    <!-- QS Brightness Slider -->
+    <string name="qs_brightness_slider_show_never">Never show</string>
+    <string name="qs_brightness_slider_show_expanded">Show when expanded</string>
+    <string name="qs_brightness_slider_show_always">Show always</string>
 
     <!-- QS Brightness Slider position -->
     <string name="qs_brightness_slider_hide">Hide</string>
@@ -2427,6 +2432,9 @@
     <string name="pulse_ambient_light_color_title">Edge light color</string>
     <string name="pulse_ambient_light_duration_title">Edge light duration</string>
     <string name="pulse_ambient_light_duration_summary">Sets the ambient light animation duration</string>
+    <string name="pulse_ambient_light_layout_title">Edge light view</string>
+    <string name="pulse_ambient_light_layout_solid">Solid</string>
+    <string name="pulse_ambient_light_layout_faded">Faded</string>
 
     <!-- QS battery -->
     <string name="qs_battery_location_title">Battery location</string>
