@@ -2216,11 +2216,6 @@
     <string name="gesture_pill_message">Ocultar a pílula da barra de navegação para gestos em tela cheia.</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Mostrar uma seta animada para o gesto de voltar.</string>
-    <!-- About phone screen, setting option name [CHAR LIMIT=40] -->
-    <string name="selinux_status">Estado SELinux</string>
-    <string name="selinux_status_disabled">Desabilitado</string>
-    <string name="selinux_status_permissive">Permissivo</string>
-    <string name="selinux_status_enforcing">Impondo</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Plataforma</string>
@@ -2277,4 +2272,10 @@
     <string name="ringtone_focus_mode_stock">Alto-falante e auricular</string>
     <!-- Battery temperature -->
     <string name="battery_temperature">Temperatura da bateria</string>
+    <!-- OOS style material dismiss all button for notifications -->
+    <string name="notification_material_dismiss_button_title">Material dimiss button</string>
+    <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
 </resources>
