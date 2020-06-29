@@ -29,12 +29,12 @@
     <string name="quicksettings_title">Швидкі налаштування</string>
     <string name="recents_title">Екран недавніх додатків</string>
     <string name="sound_title">Звук</string>
-    <string name="statusbar_title">Статус бар</string>
+    <string name="statusbar_title">Рядок стану</string>
     <string name="display_title">Екран</string>
     <string name="ui_title">Інтерфейс користувача</string>
     <!-- Power Menu -->
     <string name="powermenu_title">Меню живлення</string>
-    <string name="powermenu_summary">Налаштуйте опції меню ввімкнення</string>
+    <string name="powermenu_summary">Налаштування опцій меню живлення</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Палітра кольорів</string>
     <string name="press_color_to_apply">Натисніть на колір для вибору</string>
@@ -1478,8 +1478,14 @@
     <string name="status_bar_temperature_hide_scale_hide_image">Показувати температуру без одиниць виміру</string>
     <string name="status_bar_show_image">Показувати зображення</string>
     <string name="status_bar_weather_image_color_title">Колір зображення</string>
-    <string name="volte_icon_title">VoLTE піктограма</string>
-    <string name="volte_icon_summary">Показувати картинку VoLTE при наявності</string>
+    <!-- VoLTE icon -->
+    <string name="volte_icon_title">Значок VoLTE</string>
+    <string name="volte_icon_summary">Показувати значок VoLTE при наявності</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Значок VoWiFi</string>
+    <string name="vowifi_icon_summary">Показувати значок VoWiFi при наявності</string>
+    <string name="volte_vowifi_override_title">Перевизначення VoWiFi</string>
+    <string name="volte_vowifi_override_summary">Приховати VoLTE, коли доступний VoWiFi. Це також перевизначає значок сигналу старого стилю для VoWiFi.</string>
     <!-- Ad Away -->
     <string name="adaway_title">Забрати рекламу</string>
     <string name="adaway_summary">Блокування небажаної реклами, використовуючи root-права</string>
@@ -1562,7 +1568,7 @@
     <string name="reset_settings_message">Буде здійснено скидання більшості параметрів crdroid до їх значень за замовчуванням для поточного користувача. Чи хотіли б Ви продовжити?</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">Оновлення</string>
-    <string name="ota_crdroid_summary">Перевірити оновлення ota і однієї для вашого пристрою</string>
+    <string name="ota_crdroid_summary">Перевірка та завантаження оновлення</string>
     <!-- Categories -->
     <string name="ota_category">Оновлення</string>
     <string name="links_category">Посилання</string>
