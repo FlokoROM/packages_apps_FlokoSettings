@@ -79,9 +79,6 @@
     <string name="network_traffic_hidearrow_summary">Ağ etkinliği ok göstergelerini gizler</string>
     <string name="network_traffic_refresh_interval_title">Yenileme aralığı</string>
     <string name="network_traffic_refresh_interval_summary">Bundan sonra hız tekrar ölçülür</string>
-    <!-- Settings suggestions  -->
-    <string name="disable_settings_suggestions_title">Önerileri devre dışı bırak</string>
-    <string name="disable_settings_suggestions_summary">Ayarlar menüsü önerilerini devre dışı bırak</string>
     <!-- Settings summary  -->
     <string name="remove_settings_summary_title">Ayarlar özetini kaldır</string>
     <string name="remove_settings_summary_summary">Kare başlıkları altındaki özetleri kaldır</string>
@@ -2290,5 +2287,16 @@
     <string name="data_usage_app_restrict_all">İzin verilen ağ</string>
     <string name="data_usage_app_restrict_all_summary">Ağ kullanımını etkinleştir</string>
     <!-- A2DP codec priority -->
-    <string name="a2dp_source_codec_priority_title">Bluetooth Audio Codec (preferred)</string>
+    <string name="a2dp_source_codec_priority_title">Bluetooth Ses Kod Çözücü (tercih edilir)</string>
+    <!-- Rotation button -->
+    <string name="show_rotation_button_title">Döndürme butonu</string>
+    <string name="show_rotation_button_summary">Mümkün olduğunda gezinme çubuğunda döndürme butonunu görüntüle</string>
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">SBC HD ses</string>
+    <string name="sbc_hd_priority_summary">SBC kodeki için varsayılan olarak Çift Kanal modunun kullanılıp kullanılmayacağı</string>
+    <!-- Settings Dashboard conditions and suggestions -->
+    <string name="settings_show_conditions_title">Dashboard conditions</string>
+    <string name="settings_show_conditions_summary">Display condition cards in Settings screen</string>
+    <string name="settings_show_suggestions_title">Dashboard suggestions</string>
+    <string name="settings_show_suggestions_summary">Display suggestion cards in Settings screen</string>
 </resources>

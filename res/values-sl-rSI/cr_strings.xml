@@ -79,9 +79,6 @@
     <string name="network_traffic_hidearrow_summary">Skrij puščice indikatorja omrežnega prometa</string>
     <string name="network_traffic_refresh_interval_title">Interval osveževanja</string>
     <string name="network_traffic_refresh_interval_summary">Čas, po katerem je hitrost ponovno izmerjena</string>
-    <!-- Settings suggestions  -->
-    <string name="disable_settings_suggestions_title">Onemogoči predloge</string>
-    <string name="disable_settings_suggestions_summary">Onemogoči predloge na armaturni plošči</string>
     <!-- Settings summary  -->
     <string name="remove_settings_summary_title">Odstrani povzetek nastavitev</string>
     <string name="remove_settings_summary_summary">Odstrani povzetek pod naslovi ploščic</string>
@@ -2291,4 +2288,15 @@
     <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
     <!-- A2DP codec priority -->
     <string name="a2dp_source_codec_priority_title">Bluetooth Audio Codec (preferred)</string>
+    <!-- Rotation button -->
+    <string name="show_rotation_button_title">Rotation button</string>
+    <string name="show_rotation_button_summary">Display rotation button on navigation bar when available</string>
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">SBC HD audio</string>
+    <string name="sbc_hd_priority_summary">Whether to use Dual Channel mode for SBC codec by default</string>
+    <!-- Settings Dashboard conditions and suggestions -->
+    <string name="settings_show_conditions_title">Dashboard conditions</string>
+    <string name="settings_show_conditions_summary">Display condition cards in Settings screen</string>
+    <string name="settings_show_suggestions_title">Dashboard suggestions</string>
+    <string name="settings_show_suggestions_summary">Display suggestion cards in Settings screen</string>
 </resources>

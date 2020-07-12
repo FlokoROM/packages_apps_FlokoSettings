@@ -79,9 +79,6 @@
     <string name="network_traffic_hidearrow_summary">Masquer les flèches du moniteur de trafic</string>
     <string name="network_traffic_refresh_interval_title">Intervalle d\'actualisation</string>
     <string name="network_traffic_refresh_interval_summary">Durée après laquelle la vitesse est remesurée</string>
-    <!-- Settings suggestions  -->
-    <string name="disable_settings_suggestions_title">Désactiver les suggestions</string>
-    <string name="disable_settings_suggestions_summary">Désactiver les suggestions sur le tableau de bord</string>
     <!-- Settings summary  -->
     <string name="remove_settings_summary_title">Supprimer les paramètres</string>
     <string name="remove_settings_summary_summary">Supprimer le sommaire sous tuile titres</string>
@@ -2292,4 +2289,15 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="data_usage_app_restrict_all_summary">Active l\'utilisation des communications réseau</string>
     <!-- A2DP codec priority -->
     <string name="a2dp_source_codec_priority_title">Codec Audio Bluetooth (préféré)</string>
+    <!-- Rotation button -->
+    <string name="show_rotation_button_title">Bouton de rotation</string>
+    <string name="show_rotation_button_summary">Afficher le bouton de rotation sur la barre de navigation lorsque disponible</string>
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">Audio SBC HD</string>
+    <string name="sbc_hd_priority_summary">Utiliser par défaut le mode double canal pour le codec SBC</string>
+    <!-- Settings Dashboard conditions and suggestions -->
+    <string name="settings_show_conditions_title">Conditions du tableau de bord</string>
+    <string name="settings_show_conditions_summary">Afficher les cartes de conditions dans l\'écran des paramètres</string>
+    <string name="settings_show_suggestions_title">Suggestions sur le tableau de bord</string>
+    <string name="settings_show_suggestions_summary">Afficher les cartes de suggestion dans l\'écran des paramètres</string>
 </resources>
