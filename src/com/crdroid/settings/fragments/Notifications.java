@@ -42,7 +42,6 @@ import com.android.settingslib.search.SearchIndexable;
 import com.crdroid.settings.R;
 import com.crdroid.settings.fragments.notifications.VibrationSettingsPreferenceFragment;
 import com.crdroid.settings.fragments.notifications.Ticker;
-import com.crdroid.settings.utils.DeviceUtils;
 
 import java.util.List;
 import java.util.ArrayList;
