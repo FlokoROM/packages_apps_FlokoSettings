@@ -932,6 +932,9 @@
     <string name="screenshot_type_title">Čiastočná snímka obrazovky</string>
     <string name="screenshot_type_fullscreen">Zhotoviť snímku celej obrazovky</string>
     <string name="screenshot_type_partial">Zvoľte oblasť pomocou tlačidiel hlasitosti, ktorú chcete použiť ako snímku obrazovky</string>
+    <!-- Screenshot delay  -->
+    <string name="screenshot_delay_title">Screenshot delay</string>
+    <string name="screenshot_delay_summary">Delay before actual screenshot via volume keys</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">Možnosti snímky obrazovky</string>
     <string name="screenshot_edit_app">Editor snímok obrazovky</string>
@@ -2290,4 +2293,7 @@
     <string name="settings_show_conditions_summary">Zobrazit karty s podmienkami na obrazovke Nastavení</string>
     <string name="settings_show_suggestions_title">Návrhy na hlavnom panely</string>
     <string name="settings_show_suggestions_summary">Zobrazit karty s návrhmi na obrazovke Nastavení</string>
+    <!-- Minimal brightness -->
+    <string name="auto_brightness_min_title">Minimal brightness level</string>
+    <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
 </resources>

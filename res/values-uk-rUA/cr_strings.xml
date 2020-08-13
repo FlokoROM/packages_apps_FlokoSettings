@@ -932,6 +932,9 @@
     <string name="screenshot_type_title">Знімок частини екрану</string>
     <string name="screenshot_type_fullscreen">Повноекранний скріншот</string>
     <string name="screenshot_type_partial">Перетягніть виділення області для скріншота з допомогою клавіші регулювання гучності</string>
+    <!-- Screenshot delay  -->
+    <string name="screenshot_delay_title">Затримка знімку екрана</string>
+    <string name="screenshot_delay_summary">Затримка перед фактичним створенням знімку екрана за допомогою клавіш гучності</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">Опції скріншота</string>
     <string name="screenshot_edit_app">Редактор скріншотів</string>
@@ -2290,4 +2293,7 @@
     <string name="settings_show_conditions_summary">Показувати плитки стану на екрані налаштувань</string>
     <string name="settings_show_suggestions_title">Пропозиції на інформаційній панелі</string>
     <string name="settings_show_suggestions_summary">Показувати плитки пропозицій на екрані налаштувань</string>
+    <!-- Minimal brightness -->
+    <string name="auto_brightness_min_title">Мінімальний рівень яскравості</string>
+    <string name="auto_brightness_description_new">Яскравість екрана автоматично пристосовується до середовища й ваших дій.\n\nВи можете встановити мінімальний рівень яскравості, який буде використовуватися.</string>
 </resources>

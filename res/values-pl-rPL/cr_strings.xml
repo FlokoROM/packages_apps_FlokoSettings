@@ -932,6 +932,9 @@
     <string name="screenshot_type_title">Częściowy zrzut ekranu</string>
     <string name="screenshot_type_fullscreen">Zrzut ekranu w trybie pełnoekranowym</string>
     <string name="screenshot_type_partial">Przeciągnij zaznaczenie na obszar do zrzutu ekranu za pomocą przycisków głośności</string>
+    <!-- Screenshot delay  -->
+    <string name="screenshot_delay_title">Screenshot delay</string>
+    <string name="screenshot_delay_summary">Delay before actual screenshot via volume keys</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">Opcje zrzutu ekranu</string>
     <string name="screenshot_edit_app">Edytor zrzutów ekranu</string>
@@ -2291,4 +2294,7 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="settings_show_conditions_summary">Wyświetlaj karty warunkowe na ekranie ustawień</string>
     <string name="settings_show_suggestions_title">Sugestie panelu ustawień</string>
     <string name="settings_show_suggestions_summary">Wyświetlaj karty warunkowe na ekranie ustawień</string>
+    <!-- Minimal brightness -->
+    <string name="auto_brightness_min_title">Minimalny poziom jasności</string>
+    <string name="auto_brightness_description_new">Jasność ekranu zostanie automatycznie dostosowana do twojego otoczenia i aktywności.\n\nMożesz dostosować minimalny poziom jasności, który zostanie użyty.</string>
 </resources>

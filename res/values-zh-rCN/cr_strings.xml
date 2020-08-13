@@ -932,6 +932,9 @@
     <string name="screenshot_type_title">窗口截图</string>
     <string name="screenshot_type_fullscreen">同时按住音量键全屏截图</string>
     <string name="screenshot_type_partial">通过音量键在区域上拖动选区以进行截图</string>
+    <!-- Screenshot delay  -->
+    <string name="screenshot_delay_title">截图延迟</string>
+    <string name="screenshot_delay_summary">通过音量键延迟实际截图</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">屏幕截图选项</string>
     <string name="screenshot_edit_app">屏幕截图编辑器</string>
@@ -2290,4 +2293,7 @@
     <string name="settings_show_conditions_summary">在设置界面显示条件卡</string>
     <string name="settings_show_suggestions_title">面板建议摘要</string>
     <string name="settings_show_suggestions_summary">在设置界面显示建议卡</string>
+    <!-- Minimal brightness -->
+    <string name="auto_brightness_min_title">最小亮度级别</string>
+    <string name="auto_brightness_description_new">您的屏幕亮度将自动根据您的环境和活动进行调整。\n\n您可以调整将使用的最小亮度等级。</string>
 </resources>

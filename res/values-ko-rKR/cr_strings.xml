@@ -932,6 +932,9 @@
     <string name="screenshot_type_title">부분 스크린샷</string>
     <string name="screenshot_type_fullscreen">전체 화면 스크린샷</string>
     <string name="screenshot_type_partial">볼륨키를 이용하여 스크린샷 영역을 선택합니다</string>
+    <!-- Screenshot delay  -->
+    <string name="screenshot_delay_title">Screenshot delay</string>
+    <string name="screenshot_delay_summary">Delay before actual screenshot via volume keys</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">화면 캡처 설정</string>
     <string name="screenshot_edit_app">스크린 샷 편집기</string>
@@ -2291,4 +2294,7 @@
     <string name="settings_show_conditions_summary">Display condition cards in Settings screen</string>
     <string name="settings_show_suggestions_title">Dashboard suggestions</string>
     <string name="settings_show_suggestions_summary">Display suggestion cards in Settings screen</string>
+    <!-- Minimal brightness -->
+    <string name="auto_brightness_min_title">Minimal brightness level</string>
+    <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
 </resources>

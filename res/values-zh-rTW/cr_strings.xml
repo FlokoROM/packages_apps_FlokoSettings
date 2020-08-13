@@ -932,6 +932,9 @@
     <string name="screenshot_type_title">擷取螢幕畫面類型</string>
     <string name="screenshot_type_fullscreen">使用音量鍵擷取全螢幕畫面</string>
     <string name="screenshot_type_partial">使用音量鍵擷取螢幕畫面後可以使用選取工具裁剪</string>
+    <!-- Screenshot delay  -->
+    <string name="screenshot_delay_title">Screenshot delay</string>
+    <string name="screenshot_delay_summary">Delay before actual screenshot via volume keys</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">螢幕畫面擷取選項</string>
     <string name="screenshot_edit_app">螢幕截圖編輯器</string>
@@ -2290,4 +2293,7 @@
     <string name="settings_show_conditions_summary">在設定主頁中顯示摘要</string>
     <string name="settings_show_suggestions_title">設定建議</string>
     <string name="settings_show_suggestions_summary">在設定主頁中顯示建議</string>
+    <!-- Minimal brightness -->
+    <string name="auto_brightness_min_title">最低亮度等級</string>
+    <string name="auto_brightness_description_new">營幕亮度將自動適應您的環境和活動。\n\n您可以調整將要使用的最低亮度。</string>
 </resources>

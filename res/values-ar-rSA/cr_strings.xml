@@ -932,6 +932,9 @@
     <string name="screenshot_type_title">لقطة جزئية للشاشة</string>
     <string name="screenshot_type_fullscreen">لقطة كاملة للشاشة</string>
     <string name="screenshot_type_partial">سحب التحديد على المنطقة معينة لأخذ لقطة للشاشة عبر مفاتيح مستوى الصوت</string>
+    <!-- Screenshot delay  -->
+    <string name="screenshot_delay_title">Screenshot delay</string>
+    <string name="screenshot_delay_summary">Delay before actual screenshot via volume keys</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">خيارات لقطة الشاشة</string>
     <string name="screenshot_edit_app">محرر لقطة شاشة</string>
@@ -2290,4 +2293,7 @@
     <string name="settings_show_conditions_summary">عرض بطاقات الحالة في شاشة الإعدادات</string>
     <string name="settings_show_suggestions_title">اقتراحات لوحة التحكم</string>
     <string name="settings_show_suggestions_summary">عرض بطاقات الاقتراح في شاشة الإعدادات</string>
+    <!-- Minimal brightness -->
+    <string name="auto_brightness_min_title">Minimal brightness level</string>
+    <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
 </resources>

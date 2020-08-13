@@ -932,6 +932,9 @@
     <string name="screenshot_type_title">Chụp một phần màn hình</string>
     <string name="screenshot_type_fullscreen">Chụp ảnh toàn màn hình</string>
     <string name="screenshot_type_partial">Kéo lựa chọn vùng cần chụp màn hình thông qua phím âm lượng</string>
+    <!-- Screenshot delay  -->
+    <string name="screenshot_delay_title">Screenshot delay</string>
+    <string name="screenshot_delay_summary">Delay before actual screenshot via volume keys</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">Tùy chọn ảnh chụp màn hình</string>
     <string name="screenshot_edit_app">Chỉnh sửa ảnh chụp màn hình</string>
@@ -2290,4 +2293,7 @@
     <string name="settings_show_conditions_summary">Hiển thị thẻ điều kiện trong màn hình Cài đặt</string>
     <string name="settings_show_suggestions_title">Bảng điều khiển đề xuất</string>
     <string name="settings_show_suggestions_summary">Hiển thị thẻ gợi ý trong màn hình Cài đặt</string>
+    <!-- Minimal brightness -->
+    <string name="auto_brightness_min_title">Mức sáng tối thiểu</string>
+    <string name="auto_brightness_description_new">Độ sáng màn hình của bạn sẽ tự động điều chỉnh theo môi trường và hoạt động của bạn.\n\nBạn có thể điều chỉnh mức độ sáng tối thiểu sẽ được sử dụng.</string>
 </resources>

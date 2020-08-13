@@ -932,6 +932,9 @@
     <string name="screenshot_type_title">Tipo di screenshot</string>
     <string name="screenshot_type_fullscreen">Screenshot dell\'intero schermo</string>
     <string name="screenshot_type_partial">Trascinare la selezione sulla zona che si vuole catturare</string>
+    <!-- Screenshot delay  -->
+    <string name="screenshot_delay_title">Ritardo screenshot</string>
+    <string name="screenshot_delay_summary">Ritardo prima dello screenshot reale tramite i tasti del volume</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">Opzioni screenshot</string>
     <string name="screenshot_edit_app">Modifica screenshot</string>
@@ -2290,4 +2293,7 @@
     <string name="settings_show_conditions_summary">Visualizza le schede di condizione nella schermata Impostazioni</string>
     <string name="settings_show_suggestions_title">Suggerimenti pannello impostazioni</string>
     <string name="settings_show_suggestions_summary">Visualizza le schede suggerimento nella schermata Impostazioni</string>
+    <!-- Minimal brightness -->
+    <string name="auto_brightness_min_title">Livello minimo di luminosità</string>
+    <string name="auto_brightness_description_new">La luminosità dello schermo si adeguerà automaticamente al tuo ambiente e alle tue attività.\n\nPuoi regolare un livello di luminosità minimo che verrà utilizzato.</string>
 </resources>
