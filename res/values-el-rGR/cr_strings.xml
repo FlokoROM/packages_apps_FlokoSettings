@@ -2298,4 +2298,8 @@
     <!-- Minimal brightness -->
     <string name="auto_brightness_min_title">Minimal brightness level</string>
     <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
+    <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Εμφάνιση ειδοποιήσεων πρόσβασης στο πρόχειρο</string>
+    <string name="clipboard_toast_info_show_important">Εμφάνιση μόνο σημαντικών ειδοποιήσεων</string>
+    <string name="clipboard_toast_info_show_all">Εμφάνιση ειδοποιήσεων πρόσβασης στο πρόχειρο</string>
 </resources>

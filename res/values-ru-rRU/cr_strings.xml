@@ -2296,4 +2296,8 @@
     <!-- Minimal brightness -->
     <string name="auto_brightness_min_title">Минимальный уровень яркости</string>
     <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
+    <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Оповещения о доступе в буфер обмена</string>
+    <string name="clipboard_toast_info_show_important">Показывать только важные оповещения</string>
+    <string name="clipboard_toast_info_show_all">Показать все оповещения о доступе</string>
 </resources>
