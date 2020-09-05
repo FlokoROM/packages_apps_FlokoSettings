@@ -695,6 +695,7 @@
     <string name="navbar_arrow_keys_title">Mostrar teclas de seta enquanto escreve</string>
     <string name="navbar_arrow_keys_summary">Mostrar os botões de cursor para a esquerda e para a direita enquanto escreve. Sobrepõe-se à definição do teclado.</string>
     <string name="navbar_left_summary">Colocar a barra de navegação no lado esquerdo do ecrã em modo paisagem</string>
+    <string name="navbar_back_long_press_title">Back long press action</string>
     <string name="navbar_home_long_press_title">Ação de pressão longa no botão de Página Inicial</string>
     <string name="navbar_home_double_tap_title">Ação duplo toque página Inicial</string>
     <string name="navbar_app_switch_long_press_title">Pressão longa no botão recentes</string>
@@ -2300,4 +2301,11 @@
     <string name="clipboard_toast_info_title">Clipboard access alerts</string>
     <string name="clipboard_toast_info_show_important">Show only important alerts</string>
     <string name="clipboard_toast_info_show_all">Show all access alerts</string>
+    <!-- Navbar styles -->
+    <string name="navbar_style_title">Navbar style</string>
+    <string name="navbar_default">Default</string>
+    <string name="navbar_asus">ASUS</string>
+    <string name="navbar_oneplus">OnePlus</string>
+    <string name="navbar_oneui">One UI</string>
+    <string name="navbar_tecno">Tecno Camon</string>
 </resources>

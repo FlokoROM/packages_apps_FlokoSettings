@@ -695,6 +695,7 @@
     <string name="navbar_arrow_keys_title">Паказваць стрэлкі падчас друкаваньня тэксту</string>
     <string name="navbar_arrow_keys_summary">Паказваць кнопки левага и правага курсору падчас друкавання. Кнопка варыянту друкавання будзе схавана.</string>
     <string name="navbar_left_summary">Адлюстроўваць навігацыйны радок злева ў альбомнай арыентацыі</string>
+    <string name="navbar_back_long_press_title">Дзеянне пры доўгім націску кнопкі Назад</string>
     <string name="navbar_home_long_press_title">Доўгае утрыманне кнопкі Дадому</string>
     <string name="navbar_home_double_tap_title">Падвойны націск кнопкі Дадому</string>
     <string name="navbar_app_switch_long_press_title">Доўгае утрыманне кнопкі Нядаўнія</string>
@@ -2300,4 +2301,11 @@
     <string name="clipboard_toast_info_title">Абвесткі аб доступе да буфера абмену</string>
     <string name="clipboard_toast_info_show_important">Паказваць толькі важныя абвесткі</string>
     <string name="clipboard_toast_info_show_all">Паказаць усе абвесткі аб доступе</string>
+    <!-- Navbar styles -->
+    <string name="navbar_style_title">Стыль панэлі навігацыі</string>
+    <string name="navbar_default">Па змаўчанні</string>
+    <string name="navbar_asus">ASUS</string>
+    <string name="navbar_oneplus">OnePlus</string>
+    <string name="navbar_oneui">One UI</string>
+    <string name="navbar_tecno">Tecno Camon</string>
 </resources>

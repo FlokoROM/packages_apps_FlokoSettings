@@ -695,6 +695,7 @@
     <string name="navbar_arrow_keys_title">Pokaż klawisze strzałek podczas pisania</string>
     <string name="navbar_arrow_keys_summary">Pokaż przyciski lewego i prawego kursora podczas pisania. Zastępuje przełącznik IME.</string>
     <string name="navbar_left_summary">Umieść pasek nawigacyjny po lewej stronie ekranu w trybie poziomym</string>
+    <string name="navbar_back_long_press_title">Back long press action</string>
     <string name="navbar_home_long_press_title">Akcja długiego naciśnięcia przycisku Home</string>
     <string name="navbar_home_double_tap_title">Akcja podwójnego naciśnięcia przycisku Home</string>
     <string name="navbar_app_switch_long_press_title">Akcja długiego naciśnięcia ostatnio używanych</string>
@@ -2301,4 +2302,11 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="clipboard_toast_info_title">Alerty dostępu do schowka</string>
     <string name="clipboard_toast_info_show_important">Pokaż tylko ważne alerty</string>
     <string name="clipboard_toast_info_show_all">Pokaż wszystkie powiadomienia o dostępie</string>
+    <!-- Navbar styles -->
+    <string name="navbar_style_title">Styl paska nawigacji</string>
+    <string name="navbar_default">Domyślny</string>
+    <string name="navbar_asus">ASUS</string>
+    <string name="navbar_oneplus">OnePlus</string>
+    <string name="navbar_oneui">One UI</string>
+    <string name="navbar_tecno">Tecno Camon</string>
 </resources>

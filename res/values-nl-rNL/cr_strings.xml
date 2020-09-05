@@ -695,6 +695,7 @@
     <string name="navbar_arrow_keys_title">Toon pijltjes toetsen tijdens het typen</string>
     <string name="navbar_arrow_keys_summary">Links en rechts knoppen weergegeven terwijl u typt. Verbergt de IME wisselaar.</string>
     <string name="navbar_left_summary">Verzoek</string>
+    <string name="navbar_back_long_press_title">Actie terug-knop bij lang ingedrukt houden</string>
     <string name="navbar_home_long_press_title">Verzoek</string>
     <string name="navbar_home_double_tap_title">Thuisknop dubbeltik actie</string>
     <string name="navbar_app_switch_long_press_title">Recente apps-knop lang indrukken actie</string>
@@ -2300,4 +2301,11 @@
     <string name="clipboard_toast_info_title">Toegangswaarschuwingen voor klembord</string>
     <string name="clipboard_toast_info_show_important">Toon alleen belangrijke waarschuwingen</string>
     <string name="clipboard_toast_info_show_all">Toon alle toegangswaarschuwingen</string>
+    <!-- Navbar styles -->
+    <string name="navbar_style_title">Navigatiebalk stijl</string>
+    <string name="navbar_default">Standaard</string>
+    <string name="navbar_asus">ASUS</string>
+    <string name="navbar_oneplus">OnePlus</string>
+    <string name="navbar_oneui">One UI</string>
+    <string name="navbar_tecno">Tecno Camon</string>
 </resources>

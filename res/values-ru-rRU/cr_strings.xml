@@ -634,7 +634,7 @@
     <string name="fling_config_restore_error_toast">Ошибка при восстановлении профиля Fling</string>
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_title">О Pulse</string>
-    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
+    <string name="pulse_help_policy_notice_summary">Pulse - это блестящий графический аудио-эквалайзер, работающий при воспроизведении музыки на устройстве</string>
     <string name="pulse_settings">Пульс</string>
     <string name="pulse_settings_summary">Графический эквалайзер для панели навигации и экрана блокировки</string>
     <string name="show_navbar_pulse_title">Pulse в панели навигации</string>
@@ -695,6 +695,7 @@
     <string name="navbar_arrow_keys_title">Показывать стрелки при наборе текста</string>
     <string name="navbar_arrow_keys_summary">Отображать кнопки перемещения курсора влево или вправо при вводе. Кнопка выбора метода ввода отображаться не будет.</string>
     <string name="navbar_left_summary">Показывать панель навигации слева в ландшафтном режиме</string>
+    <string name="navbar_back_long_press_title">Действие при долгом нажатии кнопки назад</string>
     <string name="navbar_home_long_press_title">Долгое нажатий кнопки домой</string>
     <string name="navbar_home_double_tap_title">Двойной нажатие кнопки домой</string>
     <string name="navbar_app_switch_long_press_title">Долгое нажатие кнопки недавние</string>
@@ -2300,4 +2301,11 @@
     <string name="clipboard_toast_info_title">Оповещения о доступе в буфер обмена</string>
     <string name="clipboard_toast_info_show_important">Показывать только важные оповещения</string>
     <string name="clipboard_toast_info_show_all">Показать все оповещения о доступе</string>
+    <!-- Navbar styles -->
+    <string name="navbar_style_title">Стиль панели навигации</string>
+    <string name="navbar_default">По умолчанию</string>
+    <string name="navbar_asus">ASUS</string>
+    <string name="navbar_oneplus">OnePlus</string>
+    <string name="navbar_oneui">One UI</string>
+    <string name="navbar_tecno">Tecno Camon</string>
 </resources>
