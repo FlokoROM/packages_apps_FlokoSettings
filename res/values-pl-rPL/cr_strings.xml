@@ -935,7 +935,7 @@
     <string name="screenshot_type_partial">Przeciągnij zaznaczenie na obszar do zrzutu ekranu za pomocą przycisków głośności</string>
     <!-- Screenshot delay  -->
     <string name="screenshot_delay_title">Opóźnienie zrzutu ekranu</string>
-    <string name="screenshot_delay_summary">Opóźnienie przed rzeczywistym zrzutem ekranu przez klawisze głośności</string>
+    <string name="screenshot_delay_summary">Amount of time you need to hold power and volume buttons to take screenshot</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">Opcje zrzutu ekranu</string>
     <string name="screenshot_edit_app">Edytor zrzutów ekranu</string>
@@ -2309,4 +2309,22 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="navbar_oneplus">OnePlus</string>
     <string name="navbar_oneui">One UI</string>
     <string name="navbar_tecno">Tecno Camon</string>
+    <!-- App lock -->
+    <string name="applock_title">Blokada aplikacji</string>
+    <string name="applock_locked">Zablokowane</string>
+    <string name="applock_unlocked">Odblokowano</string>
+    <string name="applock_locked_apps">Zablokowane aplikacje</string>
+    <string name="applock_unlocked_apps">Odblokowane aplikacje</string>
+    <string name="applock_show_only_on_wake">Uwierzytelnij tylko raz</string>
+    <string name="applock_show_only_on_wake_on_summary">Po uwierzytelnieniu aplikacja pozostaje odblokowana, dopóki ekran nie zostanie wyłączony</string>
+    <string name="applock_show_only_on_wake_off_summary">Po uwierzytelnieniu aplikacja pozostaje odblokowana przez 15 sekund po zakończeniu</string>
+    <string name="applock_lock_notifications">Ukryj treść powiadomień, gdy aplikacja jest zablokowana</string>
+    <string name="applock_setup">Ustaw blokadę aplikacji</string>
+    <string name="applock_overlay_summary">Ta funkcja nie jest dostępna, ponieważ ta aplikacja jest zablokowana</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 aplikacja zablokowana</item>
+        <item quantity="few">1 aplikacja zablokowana</item>
+        <item quantity="many">%d apps locked</item>
+        <item quantity="other">%d apps locked</item>
+    </plurals>
 </resources>

@@ -935,7 +935,7 @@
     <string name="screenshot_type_partial">Arraste a seleção na área para captura da tela através de teclas de volume</string>
     <!-- Screenshot delay  -->
     <string name="screenshot_delay_title">Atraso da captura de tela</string>
-    <string name="screenshot_delay_summary">Atraso antes da captura de tela através de teclas de volume</string>
+    <string name="screenshot_delay_summary">Quantidade de tempo que você precisa para segurar os botões de energia e volume para tirar uma captura de tela</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">Opções de captura de tela</string>
     <string name="screenshot_edit_app">Editor de captura de tela</string>
@@ -2308,4 +2308,20 @@
     <string name="navbar_oneplus">OnePlus</string>
     <string name="navbar_oneui">One UI</string>
     <string name="navbar_tecno">Tecno Camon</string>
+    <!-- App lock -->
+    <string name="applock_title">Bloqueador de aplicativos</string>
+    <string name="applock_locked">Bloqueado</string>
+    <string name="applock_unlocked">Desbloqueado</string>
+    <string name="applock_locked_apps">Aplicativos bloqueados</string>
+    <string name="applock_unlocked_apps">Aplicativos desbloqueados</string>
+    <string name="applock_show_only_on_wake">Autenticar apenas uma vez</string>
+    <string name="applock_show_only_on_wake_on_summary">Uma vez autenticado, o aplicativo permanece desbloqueado até que a tela seja desligada</string>
+    <string name="applock_show_only_on_wake_off_summary">Uma vez autenticado, o aplicativo permanece desbloqueado por 15 segundos após a saída</string>
+    <string name="applock_lock_notifications">Ocultar o conteúdo das notificações quando o aplicativo estiver bloqueado</string>
+    <string name="applock_setup">Configurar o bloqueador de aplicativos</string>
+    <string name="applock_overlay_summary">Esse recurso não está disponível porque este aplicativo está bloqueado</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 aplicativo bloqueado</item>
+        <item quantity="other">%d aplicativos bloqueados</item>
+    </plurals>
 </resources>

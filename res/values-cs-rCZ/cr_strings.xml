@@ -935,7 +935,7 @@
     <string name="screenshot_type_partial">Vyberte pomocí tlačítek hlasitosti oblast, ze které chcete zhotovit snímek obrazovky</string>
     <!-- Screenshot delay  -->
     <string name="screenshot_delay_title">Prodleva tvorby snímku obrazovky</string>
-    <string name="screenshot_delay_summary">Prodleva před vytvořením snímku obrazovky pomocí tlačítek hlasitosti</string>
+    <string name="screenshot_delay_summary">Čas, po který je potřeba držet tlačítka napájení a\u00a0hlasitosti pro pořízení snímku obrazovky</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">Možnosti snímku obrazovky</string>
     <string name="screenshot_edit_app">Editor snímků obrazovky</string>
@@ -2308,4 +2308,22 @@
     <string name="navbar_oneplus">OnePlus</string>
     <string name="navbar_oneui">One UI</string>
     <string name="navbar_tecno">Tecno Camon</string>
+    <!-- App lock -->
+    <string name="applock_title">Zámek aplikací</string>
+    <string name="applock_locked">Uzamknuto</string>
+    <string name="applock_unlocked">Odemknuto</string>
+    <string name="applock_locked_apps">Uzamknuté aplikace</string>
+    <string name="applock_unlocked_apps">Odemknuté aplikace</string>
+    <string name="applock_show_only_on_wake">Ověřit pouze jednou</string>
+    <string name="applock_show_only_on_wake_on_summary">Po ověření zůstane aplikace odemknutá, dokud se nevypne obrazovka</string>
+    <string name="applock_show_only_on_wake_off_summary">Po ověření zůstane aplikace odemknutá po dobu 15\u00a0sekund od jejího ukončení</string>
+    <string name="applock_lock_notifications">Skrýt obsah oznámení, když je aplikace uzamknuta</string>
+    <string name="applock_setup">Nastavení zámku aplikací</string>
+    <string name="applock_overlay_summary">Tato funkce není k\u00a0dispozici, protože tato aplikace je uzamknuta</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 aplikace uzamčena</item>
+        <item quantity="few">%d aplikace uzamčeny</item>
+        <item quantity="many">%d aplikací uzamčeno</item>
+        <item quantity="other">%d aplikací uzamčeno</item>
+    </plurals>
 </resources>

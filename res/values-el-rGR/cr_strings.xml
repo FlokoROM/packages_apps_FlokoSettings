@@ -937,7 +937,7 @@
     <string name="screenshot_type_partial">Drag selection on the area for screenshot via volume keys</string>
     <!-- Screenshot delay  -->
     <string name="screenshot_delay_title">Screenshot delay</string>
-    <string name="screenshot_delay_summary">Delay before actual screenshot via volume keys</string>
+    <string name="screenshot_delay_summary">Χρόνος που πρέπει να πατήσεις το κουμπί λειτουργίας και το κουμπί έντασης για να ληφθεί στιγμιότυπο οθόνης</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">Επιλογές στιγμιότυπου οθόνης</string>
     <string name="screenshot_edit_app">Επεξεργαστής στιγμιότυπου οθόνης</string>
@@ -964,7 +964,7 @@
     <string name="qs_dash_gap_title">QS border dash gap</string>
     <string name="volume_dialog_transparency">Volume dialog opacity</string>
     <string name="volume_dialog_stroke_title">Volume dialog border</string>
-    <string name="volume_dialog_stroke_disabled">Disabled</string>
+    <string name="volume_dialog_stroke_disabled">Απενεργοποιημένο</string>
     <string name="volume_dialog_stroke_accent">Accent color</string>
     <string name="volume_dialog_stroke_custom">Προσαρμοσμένο χρώμα</string>
     <string name="volume_dialog_stroke_color_title">Volume dialog border color</string>
@@ -1025,7 +1025,7 @@
     <string name="doze_vibrate_summary">Duration to vibrate when pulsing notifications</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Current changelog</string>
-    <string name="changelog_crdroid_summary">View changes in the ROM installed</string>
+    <string name="changelog_crdroid_summary">Δες τις αλλαγές στην εγκατεστημένη ROM</string>
     <string name="changelog_crdroid_error">Unable to load changelog</string>
     <!-- About crDroid -->
     <string name="about_crdroid">Περί του crDroid</string>
@@ -2310,4 +2310,20 @@
     <string name="navbar_oneplus">OnePlus</string>
     <string name="navbar_oneui">One UI</string>
     <string name="navbar_tecno">Tecno Camon</string>
+    <!-- App lock -->
+    <string name="applock_title">Εφαρμογή κλειδώματος</string>
+    <string name="applock_locked">Κλειδωμένο</string>
+    <string name="applock_unlocked">Ξεκλείδωτο</string>
+    <string name="applock_locked_apps">Κλειδωμένες εφαρμογές</string>
+    <string name="applock_unlocked_apps">Ξεκλείδωτες εφαρμογές</string>
+    <string name="applock_show_only_on_wake">Ταυτοποίηση μόνο μία φορά</string>
+    <string name="applock_show_only_on_wake_on_summary">Με την ταυτοποίηση, μια εφαρμογή μένει ξεκλείδωτη μέχρι το σβήσιμο της οθόνης</string>
+    <string name="applock_show_only_on_wake_off_summary">Με την ταυτοποίηση, μια εφαρμογή μένει ξεκλείδωτη για 15 δευτερόλεπτα μετά την έξοδο</string>
+    <string name="applock_lock_notifications">Απόκρυψη του περιεχομένου ειδοποίησης όσο η εφαρμογή είναι κλειδωμένη</string>
+    <string name="applock_setup">Ρύθμιση εφαρμογής κλειδώματος</string>
+    <string name="applock_overlay_summary">Αυτό το χαρακτηριστικό δεν είναι διαθέσιμο, επειδή η εφαρμογή είναι κλειδωμένη</string>
+    <plurals name="applock_summary">
+        <item quantity="one">Η εφαρμογή είναι κλειδωμένη</item>
+        <item quantity="other">%d apps locked</item>
+    </plurals>
 </resources>

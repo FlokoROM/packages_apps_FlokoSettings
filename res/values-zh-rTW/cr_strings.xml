@@ -935,7 +935,7 @@
     <string name="screenshot_type_partial">使用音量鍵擷取螢幕畫面後可以使用選取工具裁剪</string>
     <!-- Screenshot delay  -->
     <string name="screenshot_delay_title">螢幕擷取畫面延遲</string>
-    <string name="screenshot_delay_summary">按下音量鍵擷取螢幕畫面前的延遲</string>
+    <string name="screenshot_delay_summary">Amount of time you need to hold power and volume buttons to take screenshot</string>
     <!-- Screenshot editor -->
     <string name="screenshot_options_category">螢幕擷取畫面選項</string>
     <string name="screenshot_edit_app">螢幕擷取畫面編輯器</string>
@@ -2308,4 +2308,19 @@
     <string name="navbar_oneplus">OnePlus</string>
     <string name="navbar_oneui">One UI</string>
     <string name="navbar_tecno">Tecno Camon</string>
+    <!-- App lock -->
+    <string name="applock_title">應用程式鎖定</string>
+    <string name="applock_locked">已鎖定</string>
+    <string name="applock_unlocked">未鎖定</string>
+    <string name="applock_locked_apps">已鎖定的應用程式</string>
+    <string name="applock_unlocked_apps">未鎖定的應用程式</string>
+    <string name="applock_show_only_on_wake">只驗證一次</string>
+    <string name="applock_show_only_on_wake_on_summary">一旦通過驗證，應用程式將會保持解處鎖定狀態直到螢幕關閉</string>
+    <string name="applock_show_only_on_wake_off_summary">一旦通過驗證，應用程式將會在關閉後的 15 秒內保持解除鎖定狀態</string>
+    <string name="applock_lock_notifications">當應用程式為鎖定狀態時隱藏其通知內容</string>
+    <string name="applock_setup">設定應用程式鎖定</string>
+    <string name="applock_overlay_summary">這項功能無法使用，因為此應用程式已被鎖定</string>
+    <plurals name="applock_summary">
+        <item quantity="other">%d 個應用程式已被鎖定</item>
+    </plurals>
 </resources>
