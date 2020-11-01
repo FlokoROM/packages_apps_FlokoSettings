@@ -2324,4 +2324,6 @@
         <item quantity="one">1 alkalmazás lezárva</item>
         <item quantity="other">%d alkalmazás lezárva</item>
     </plurals>
+    <!-- Device Info screen. crDroid legal. -->
+    <string name="crdroidlicense_title">crDroid jogok</string>
 </resources>

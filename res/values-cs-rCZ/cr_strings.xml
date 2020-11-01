@@ -2326,4 +2326,6 @@
         <item quantity="many">%d aplikací uzamčeno</item>
         <item quantity="other">%d aplikací uzamčeno</item>
     </plurals>
+    <!-- Device Info screen. crDroid legal. -->
+    <string name="crdroidlicense_title">Licence crDroid</string>
 </resources>

@@ -2324,4 +2324,6 @@
         <item quantity="one">1 rakendus lukustatud</item>
         <item quantity="other">%d rakendust lukustatud</item>
     </plurals>
+    <!-- Device Info screen. crDroid legal. -->
+    <string name="crdroidlicense_title">seaduslik crDroid</string>
 </resources>

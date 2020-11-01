@@ -2326,4 +2326,6 @@
         <item quantity="many">%d праграм заблакавана</item>
         <item quantity="other">%d праграм заблакавана</item>
     </plurals>
+    <!-- Device Info screen. crDroid legal. -->
+    <string name="crdroidlicense_title">Палітыка прыватнасці crDroid</string>
 </resources>
