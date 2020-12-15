@@ -643,11 +643,11 @@
     <string name="fling_config_restore_error_toast">Fling プロファイルの復元に失敗しました</string>
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_title">Pulseについて</string>
-    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
+    <string name="pulse_help_policy_notice_summary">パルスはデバイス上で音楽を再生した時に表示されるグラフィックイコライザーです。</string>
     <string name="pulse_settings">Pulse</string>
-    <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
-    <string name="show_navbar_pulse_title">Navbar Pulse</string>
-    <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar</string>
+    <string name="pulse_settings_summary">ナビゲーションバーとロック画面に表示されるグラフィックイコライザー</string>
+    <string name="show_navbar_pulse_title">ナビゲーションバーの Pulse</string>
+    <string name="show_navbar_pulse_summary">ナビゲーションバー上のグラフィックイコライザー</string>
     <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
     <string name="show_lockscreen_pulse_summary">Audio graphic equalizer on the lockscreen</string>
     <string name="pulse_render_mode_title">レンダリングモード</string>
@@ -1494,7 +1494,7 @@
     <string name="volte_icon_summary">利用可能な場合に VoLTE のアイコンを表示します</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">VoWiFi アイコン</string>
-    <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
+    <string name="vowifi_icon_summary">利用可能な場合VoWiFiアイコンを表示</string>
     <string name="volte_vowifi_override_title">VoWiFi override</string>
     <string name="volte_vowifi_override_summary">Hide VoLTE when VoWiFi is available. This also overrides old style signal icon for VoWiFi.</string>
     <!-- Ad Away -->
@@ -2326,12 +2326,27 @@
     <string name="applock_show_only_on_wake">Authenticate only once</string>
     <string name="applock_show_only_on_wake_on_summary">Once authenticated, an app stays unlocked until the screen turns off</string>
     <string name="applock_show_only_on_wake_off_summary">Once authenticated, an app stays unlocked for 15 seconds after exiting</string>
-    <string name="applock_lock_notifications">Hide notification content while app is locked</string>
+    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
+    <string name="applock_show_notif">Showing notification content</string>
+    <string name="applock_hide_notif">Hiding notification content</string>
     <string name="applock_setup">Setup app locker</string>
     <string name="applock_overlay_summary">アプリがロックされているため、この機能は利用できません</string>
     <plurals name="applock_summary">
         <item quantity="other">%d個のアプリがロックされました</item>
     </plurals>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduces eye strain in low light conditions but may result in reduced image quality and poor color production.</string>
+    <string name="dc_dimming_auto_mode_title">Schedule</string>
+    <string name="dc_dimming_mode_brightness">Turn on when brightness is below the threshold</string>
+    <string name="dc_dimming_mode_full">Dependent on time and brightness</string>
+    <string name="dc_dimming_brightness_title">Brightness threshold</string>
+    <string name="dc_dimming_brightness_disabled">Disabled</string>
+    <string name="dc_dimming_restore_auto_mode">Restore auto mode</string>
+    <string name="dc_dimming_brightness_info">Only activate DC Dimming when the average brightness is below the threshold</string>
+    <string name="dc_dimming_off_auto_mode_auto">Will turn on automatically</string>
+    <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
+    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
     <!-- Device Info screen. crDroid legal. -->
     <string name="crdroidlicense_title">crDroid legal</string>
 </resources>
