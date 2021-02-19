@@ -2248,6 +2248,10 @@
     <string name="fod_recog_animation_rog_fusion">Fusion</string>
     <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
     <string name="fod_recog_animation_rog_supernova">Supernova</string>
+    <string name="fod_recog_animation_shine">Läige</string>
+    <string name="fod_recog_animation_smoke">Suits</string>
+    <string name="fod_recog_animation_strings">Read</string>
+    <string name="fod_recog_animation_quantum">Quantum</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="gesture_pill_message">Peida navigeerimispulk segajateta täisekraanis viibete jaoks.</string>
     <!-- Back gesture animation -->
@@ -2378,4 +2382,6 @@
     <!-- Doze-on-Charge -->
     <string name="doze_on_charge_title">Näita info laadimist</string>
     <string name="doze_on_charge_summary">Seadme laadimise ajal saate vaadata aega, märguandeid ja laadimisteavet</string>
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">Deep sleep</string>
 </resources>

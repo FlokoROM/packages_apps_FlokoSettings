@@ -2248,6 +2248,10 @@
     <string name="fod_recog_animation_rog_fusion">Fusion</string>
     <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
     <string name="fod_recog_animation_rog_supernova">Supernova</string>
+    <string name="fod_recog_animation_shine">Сяйво</string>
+    <string name="fod_recog_animation_smoke">Дим</string>
+    <string name="fod_recog_animation_strings">Рядки</string>
+    <string name="fod_recog_animation_quantum">Квантум</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="gesture_pill_message">Приховати панель навігації для безшовних жестів в повноекранному режимі.</string>
     <!-- Back gesture animation -->
@@ -2380,4 +2384,6 @@
     <!-- Doze-on-Charge -->
     <string name="doze_on_charge_title">Показати інформацію під час зарядки</string>
     <string name="doze_on_charge_summary">Перегляд часу, сповіщення і інформація про зарядку пристрою коли пристрій заряджається</string>
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">Глибокий сон</string>
 </resources>

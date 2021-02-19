@@ -2490,6 +2490,7 @@
     <string name="fod_pressed_color_cyan">Cyan</string>
     <string name="fod_pressed_color_green">Green</string>
     <string name="fod_pressed_color_yellow">Yellow</string>
+    <string name="fod_pressed_color_light_yellow">Light Yellow</string>
 
     <!-- FOD animations -->
     <string name="fod_recog_animation">Fingerprint animation</string>
@@ -2685,4 +2686,7 @@
     <!-- Doze-on-Charge -->
     <string name="doze_on_charge_title">Show info when charging</string>
     <string name="doze_on_charge_summary">See time, notifications and charging info when device is charging</string>
+
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">Deep sleep</string>
 </resources>

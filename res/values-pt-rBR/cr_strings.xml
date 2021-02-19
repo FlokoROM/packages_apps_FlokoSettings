@@ -2248,6 +2248,10 @@
     <string name="fod_recog_animation_rog_fusion">Fusion</string>
     <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
     <string name="fod_recog_animation_rog_supernova">Supernova</string>
+    <string name="fod_recog_animation_shine">Brilhante</string>
+    <string name="fod_recog_animation_smoke">Fumaça</string>
+    <string name="fod_recog_animation_strings">Frases</string>
+    <string name="fod_recog_animation_quantum">Quântico</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="gesture_pill_message">Oculte a pílula da barra de navegação para obter gestos em tela cheia.</string>
     <!-- Back gesture animation -->
@@ -2378,4 +2382,6 @@
     <!-- Doze-on-Charge -->
     <string name="doze_on_charge_title">Exibir informações enquanto carrega</string>
     <string name="doze_on_charge_summary">Ver a hora, notificações e informações de carregamento quando o dispositivo estiver carregando</string>
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">Deep sleep</string>
 </resources>
