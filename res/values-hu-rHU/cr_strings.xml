@@ -2220,6 +2220,7 @@
     <string name="fod_pressed_color_cyan">Ciánkék</string>
     <string name="fod_pressed_color_green">Zöld</string>
     <string name="fod_pressed_color_yellow">Sárga</string>
+    <string name="fod_pressed_color_light_yellow">Halványsárga</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Ujjlenyomat-animáció</string>
     <string name="fod_recog_animation_summary">Ujjlenyomat-felismeréskor jelenítse meg az animációt</string>
@@ -2384,4 +2385,7 @@
     <string name="doze_on_charge_summary">Töltéskor látszódjon az idő, az értesítések és a töltés adatai</string>
     <!-- Deep Sleep percentage in device info -->
     <string name="status_sleep_time">Mélyalvás</string>
+    <!-- Partial screenshot on click -->
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
 </resources>

@@ -2220,6 +2220,7 @@
     <string name="fod_pressed_color_cyan">Ciano</string>
     <string name="fod_pressed_color_green">Verde</string>
     <string name="fod_pressed_color_yellow">Giallo</string>
+    <string name="fod_pressed_color_light_yellow">Giallo Chiaro</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Animazione impronta digitale</string>
     <string name="fod_recog_animation_summary">Mostra un\'animazione durante la scansione dell\'impronta digitale</string>
@@ -2384,4 +2385,7 @@
     <string name="doze_on_charge_summary">Visualizza l\'ora, notifiche e informazioni sulla ricarica quando il dispositivo è in carica</string>
     <!-- Deep Sleep percentage in device info -->
     <string name="status_sleep_time">Sonno profondo</string>
+    <!-- Partial screenshot on click -->
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
 </resources>

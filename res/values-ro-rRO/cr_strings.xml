@@ -2220,6 +2220,7 @@
     <string name="fod_pressed_color_cyan">Turcoaz</string>
     <string name="fod_pressed_color_green">Verde</string>
     <string name="fod_pressed_color_yellow">Galben</string>
+    <string name="fod_pressed_color_light_yellow">Light Yellow</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Animație amprentă</string>
     <string name="fod_recog_animation_summary">Arată o animație în timp ce citești degetul</string>
@@ -2385,4 +2386,7 @@
     <string name="doze_on_charge_summary">Vezi ora, notificările și informațiile de încărcare atunci când dispozitivul se încarcă</string>
     <!-- Deep Sleep percentage in device info -->
     <string name="status_sleep_time">Somn adânc</string>
+    <!-- Partial screenshot on click -->
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
 </resources>

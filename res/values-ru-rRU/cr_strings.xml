@@ -2220,6 +2220,7 @@
     <string name="fod_pressed_color_cyan">Бирюзовый</string>
     <string name="fod_pressed_color_green">Зеленый</string>
     <string name="fod_pressed_color_yellow">Жёлтый</string>
+    <string name="fod_pressed_color_light_yellow">Светло-желтый</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Анимация отпечатка пальца</string>
     <string name="fod_recog_animation_summary">Показывать анимацию при распознавании отпечатка</string>
@@ -2386,4 +2387,7 @@
     <string name="doze_on_charge_summary">Показывать время, уведомления, и информацию о зарядке, когда устройство заряжается</string>
     <!-- Deep Sleep percentage in device info -->
     <string name="status_sleep_time">Глубокий сон</string>
+    <!-- Partial screenshot on click -->
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
 </resources>

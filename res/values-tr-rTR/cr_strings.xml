@@ -2220,6 +2220,7 @@
     <string name="fod_pressed_color_cyan">Camgöbeği</string>
     <string name="fod_pressed_color_green">Yeşil</string>
     <string name="fod_pressed_color_yellow">Sarı</string>
+    <string name="fod_pressed_color_light_yellow">Açık sarı</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Parmak izi animasyonu</string>
     <string name="fod_recog_animation_summary">Parmak izi okunurken bir animasyon göster</string>
@@ -2384,4 +2385,7 @@
     <string name="doze_on_charge_summary">Cihaz şarj olurken saati, bildirimleri ve şarj bilgilerini görüntüle</string>
     <!-- Deep Sleep percentage in device info -->
     <string name="status_sleep_time">Derin uyku</string>
+    <!-- Partial screenshot on click -->
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
 </resources>

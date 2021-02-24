@@ -2220,6 +2220,7 @@
     <string name="fod_pressed_color_cyan">Cyan</string>
     <string name="fod_pressed_color_green">Hijau</string>
     <string name="fod_pressed_color_yellow">Kuning</string>
+    <string name="fod_pressed_color_light_yellow">Kuning Cerah</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Animasi sidik jari</string>
     <string name="fod_recog_animation_summary">Perlihatkan animasi saat jari Anda terdeteksi</string>
@@ -2384,4 +2385,7 @@
     <string name="doze_on_charge_summary">Lihat waktu, pemberitahuan, dan info pengisian daya saat perangkat mengisi daya</string>
     <!-- Deep Sleep percentage in device info -->
     <string name="status_sleep_time">Tidur nyenyak</string>
+    <!-- Partial screenshot on click -->
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
 </resources>
