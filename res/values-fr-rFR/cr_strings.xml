@@ -2206,6 +2206,8 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="fod_wallpaper_color_summary">Utilise la couleur de fond d\'écran principal ajustée pour l\'icône d\'emp. digitale\nNOTE : Peut s\'accorder uniquement avec certains fonds d\'écran</string>
     <!-- QS panel background opacity -->
     <string name="qs_panel_alpha_title">Transparence panneau des réglages rapides</string>
+    <!-- Notification background opacity -->
+    <string name="notification_alpha_title">Opacité de l\'arrière-plan des notifications</string>
     <!-- QS panel gradient below status bar -->
     <string name="qs_panel_gradient_title">Dégradé panneau de réglages rapides</string>
     <string name="qs_panel_gradient_summary">Afficher le dégradé sous la barre d\'état dans le panneau des réglages rapides</string>
@@ -2427,4 +2429,7 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="qs_datausage_title">Utilisation des données</string>
     <string name="qs_datausage_daily">Utilisation quotidienne</string>
     <string name="qs_datausage_monthly">Utilisation mensuelle</string>
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Animation de charge</string>
+    <string name="charging_animation_summary">Affiche une animation lorsque l\'appareil est en charge</string>
 </resources>

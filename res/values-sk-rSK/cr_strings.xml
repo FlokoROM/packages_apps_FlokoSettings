@@ -2205,6 +2205,8 @@
     <string name="fod_wallpaper_color_summary">Hlavná farba tapety pre FOD ikonu \nPOZNÁMKA: môže vyzerať dobre len s niektorými tapetami</string>
     <!-- QS panel background opacity -->
     <string name="qs_panel_alpha_title">Priehľadnosť panela</string>
+    <!-- Notification background opacity -->
+    <string name="notification_alpha_title">Notification background opacity</string>
     <!-- QS panel gradient below status bar -->
     <string name="qs_panel_gradient_title">Prechod pod stavovým riadkom</string>
     <string name="qs_panel_gradient_summary">Zobraziť prechod pod stavovým riadkom na paneli QS</string>
@@ -2428,4 +2430,7 @@
     <string name="qs_datausage_title">Využitie dát</string>
     <string name="qs_datausage_daily">Denné využitie</string>
     <string name="qs_datausage_monthly">Mesačné využitie</string>
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Charging animation</string>
+    <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
 </resources>

@@ -2212,6 +2212,8 @@
     <string name="fod_wallpaper_color_summary">指紋アイコンを壁紙に合わせて調整します\n注意: 一部の壁紙でのみ見栄えが良くなる場合があります。</string>
     <!-- QS panel background opacity -->
     <string name="qs_panel_alpha_title">Panel opacity</string>
+    <!-- Notification background opacity -->
+    <string name="notification_alpha_title">Notification background opacity</string>
     <!-- QS panel gradient below status bar -->
     <string name="qs_panel_gradient_title">Status bar gradient</string>
     <string name="qs_panel_gradient_summary">Show gradient below status bar in QS panel</string>
@@ -2432,4 +2434,7 @@
     <string name="qs_datausage_title">Data usage</string>
     <string name="qs_datausage_daily">Daily usage</string>
     <string name="qs_datausage_monthly">Monthly usage</string>
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Charging animation</string>
+    <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
 </resources>
