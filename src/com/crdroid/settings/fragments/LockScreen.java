@@ -65,6 +65,7 @@ public class LockScreen extends SettingsPreferenceFragment
     private static final String FOD_ANIM = "fod_anim";
     private static final String FOD_NIGHT_LIGHT = "fod_night_light";
     private static final String FOD_COLOR = "fod_color";
+    private static final String FOD_FOOTER = "fod_footer";
 
     private static final String LOCKSCREEN_BLUR = "lockscreen_blur";
 
@@ -74,6 +75,7 @@ public class LockScreen extends SettingsPreferenceFragment
     private Preference mFingerprintVibErr;
     private Preference mLockscreenBlur;
     private Preference mScreenOffFOD;
+    private Preference mFODnightlight;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -87,11 +89,19 @@ public class LockScreen extends SettingsPreferenceFragment
         if (!FodUtils.hasFodSupport(getContext())) {
             prefSet.removePreference(mFODIconPickerCategory);
         } else {
+            findPreference(FOD_FOOTER).setTitle(R.string.fod_pressed_color_footer);
+
             mScreenOffFOD = (Preference) findPreference(FOD_GESTURE);
             final boolean isScreenOffFodSupported = mContext.getResources().getBoolean(
                     R.bool.config_supportScreenOffFod);
             if (!isScreenOffFodSupported) {
                 mFODIconPickerCategory.removePreference(mScreenOffFOD);
+            }
+            mFODnightlight = (Preference) findPreference(FOD_NIGHT_LIGHT);
+            final boolean isFodNightLightSupported = mContext.getResources().getBoolean(
+                    com.android.internal.R.bool.disable_fod_night_light);
+            if (!isFodNightLightSupported) {
+                mFODIconPickerCategory.removePreference(mFODnightlight);
             }
         }
 
@@ -184,6 +194,11 @@ public class LockScreen extends SettingsPreferenceFragment
                                 R.bool.config_supportScreenOffFod);
                         if (!isScreenOffFodSupported) {
                             keys.add(FOD_GESTURE);
+                        }
+                        final boolean isFodNightLightSupported = context.getResources().getBoolean(
+                                com.android.internal.R.bool.disable_fod_night_light);
+                        if (!isFodNightLightSupported) {
+                            keys.add(FOD_NIGHT_LIGHT);
                         }
                     }
 
