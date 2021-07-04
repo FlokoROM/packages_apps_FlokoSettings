@@ -558,6 +558,7 @@
     <string name="smartbar_doubletap_sleep_summary">Doble tap en las zonas vacías de la barra de navegación para apagar la pantalla</string>
     <string name="one_handed_mode_title">Modo a una mano</string>
     <string name="one_handed_mode_summary">Permitir deslizar en la barra de navegación para activar el modo a una mano</string>
+    <string name="system_navigation_summary">Toggle between 3-button, 2-button or gesture navigation</string>
     <!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="choose_action_title">Elegir acción</string>
     <string name="action_entry_default_action">Ajustes por defecto</string>
@@ -1048,13 +1049,14 @@
     <string name="crdroid_website_summary">Visita nuestra página web oficial</string>
     <string name="crdroid_translate_title">Traducciones</string>
     <string name="crdroid_translate_summary">¡Ayuda con la traducción de la ROM en tu idioma!</string>
+    <string name="crdroid_sponsor_summary">Visita a nuestro socio de alojamiento web</string>
     <!-- Maintainers -->
     <string name="maintainers_crdroid_title">Dispositivos y mantenedores</string>
     <string name="maintainers_crdroid_summary">Lista de dispositivos compatibles y sus mantenedores oficiales</string>
     <string name="maintainers_crdroid_error">No se puede cargar la lista de dispositivos y mantenedores</string>
     <!-- Donate crDroid -->
     <string name="donate_crdroid_title">Ayúdanos</string>
-    <string name="donate_crdroid_summary">Donar para apoyar el desarrollo y nuestro servidor</string>
+    <string name="donate_crdroid_summary">Dona para ayudar con nuevo desarrollo</string>
     <string name="donate_team_title">Equipo CrDroid</string>
     <string name="donate_team_summary">Donación para ayudar a los servicios de alojamiento, el sitio y la gestión general.</string>
     <string name="donate_dev_summary">Desarrollador del núcleo principal - Donación para una cervecita o una taza de café bien caliente!</string>
@@ -1129,7 +1131,7 @@
     <string name="backlight_summary_enabled">Activado</string>
     <!-- Power menu -->
     <string name="power_menu_title">Menú de inicio</string>
-    <string name="power_menu_actions_title">Actions</string>
+    <string name="power_menu_actions_title">Acciones</string>
     <string name="power_menu_screenshot_title">Captura de pantalla</string>
     <string name="power_menu_screenshot_summary">Mantener presionado para hacer una captura de pantalla parcial</string>
     <string name="power_menu_screenrecord_title">Grabar pantalla</string>
@@ -1137,7 +1139,7 @@
     <string name="power_menu_airplane_title">Modo avión</string>
     <string name="power_menu_users_title">Selector de usuario</string>
     <string name="power_menu_lockdown_title">Bloqueo de seguridad</string>
-    <string name="power_menu_lockdown_unavailable">Lockdown is disabled as keyguard isn\'t secure</string>
+    <string name="power_menu_lockdown_unavailable">El bloqueo está desactivado porque el bloqueo por teclado no es seguro</string>
     <string name="power_menu_emergency_title">Emergencia</string>
     <string name="volume_keys_control_ring_stream_title">Control del volumen del tono de llamada</string>
     <string name="volume_keys_control_ring_stream_summary_on">Las teclas de volumen controlan el volumen del tono de llamada</string>
@@ -2210,7 +2212,7 @@ Desliza de izquierda a derecha para regresar.</string>
     <!-- Notification background opacity -->
     <string name="notification_alpha_title">Opacidad del fondo de notificaciones</string>
     <!-- Power menu background opacity -->
-    <string name="power_menu_alpha_title">Power menu opacity</string>
+    <string name="power_menu_alpha_title">Opacidad del menú de apagado</string>
     <!-- QS panel gradient below status bar -->
     <string name="qs_panel_gradient_title">Degradado de la barra del sistema</string>
     <string name="qs_panel_gradient_summary">Muestra un degradado debajo de la barra de estado en el panel de ajustes rápidos</string>

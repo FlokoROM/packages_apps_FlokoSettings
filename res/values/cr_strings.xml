@@ -603,6 +603,7 @@
     <string name="smartbar_doubletap_sleep_summary">Double-tap on the navbar empty areas to put device asleep</string>
     <string name="one_handed_mode_title">One handed mode</string>
     <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
+    <string name="system_navigation_summary">Toggle between 3-button, 2-button or gesture navigation</string>
 
     <!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="choose_action_title">Choose action</string>
@@ -1145,7 +1146,11 @@
 <!--
     <string name="crdroid_translate_title">Translations</string>
     <string name="crdroid_translate_summary">Help with localisation of ROM in your language!</string>
+    <string name="crdroid_sponsor_title" translatable="false">ScopeHosts</string>
+    <string name="crdroid_sponsor_summary">Visit our website host partner</string>
 -->
+    <string name="floko_sponsor_title" translatable="false">GitHub Sponsors</string>
+    <string name="floko_sponsor_summary">Donate to support build system and development</string>
 
     <!-- Maintainers -->
     <string name="maintainers_crdroid_title">Devices and maintainers</string>
@@ -1155,7 +1160,7 @@
     <!-- Donate FlokoROM -->
     <string name="donate_crdroid_title">Support us</string>
     <string name="donate_crdroid_summary">Donate to support development and our server</string>
-    <string name="donate_floko_team_title" translatable="false">Patreon</string>
+    <string name="donate_floko_team_title" translatable="false">GitHub Sponsors</string>
     <string name="donate_team_summary">Donate to support build system and development</string>
     <string name="donate_dev_title" translatable="false">PayPal</string>
     <string name="donate_dev_summary">Core developer - Donate for a beer or a coffee!</string>
