@@ -2192,8 +2192,8 @@
 
     <!-- Rounded corners -->
     <string name="corners_title">Rounded corners</string>
-    <string name="corners_summary">Allow customized rounded corners</string>
-    <string name="corner_radius">Rounded corner radius</string>
+    <string name="corners_summary">Customized rounded corners</string>
+    <string name="corner_radius">Rounded corner radius for screen</string>
     <string name="content_padding">Corner content padding</string>
     <string name="status_bar_padding">Statusbar extra padding</string>
     <string name="corner_fwvals">Use default values</string>
@@ -2245,6 +2245,15 @@
     <string name="switch_retro">Retro</string>
     <string name="switch_stockish">Stockish</string>
     <string name="switch_telegram">Telegram</string>
+
+    <!-- Rounded styles -->
+    <string name="rounded_style_title">Rounded style for system dialogs</string>
+    <string name="rounded_default">Default</string>
+    <string name="rounded_none">None</string>
+    <string name="rounded_slight">Slight</string>
+    <string name="rounded_medium">Medium</string>
+    <string name="rounded_high">High</string>
+    <string name="rounded_extreme">Extreme</string>
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
@@ -2671,9 +2680,14 @@
     <string name="applock_unlocked">Unlocked</string>
     <string name="applock_locked_apps">Locked apps</string>
     <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_show_only_on_wake">Authenticate only once</string>
-    <string name="applock_show_only_on_wake_on_summary">Once authenticated, an app stays unlocked until the screen turns off</string>
-    <string name="applock_show_only_on_wake_off_summary">Once authenticated, an app stays unlocked for 15 seconds after exiting</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
     <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
     <string name="applock_show_notif">Showing notification content</string>
     <string name="applock_hide_notif">Hiding notification content</string>

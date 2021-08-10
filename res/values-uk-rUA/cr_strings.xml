@@ -1953,8 +1953,8 @@
     <string name="weather_client_not_available">Клієнт погоди не доступний</string>
     <!-- Rounded corners -->
     <string name="corners_title">Закруглені кути</string>
-    <string name="corners_summary">Дозволити індивідуальні закруглені кути</string>
-    <string name="corner_radius">Радіус округлення кутів</string>
+    <string name="corners_summary">Налаштовувані закруглені кути</string>
+    <string name="corner_radius">Радіус округлення кутів екрану</string>
     <string name="content_padding">Кутовий вміст поля</string>
     <string name="status_bar_padding">Додаткові поля радка стану</string>
     <string name="corner_fwvals">Використовувати значення за замовчуванням</string>
@@ -2003,6 +2003,14 @@
     <string name="switch_retro">Ретро</string>
     <string name="switch_stockish">Стоковий</string>
     <string name="switch_telegram">Телеграм</string>
+    <!-- Rounded styles -->
+    <string name="rounded_style_title">Стиль округлення для системних діалогів</string>
+    <string name="rounded_default">За замовчуванням</string>
+    <string name="rounded_none">Без ефекту</string>
+    <string name="rounded_slight">Слабкий</string>
+    <string name="rounded_medium">Середній</string>
+    <string name="rounded_high">Високий</string>
+    <string name="rounded_extreme">Екстремальний</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Скинути статистику</string>
     <string name="battery_stats_message">Це скине статистику акумулятора. Ви впевнені?</string>
@@ -2314,8 +2322,8 @@
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Мелодія дзвінка - SIM 2</string>
     <!-- Display cutout -->
-    <string name="sysui_display_cutout_title">Відображення вирізу</string>
-    <string name="sysui_display_cutout_summary">Примусово використовувати чорну область вирізу дисплея</string>
+    <string name="display_hide_notch_title">Приховати вирізання екрана</string>
+    <string name="display_hide_notch_summary">Вимкнути чорне Fill-in для вирізання дисплею</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Адаптивне відтворення</string>
     <string name="adaptive_playback_summary">Призупиняти медіа, коли гучність вимкнено та відновіть його шляхом збільшення гучності в межах тайм-ауту</string>
@@ -2365,9 +2373,14 @@
     <string name="applock_unlocked">Розблоковано</string>
     <string name="applock_locked_apps">Заблоковані додатки</string>
     <string name="applock_unlocked_apps">Розблоковані додатки</string>
-    <string name="applock_show_only_on_wake">Автентифікувати лише один раз</string>
-    <string name="applock_show_only_on_wake_on_summary">Після автентифікації додаток залишається розблокованим, доки екран не вимкнеться</string>
-    <string name="applock_show_only_on_wake_off_summary">Після автентифікації додаток залишається розблокованим протягом 15 секунд після виходу</string>
+    <string name="applock_lock_after_title">Блокувати додаток після</string>
+    <string name="applock_lock_after_instantly">Миттєво</string>
+    <string name="applock_lock_after_15_seconds">15 секунд</string>
+    <string name="applock_lock_after_screen_off">Вимкнути екран</string>
+    <string name="applock_lock_after_summary">Додаток буде заблоковано після вибраного часу очікування</string>
+    <string name="applock_lock_after_instantly_summary">Додаток буде заблоковано миттєво після закриття</string>
+    <string name="applock_lock_after_15_seconds_summary">Додаток буде заблоковано через 15 секунд після закриття</string>
+    <string name="applock_lock_after_screen_off_summary">Додаток буде заблоковано, коли екран вимкнено</string>
     <string name="applock_notification_info">Ви можете показувати/приховувати вміст сповіщень для кожної програми, натискаючи піктограму сповіщення, що відображається в налаштуваннях кожного заблокованого додатка</string>
     <string name="applock_show_notif">Вміст сповіщень показується</string>
     <string name="applock_hide_notif">Вміст сповіщень приховується</string>

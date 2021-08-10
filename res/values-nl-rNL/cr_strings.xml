@@ -1953,8 +1953,8 @@
     <string name="weather_client_not_available">Geen weergegevens beschikbaar</string>
     <!-- Rounded corners -->
     <string name="corners_title">Afgeronde hoeken</string>
-    <string name="corners_summary">Afgeronde hoeken toestaan</string>
-    <string name="corner_radius">Afgeronde hoeken radius</string>
+    <string name="corners_summary">Aangepaste afgeronde hoeken</string>
+    <string name="corner_radius">Afgeronde hoekstraal voor scherm</string>
     <string name="content_padding">Afstand tot hoek</string>
     <string name="status_bar_padding">Statusbar lengte voor iconen</string>
     <string name="corner_fwvals">Gebruik standaardwaardes</string>
@@ -2003,6 +2003,14 @@
     <string name="switch_retro">Retro</string>
     <string name="switch_stockish">Stockish</string>
     <string name="switch_telegram">Telegram</string>
+    <!-- Rounded styles -->
+    <string name="rounded_style_title">Afgeronde stijl voor systeem dialoogvensters</string>
+    <string name="rounded_default">Standaard</string>
+    <string name="rounded_none">Geen</string>
+    <string name="rounded_slight">Licht</string>
+    <string name="rounded_medium">Medium</string>
+    <string name="rounded_high">Hoog</string>
+    <string name="rounded_extreme">Extreem</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Statistieken resetten</string>
     <string name="battery_stats_message">Dit zal de statistieken van de accugeschiedenis resetten. Wilt u doorgaan?</string>
@@ -2314,8 +2322,8 @@
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Phone ringtoon - SIM 2</string>
     <!-- Display cutout -->
-    <string name="sysui_display_cutout_title">Display cutout</string>
-    <string name="sysui_display_cutout_summary">Maak de display cutout zwart</string>
+    <string name="display_hide_notch_title">Verberg schermuitsnede</string>
+    <string name="display_hide_notch_summary">Verberg zwarte opvulling voor schermuitsnede</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Adaptieve weergave</string>
     <string name="adaptive_playback_summary">Pauzeer media wanneer volume uit staat en herneem het door volume te verhogen binnen de time-out</string>
@@ -2365,9 +2373,14 @@
     <string name="applock_unlocked">Ontgrendeld</string>
     <string name="applock_locked_apps">Vergrendelde apps</string>
     <string name="applock_unlocked_apps">Ontgrendelde apps</string>
-    <string name="applock_show_only_on_wake">Verifiëren slechts eenmaal</string>
-    <string name="applock_show_only_on_wake_on_summary">Eenmaal geverifieerd, blijft een app ontgrendeld totdat het scherm uit gaat</string>
-    <string name="applock_show_only_on_wake_off_summary">Eenmaal geverifieerd, blijft een app 15 seconden ontgrendeld na het afsluiten</string>
+    <string name="applock_lock_after_title">App vergrendelen na</string>
+    <string name="applock_lock_after_instantly">Onmiddellijk</string>
+    <string name="applock_lock_after_15_seconds">15 seconden</string>
+    <string name="applock_lock_after_screen_off">Scherm uit</string>
+    <string name="applock_lock_after_summary">App zal vergrendeld worden na ingestelde timeout</string>
+    <string name="applock_lock_after_instantly_summary">App zal onmiddellijk vergrendeld worden bij afsluiten</string>
+    <string name="applock_lock_after_15_seconds_summary">App zal 15 seconden na afsluiten vergrendeld worden</string>
+    <string name="applock_lock_after_screen_off_summary">App zal vergrendeld worden wanneer scherm uitgeschakeld wordt</string>
     <string name="applock_notification_info">U kunt de inhoud van de notificatie per app tonen/verbergen door te klikken op het meldingspictogram dat getoond wordt bij de voorkeur van elke vergrendelde app</string>
     <string name="applock_show_notif">Inhoud van meldingen weergeven</string>
     <string name="applock_hide_notif">Inhoud van meldingen verbergen</string>

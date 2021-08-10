@@ -1953,8 +1953,8 @@
     <string name="weather_client_not_available">Кліент надвор\'я не даступны</string>
     <!-- Rounded corners -->
     <string name="corners_title">Скругленыя вуглы</string>
-    <string name="corners_summary">Дазволіць індывідуальныя закругленыя куты</string>
-    <string name="corner_radius">Радыус скругленых вуглоў</string>
+    <string name="corners_summary">Наладзіць закругленыя куты</string>
+    <string name="corner_radius">Радыус закругленага кута для экрана</string>
     <string name="content_padding">Вуглавы водступ</string>
     <string name="status_bar_padding">Дадатковыя водступы статус-бара</string>
     <string name="corner_fwvals">Выкарыстоўваць значэнні па змаўчанні</string>
@@ -2003,6 +2003,14 @@
     <string name="switch_retro">Рэтра</string>
     <string name="switch_stockish">Па змаўчанні</string>
     <string name="switch_telegram">Telegram</string>
+    <!-- Rounded styles -->
+    <string name="rounded_style_title">Скруглены стыль для дыялогаў сістэмы</string>
+    <string name="rounded_default">Па змаўчанні</string>
+    <string name="rounded_none">Нічога</string>
+    <string name="rounded_slight">Нязначны</string>
+    <string name="rounded_medium">Сярэдні</string>
+    <string name="rounded_high">Высокі</string>
+    <string name="rounded_extreme">Экстрэмальны</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Скід статыстыкі</string>
     <string name="battery_stats_message">Статыстыка батарэі будзе скінутая. Вы хочаце працягнуць?</string>
@@ -2314,8 +2322,8 @@
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Мелодыя званка - SIM 2</string>
     <!-- Display cutout -->
-    <string name="sysui_display_cutout_title">Выраз у дысплеі</string>
-    <string name="sysui_display_cutout_summary">Перафарбаваць вобласць выраза ў чорны колер</string>
+    <string name="display_hide_notch_title">Схаваць выраз дысплея</string>
+    <string name="display_hide_notch_summary">Адключыць чорнае запаўненне для выраза дысплея</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Адаптыўнае прайграванне</string>
     <string name="adaptive_playback_summary">Прыпыніце прайграванне, калі гучнасць адключана, і аднавіце яго, павялічыўшы гучнасць пасля перапынку</string>
@@ -2365,9 +2373,14 @@
     <string name="applock_unlocked">Разблакавана</string>
     <string name="applock_locked_apps">Заблакаваныя праграмы</string>
     <string name="applock_unlocked_apps">Разблакаваныя праграмы</string>
-    <string name="applock_show_only_on_wake">Аўтэнтыфікацыя толькі адзін раз</string>
-    <string name="applock_show_only_on_wake_on_summary">Пасля аўтэнтыфікацыі праграма застаецца разблакаванай, пакуль экран не выключыцца</string>
-    <string name="applock_show_only_on_wake_off_summary">Пасля аўтэнтыфікацыі праграма застаецца разблакаванай на працягу 15 секунд пасля выхаду</string>
+    <string name="applock_lock_after_title">Блакіраваць праграму пасля</string>
+    <string name="applock_lock_after_instantly">Імгненна</string>
+    <string name="applock_lock_after_15_seconds">15 секунд</string>
+    <string name="applock_lock_after_screen_off">Адключэння экрана</string>
+    <string name="applock_lock_after_summary">Праграма будзе заблакіравана пасля абранага часу чакання</string>
+    <string name="applock_lock_after_instantly_summary">Праграма будзе заблакавана імгненна пры закрыцці</string>
+    <string name="applock_lock_after_15_seconds_summary">Праграма будзе заблакіравана праз 15 секунд пасля закрыцця</string>
+    <string name="applock_lock_after_screen_off_summary">Праграма будзе заблакіравана да выключэння экрана</string>
     <string name="applock_notification_info">Вы можаце паказаць/схаваць змесціва апавяшчэнняў для кожнай праграмы, націснуўшы на значок апавяшчэння, які адлюстроўваецца ў наладах кожнай заблакаванай праграмы</string>
     <string name="applock_show_notif">Паказваць змест апавяшчэнняў</string>
     <string name="applock_hide_notif">Схаваць змест апавяшчэнняў</string>

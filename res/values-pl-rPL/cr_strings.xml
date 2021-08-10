@@ -1954,8 +1954,8 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="weather_client_not_available">Klient pogody niedostępny</string>
     <!-- Rounded corners -->
     <string name="corners_title">Zaokrąglone narożniki</string>
-    <string name="corners_summary">Zezwalaj na zaokrąglone narożniki</string>
-    <string name="corner_radius">Promień zaokrąglonych narożników</string>
+    <string name="corners_summary">Personalizacja zaokrąglonych narożników</string>
+    <string name="corner_radius">Promień zaokrąglenia rogów dla ekranu</string>
     <string name="content_padding">Uzupełnianie zawartości narożników</string>
     <string name="status_bar_padding">Dodatkowy margines stanu</string>
     <string name="corner_fwvals">Użyj wartości domyślnej</string>
@@ -2004,6 +2004,14 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="switch_retro">Retro</string>
     <string name="switch_stockish">Jak podstawowy</string>
     <string name="switch_telegram">Telegram</string>
+    <!-- Rounded styles -->
+    <string name="rounded_style_title">Zaokrąglony styl dla wiadomości systemowych</string>
+    <string name="rounded_default">Domyślny</string>
+    <string name="rounded_none">Żaden</string>
+    <string name="rounded_slight">Lekkie</string>
+    <string name="rounded_medium">Średnie</string>
+    <string name="rounded_high">Mocne</string>
+    <string name="rounded_extreme">Ekstremalne</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Zresetuj statystyki</string>
     <string name="battery_stats_message">Spowoduje to wyzerowanie statystyk użycia baterii. Czy chcesz kontynuować?</string>
@@ -2315,8 +2323,8 @@ https://plus.google.com/communities/118297646046960923906</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Dzwonek telefonu - SIM 2</string>
     <!-- Display cutout -->
-    <string name="sysui_display_cutout_title">Wycięcie w ekranie</string>
-    <string name="sysui_display_cutout_summary">Wymuś zaczernienie obszaru pod wycięciem w ekranie</string>
+    <string name="display_hide_notch_title">Ukryj wycięcie ekranu</string>
+    <string name="display_hide_notch_summary">Wyłącz czarne wypełnianie dla wycięcia ekranu</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Odtwarzanie adaptacyjne</string>
     <string name="adaptive_playback_summary">Wstrzymaj media, gdy głośność jest wyciszona i wznawiaj je przez zwiększenie głośności w ciągu limitu czasu</string>
@@ -2366,9 +2374,14 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="applock_unlocked">Odblokowano</string>
     <string name="applock_locked_apps">Zablokowane aplikacje</string>
     <string name="applock_unlocked_apps">Odblokowane aplikacje</string>
-    <string name="applock_show_only_on_wake">Uwierzytelnij tylko raz</string>
-    <string name="applock_show_only_on_wake_on_summary">Po uwierzytelnieniu aplikacja pozostaje odblokowana, dopóki ekran nie zostanie wyłączony</string>
-    <string name="applock_show_only_on_wake_off_summary">Po uwierzytelnieniu aplikacja pozostaje odblokowana przez 15 sekund po zakończeniu</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
     <string name="applock_notification_info">Możesz pokazać/ukryć zawartość powiadomień dla każdej aplikacji klikając ikonę powiadomień wyświetlaną na każdej zablokowanej aplikacji</string>
     <string name="applock_show_notif">Pokazuj całą treść powiadomień</string>
     <string name="applock_hide_notif">Ukryj treść powiadomień</string>

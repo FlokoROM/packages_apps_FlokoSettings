@@ -1953,8 +1953,8 @@
     <string name="weather_client_not_available">無法使用天氣資訊</string>
     <!-- Rounded corners -->
     <string name="corners_title">圓角</string>
-    <string name="corners_summary">允許自訂圓角</string>
-    <string name="corner_radius">圓角半徑</string>
+    <string name="corners_summary">Customized rounded corners</string>
+    <string name="corner_radius">Rounded corner radius for screen</string>
     <string name="content_padding">邊角內容填充</string>
     <string name="status_bar_padding">狀態列額外填充</string>
     <string name="corner_fwvals">使用預設值</string>
@@ -2003,6 +2003,14 @@
     <string name="switch_retro">復古</string>
     <string name="switch_stockish">原生</string>
     <string name="switch_telegram">Telegram</string>
+    <!-- Rounded styles -->
+    <string name="rounded_style_title">Rounded style for system dialogs</string>
+    <string name="rounded_default">Default</string>
+    <string name="rounded_none">None</string>
+    <string name="rounded_slight">Slight</string>
+    <string name="rounded_medium">Medium</string>
+    <string name="rounded_high">High</string>
+    <string name="rounded_extreme">Extreme</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">重置統計資訊</string>
     <string name="battery_stats_message">這將重置電池歷史記錄統計資訊。您要繼續嗎？</string>
@@ -2314,8 +2322,8 @@
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">手機鈴聲 － SIM 卡 2</string>
     <!-- Display cutout -->
-    <string name="sysui_display_cutout_title">螢幕瀏海</string>
-    <string name="sysui_display_cutout_summary">將螢幕瀏海區域強制顯示為黑色</string>
+    <string name="display_hide_notch_title">Hide display cutout</string>
+    <string name="display_hide_notch_summary">Disable black fill-in for display cutout</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">自適應播放</string>
     <string name="adaptive_playback_summary">靜音時暫停媒體播放，並在逾時間隔內提高音量以恢復媒體播放</string>
@@ -2365,9 +2373,14 @@
     <string name="applock_unlocked">未鎖定</string>
     <string name="applock_locked_apps">已鎖定的應用程式</string>
     <string name="applock_unlocked_apps">未鎖定的應用程式</string>
-    <string name="applock_show_only_on_wake">只驗證一次</string>
-    <string name="applock_show_only_on_wake_on_summary">一旦通過驗證，應用程式將會保持解處鎖定狀態直到螢幕關閉</string>
-    <string name="applock_show_only_on_wake_off_summary">一旦通過驗證，應用程式將會在關閉後的 15 秒內保持解除鎖定狀態</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
     <string name="applock_notification_info">藉由點擊被鎖定的應用程式旁的通知圖示，您可以顯示或隱藏該應用程式的通知內容</string>
     <string name="applock_show_notif">顯示通知內容</string>
     <string name="applock_hide_notif">隱藏通知內容</string>

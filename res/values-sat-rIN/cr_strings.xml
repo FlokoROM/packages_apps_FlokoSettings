@@ -309,27 +309,27 @@
     <string name="shortcut_action_recent">ᱱᱮᱛᱟᱨᱟᱜᱠᱚ</string>
     <string name="shortcut_action_power">ᱥᱠᱨᱤᱱ ᱵᱚᱸᱫ</string>
     <string name="shortcut_action_search">ᱮᱯ ᱵᱷᱤᱛᱨᱭ ᱨᱮ ᱥᱮᱸᱫᱽᱨᱟᱭ ᱢᱮ</string>
-    <string name="shortcut_action_ring_vib">Ring/Vib</string>
+    <string name="shortcut_action_ring_vib">ᱨᱤᱝ/ᱣᱟᱭᱮᱵᱽ</string>
     <string name="shortcut_action_ring_silent">ᱨᱤᱝ/ᱪᱩᱯ</string>
     <string name="shortcut_action_ring_vib_silent">ᱨᱤᱝ/ᱣᱟᱭᱵ/ᱪᱩᱯ</string>
-    <string name="shortcut_action_camera">Camera</string>
+    <string name="shortcut_action_camera">ᱠᱮᱢᱮᱨᱟ</string>
     <string name="shortcut_action_media_next">ᱥᱮᱨᱮᱧ - ᱤᱱᱟᱹ ᱛᱟᱭᱚᱢ ᱴᱨᱟᱠ</string>
     <string name="shortcut_action_media_play_pause">ᱥᱮᱨᱮᱧ - ᱯᱮᱞ/ᱯᱚᱡᱽ</string>
     <string name="shortcut_action_media_previous">ᱥᱮᱨᱮᱧ - ᱢᱟᱲᱟᱝ ᱴᱨᱟᱠ</string>
-    <string name="shortcut_action_wake_device">Wake up device</string>
-    <string name="shortcut_picker_choose_longpress_action">Choose longpress action:</string>
-    <string name="shortcut_picker_choose_new_action">Choose new action:</string>
+    <string name="shortcut_action_wake_device">ᱥᱟᱫᱷᱚᱱ ᱵᱮᱨᱥᱫ ᱮᱢ</string>
+    <string name="shortcut_picker_choose_longpress_action">ᱡᱩᱨᱚᱛᱟ ᱠᱟᱹᱢᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ:</string>
+    <string name="shortcut_picker_choose_new_action">ᱱᱟᱶᱟ ᱠᱟᱹᱢᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ:</string>
     <string name="shortcut_picker_reassign_action">Reassign action:</string>
-    <string name="shortcut_picker_choose_action">Choose action:</string>
-    <string name="shortcut_picker_applications_title">Applications</string>
-    <string name="shortcut_picker_activities_title">Activities</string>
-    <string name="shortcut_picker_select_app_title">Select application:</string>
-    <string name="shortcut_picker_select_activity_title">Select activity:</string>
-    <string name="shortcut_picker_choose_icon_type_title">Choose icon type:</string>
-    <string name="shortcut_picker_icon_type_default_title">Default</string>
-    <string name="shortcut_picker_icon_type_system_title">System icons</string>
-    <string name="shortcut_picker_select_system_icon_title">Select system icon:</string>
-    <string name="shortcut_picker_icon_type_custom_title">Gallery</string>
+    <string name="shortcut_picker_choose_action">ᱠᱟᱹᱢᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ:</string>
+    <string name="shortcut_picker_applications_title">ᱮᱯᱞᱤᱠᱮᱥᱚᱱᱠᱚ</string>
+    <string name="shortcut_picker_activities_title">ᱠᱟᱹᱢᱤᱠᱚ</string>
+    <string name="shortcut_picker_select_app_title">ᱮᱯᱞᱤᱠᱮᱥᱚᱱ  ᱵᱟᱪᱷᱟᱣ ᱢᱮᱺ</string>
+    <string name="shortcut_picker_select_activity_title">ᱠᱟᱹᱢᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮᱺ</string>
+    <string name="shortcut_picker_choose_icon_type_title">ᱟᱭᱠᱚᱱ ᱯᱨᱚᱠᱟᱨ ᱵᱟᱪᱷᱟᱣ ᱢᱮᱺ</string>
+    <string name="shortcut_picker_icon_type_default_title">ᱢᱩᱞ ᱯᱷᱮᱲᱟᱛ</string>
+    <string name="shortcut_picker_icon_type_system_title">ᱥᱭᱥᱴᱟᱹᱢ ᱟᱭᱠᱚᱱ ᱠᱚ</string>
+    <string name="shortcut_picker_select_system_icon_title">ᱥᱭᱥᱴᱟᱹᱢ ᱟᱭᱠᱚᱱ ᱵᱟᱪᱷᱟᱣ ᱢᱮᱺ</string>
+    <string name="shortcut_picker_icon_type_custom_title">ᱜᱮᱞᱨᱭ</string>
     <!-- Media art -->
     <string name="media_art_title">ᱢᱮᱰᱤᱭᱟ ᱠᱚᱵᱷᱟᱹᱨ ᱟᱨᱴ</string>
     <string name="media_art_summary">ᱛᱟᱦᱮᱸ ᱡᱷᱚᱜ ᱢᱮᱰᱤᱭᱟ ᱠᱚᱵᱷᱟᱹᱨ ᱟᱨᱴ ᱫᱮᱠᱷᱟᱣ ᱢᱮ</string>
@@ -345,30 +345,30 @@
     <string name="lockscreen_maxnotif_sumary">ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱᱠᱚ ᱨᱮᱭᱟᱜ ᱮᱰᱡᱟᱹᱥᱴᱢᱮᱸᱴ ᱮᱢ ᱪᱷᱚᱭ ᱢᱮ</string>
     <string name="lockscreen_maxnotif_config">Max allowed notifications</string>
     <!-- Lockscreen tap-to sleep -->
-    <string name="double_tap_sleep_anywhere_title">Tap to sleep</string>
+    <string name="double_tap_sleep_anywhere_title">ᱜᱤᱛᱤᱡ ᱞᱟᱹᱜᱤᱫ ᱚᱛᱟᱭ ᱢᱮ</string>
     <string name="double_tap_sleep_anywhere_summary">Double-tap anywhere on the lockscreen to put device asleep</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Power menu</string>
+    <string name="lockscreen_enable_power_menu_title">ᱯᱟᱣᱟᱹᱨ ᱢᱮᱱᱩ</string>
     <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
     <string name="lockscreen_secure_power_menu_title">Secure power menu</string>
     <string name="lockscreen_secure_power_menu_summary">Allow power menu action only after authentication</string>
     <!-- Quick settings on secure lockscreen -->
-    <string name="lockscreen_enable_qs_title">Quick settings</string>
+    <string name="lockscreen_enable_qs_title">ᱞᱚᱜᱚᱱ ᱥᱟᱡᱟᱣᱠᱚ</string>
     <string name="lockscreen_enable_qs_summary">Allow accessing quick settings on secure lockscreen</string>
     <!-- Screenshot Sound  -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_title">ᱥᱠᱨᱤᱻᱱᱥᱚᱨᱴ ᱥᱟᱲᱮ</string>
     <string name="screenshot_sound_summary">Play sound when screenshot is taken</string>
     <!-- Volume Steps -->
-    <string name="volume_steps_title">Volume steps</string>
+    <string name="volume_steps_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞ</string>
     <string name="volume_steps_summary">Customize no. of steps in volume panel</string>
-    <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
-    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
-    <string name="volume_steps_music_title">Volume steps: Music</string>
-    <string name="volume_steps_notification_title">Volume steps: Notification</string>
-    <string name="volume_steps_ring_title">Volume steps: Ringer</string>
-    <string name="volume_steps_system_title">Volume steps: System</string>
-    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
-    <string name="volume_steps_reset">Reset</string>
+    <string name="volume_steps_alarm_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞᱺ ᱟᱞᱟᱨᱟᱢ</string>
+    <string name="volume_steps_dtmf_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞᱠᱚᱺ DTMF</string>
+    <string name="volume_steps_music_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞᱠᱚᱺ ᱥᱮᱨᱮᱧ</string>
+    <string name="volume_steps_notification_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞᱠᱚᱺ ᱱᱚᱴᱤᱯᱷᱤᱠᱮᱥᱚᱱ</string>
+    <string name="volume_steps_ring_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞᱠᱚᱺ ᱨᱤᱝᱜᱚᱨ</string>
+    <string name="volume_steps_system_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞᱠᱚᱺ ᱥᱭᱥᱴᱟᱹᱢ</string>
+    <string name="volume_steps_voice_call_title">ᱣᱚᱞᱭᱩᱢ ᱪᱟᱞᱠᱚᱺ ᱥᱟᱲᱮ ᱠᱚᱞ</string>
+    <string name="volume_steps_reset">ᱨᱤᱥᱮᱴ</string>
     <string name="volume_steps_60">60</string>
     <string name="volume_steps_45">45</string>
     <string name="volume_steps_30">30</string>
@@ -376,12 +376,12 @@
     <string name="volume_steps_7">7</string>
     <string name="volume_steps_5">5</string>
     <!-- SU indicator -->
-    <string name="show_su_indicator_title">Superuser icon</string>
+    <string name="show_su_indicator_title">ᱥᱩᱯᱟᱹᱨᱭᱩᱡᱟᱹᱨ ᱟᱭᱠᱚᱱ</string>
     <string name="show_su_indicator_summary">Display superuser icon when using native root</string>
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">Launch music app</string>
-    <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
-    <string name="headset_connect_player_disabled">Disabled</string>
+    <string name="headset_connect_player_summary">ᱦᱮᱰᱥᱮᱴ ᱡᱩᱲᱟᱹᱣ ᱡᱷᱚᱜ ᱢᱩᱞ ᱥᱮᱨᱮᱧ ᱮᱯ ᱞᱚᱸᱪ ᱢᱮ </string>
+    <string name="headset_connect_player_disabled">ᱵᱚᱸᱫ</string>
     <string name="headset_connect_player_wired">When wired headset is plugged in</string>
     <string name="headset_connect_player_bt_no_carkit">When BT headset (no carkit) is plugged in</string>
     <string name="headset_connect_player_bt">When BT headset is plugged in</string>
@@ -1953,8 +1953,8 @@
     <string name="weather_client_not_available">Weather client not available</string>
     <!-- Rounded corners -->
     <string name="corners_title">Rounded corners</string>
-    <string name="corners_summary">Allow customized rounded corners</string>
-    <string name="corner_radius">Rounded corner radius</string>
+    <string name="corners_summary">Customized rounded corners</string>
+    <string name="corner_radius">Rounded corner radius for screen</string>
     <string name="content_padding">Corner content padding</string>
     <string name="status_bar_padding">Statusbar extra padding</string>
     <string name="corner_fwvals">Use default values</string>
@@ -2003,6 +2003,14 @@
     <string name="switch_retro">Retro</string>
     <string name="switch_stockish">Stockish</string>
     <string name="switch_telegram">Telegram</string>
+    <!-- Rounded styles -->
+    <string name="rounded_style_title">Rounded style for system dialogs</string>
+    <string name="rounded_default">Default</string>
+    <string name="rounded_none">None</string>
+    <string name="rounded_slight">Slight</string>
+    <string name="rounded_medium">Medium</string>
+    <string name="rounded_high">High</string>
+    <string name="rounded_extreme">Extreme</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">This will reset battery history stats. Would you like to continue?</string>
@@ -2314,8 +2322,8 @@
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Phone ringtone - SIM 2</string>
     <!-- Display cutout -->
-    <string name="sysui_display_cutout_title">Display cutout</string>
-    <string name="sysui_display_cutout_summary">Force the display cutout area to black</string>
+    <string name="display_hide_notch_title">Hide display cutout</string>
+    <string name="display_hide_notch_summary">Disable black fill-in for display cutout</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Adaptive playback</string>
     <string name="adaptive_playback_summary">Pause media when volume is muted and resume it by increasing volume within the timeout</string>
@@ -2365,9 +2373,14 @@
     <string name="applock_unlocked">Unlocked</string>
     <string name="applock_locked_apps">Locked apps</string>
     <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_show_only_on_wake">Authenticate only once</string>
-    <string name="applock_show_only_on_wake_on_summary">Once authenticated, an app stays unlocked until the screen turns off</string>
-    <string name="applock_show_only_on_wake_off_summary">Once authenticated, an app stays unlocked for 15 seconds after exiting</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 seconds</string>
+    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
     <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
     <string name="applock_show_notif">Showing notification content</string>
     <string name="applock_hide_notif">Hiding notification content</string>
