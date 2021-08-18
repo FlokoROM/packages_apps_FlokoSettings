@@ -22,6 +22,9 @@
     <string name="share_floko_summary">みんなにも FlokoROM について知ってもらいましょう</string>
     <string name="share_floko_message">#FlokoROM についてもっと知る: https://floko.maud.io/</string>
     <string name="share_floko_chooser_title">FlokoROM をシェアする...</string>
+    <string name="floko_sponsor_summary">ビルドシステムや開発を支援するために寄付をお願いします</string>
+    <!-- FlokoROM App Title -->
+    <string name="floko_settings_title">FlokoROM の設定</string>
     <!-- App Title -->
     <string name="crdroid_settings_title">crDroid の設定</string>
     <string name="crdroid_settings_summary">高度な設定</string>
@@ -1580,7 +1583,7 @@
     <string name="media_scanner_on_boot_disabled">メディアをスキャンしない</string>
     <!-- Reset settings -->
     <string name="reset_settings_title">設定をリセット</string>
-    <string name="reset_settings_message">現在のユーザーのほとんどの crDroid 設定を初期設定に戻します。続行しますか？</string>
+    <string name="reset_settings_message">現在のユーザーのほとんどの FlokoROM 設定を初期設定に戻します。続行しますか？</string>
     <!-- OTA -->
     <string name="ota_crdroid_title">アップデート</string>
     <string name="ota_crdroid_summary">OTA アップデートの有無とお使いの端末向けのリンクをチェックします</string>
