@@ -2172,12 +2172,10 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="battery_estimate_title">Szacunkowy czas pracy baterii</string>
     <string name="battery_estimate_summary">Wyświetl szacowany pozostały okres użytkowania baterii, gdy jest dostępny</string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Częstotliwośći odświeżania ekranu</string>
-    <string name="refresh_rate_summary_automatic">Auto / Automatycznie podnoś częstotliwość odświeżania</string>
-    <string name="refresh_rate_summary_60">60Hz / Częstotliwość odświeżania zablokowana na 60Hz</string>
-    <string name="refresh_rate_summary_90">90Hz / Częstotliwość odświeżania zablokowana na 90Hz</string>
-    <string name="refresh_rate_summary_120">120Hz / Częstotliwość odświeżania zablokowana na 120Hz</string>
-    <string name="auto_refresh_rate">Automatyczny</string>
+    <string name="default_refresh_rate_title">Domyślna częstotliwość odświeżania</string>
+    <string name="peak_refresh_rate_title">Najwyższa częstotliwość odświeżania</string>
+    <string name="battery_saver_refresh_rate_title">Zmniejsz częstotliwość odświeżania</string>
+    <string name="battery_saver_refresh_rate_summary">Użyj 60Hz jako maksymalnej prędkości odświeżania, aby oszczędzać energię w trybie oszczędzania baterii</string>
     <!-- Ambient edge lighting -->
     <string name="pulse_ambient_light_title">Oświetlenie krawędzi</string>
     <string name="pulse_ambient_light_summary">Podświetl boczne krawędzie ekranu po pulsowaniu powiadomień</string>
@@ -2374,14 +2372,14 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="applock_unlocked">Odblokowano</string>
     <string name="applock_locked_apps">Zablokowane aplikacje</string>
     <string name="applock_unlocked_apps">Odblokowane aplikacje</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_lock_after_title">Zablokuj aplikację po</string>
+    <string name="applock_lock_after_instantly">Natychmiast</string>
+    <string name="applock_lock_after_15_seconds">15 sekundach</string>
+    <string name="applock_lock_after_screen_off">Wyłączeniu ekranu</string>
+    <string name="applock_lock_after_summary">Aplikacja zostanie zablokowana po wybranym przekroczeniu czasu</string>
+    <string name="applock_lock_after_instantly_summary">Aplikacja zostanie zablokowana natychmiast po zamknięciu</string>
+    <string name="applock_lock_after_15_seconds_summary">Aplikacja zostanie zablokowana 15 sekund po zamknięciu</string>
+    <string name="applock_lock_after_screen_off_summary">Aplikacja zostanie zablokowana po wyłączeniu ekranu</string>
     <string name="applock_notification_info">Możesz pokazać/ukryć zawartość powiadomień dla każdej aplikacji klikając ikonę powiadomień wyświetlaną na każdej zablokowanej aplikacji</string>
     <string name="applock_show_notif">Pokazuj całą treść powiadomień</string>
     <string name="applock_hide_notif">Ukryj treść powiadomień</string>
