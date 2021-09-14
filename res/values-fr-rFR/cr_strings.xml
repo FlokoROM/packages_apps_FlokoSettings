@@ -2133,6 +2133,8 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="gaming_mode_headsup_summary">Les appels et les alarmes sont exemptés</string>
     <string name="gaming_mode_hardware_keys_title">Boutons de verrouillage</string>
     <string name="gaming_mode_hardware_keys_summary">Lorsque le mode Jeu est activé, les boutons seront verrouillés</string>
+    <string name="gaming_mode_adb_title">Désactiver le débogage USB</string>
+    <string name="gaming_mode_adb_summary">Désactiver le débogage USB quand le mode jeu est activé</string>
     <string name="gaming_mode_brightness_title">Désactiver la luminosité automatique</string>
     <string name="gaming_mode_brightness_summary">Verrouiller la luminosité de l\'écran lorsque le mode Gaming est activé</string>
     <string name="gaming_mode_ringer_title">Sonnerie en mode jeu</string>
@@ -2461,4 +2463,8 @@ https://plus.google.com/communities/118297646046960923906</string>
     <string name="volume_panel_compact">Compact</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Tuiles</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Capacité actuelle de la batterie</string>
+    <string name="designed_battery_capacity">Capacité nominale de la batterie</string>
+    <string name="battery_charge_cycles">Cycles de charge complets</string>
 </resources>

@@ -2132,6 +2132,8 @@
     <string name="gaming_mode_headsup_summary">Обаждания и аларми са разрешени</string>
     <string name="gaming_mode_hardware_keys_title">Заключи бутоните</string>
     <string name="gaming_mode_hardware_keys_summary">Когато режимът на игра е включен, бутоните ще са заключени</string>
+    <string name="gaming_mode_adb_title">Disable USB debugging</string>
+    <string name="gaming_mode_adb_summary">Disable USB debugging when Gaming mode is turned on</string>
     <string name="gaming_mode_brightness_title">Деактивиране на автоматичната настройка за яркост</string>
     <string name="gaming_mode_brightness_summary">Заключва яркоста на екран когато Режим на игра е включен</string>
     <string name="gaming_mode_ringer_title">Звънене при Режим на игра</string>
@@ -2460,4 +2462,8 @@
     <string name="volume_panel_compact">Компактен</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Плочка</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
 </resources>

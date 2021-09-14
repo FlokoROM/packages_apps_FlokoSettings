@@ -2133,6 +2133,8 @@ Laluan Rangkaian</string>
     <string name="gaming_mode_headsup_summary">Calls and alarms are exempted</string>
     <string name="gaming_mode_hardware_keys_title">Lock buttons</string>
     <string name="gaming_mode_hardware_keys_summary">When Gaming mode is turned on, buttons will be locked</string>
+    <string name="gaming_mode_adb_title">Disable USB debugging</string>
+    <string name="gaming_mode_adb_summary">Disable USB debugging when Gaming mode is turned on</string>
     <string name="gaming_mode_brightness_title">Disable automatic brightness</string>
     <string name="gaming_mode_brightness_summary">Lock screen brightness when Gaming mode is turned on</string>
     <string name="gaming_mode_ringer_title">Ringer in Gaming mode</string>
@@ -2460,4 +2462,8 @@ Laluan Rangkaian</string>
     <string name="volume_panel_compact">Compact</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Tiled</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
 </resources>

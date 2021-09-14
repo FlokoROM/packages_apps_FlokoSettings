@@ -2132,6 +2132,8 @@
     <string name="gaming_mode_headsup_summary">Okrem hovorov a budíkov</string>
     <string name="gaming_mode_hardware_keys_title">Zamknúť tlačidlá</string>
     <string name="gaming_mode_hardware_keys_summary">Po zapnutí Herného režimu budú tlačidlá uzamknuté</string>
+    <string name="gaming_mode_adb_title">Disable USB debugging</string>
+    <string name="gaming_mode_adb_summary">Disable USB debugging when Gaming mode is turned on</string>
     <string name="gaming_mode_brightness_title">Zakázať automatický jas</string>
     <string name="gaming_mode_brightness_summary">Zamknúť jas obrazovky po zapnutí Herného režimu</string>
     <string name="gaming_mode_ringer_title">Vyzváňanie v Hernom režime</string>
@@ -2462,4 +2464,8 @@
     <string name="volume_panel_compact">Kompaktný</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Dlaždicový</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
 </resources>

@@ -2132,6 +2132,8 @@
     <string name="gaming_mode_headsup_summary">Aramalar ve alarmlar muaf</string>
     <string name="gaming_mode_hardware_keys_title">Donanım tuşu</string>
     <string name="gaming_mode_hardware_keys_summary">Oyun modu açıldığında, tuşlar kilitlenir</string>
+    <string name="gaming_mode_adb_title">USB hata ayıklamasını devre dışı bırak</string>
+    <string name="gaming_mode_adb_summary">Oyun modu açıkken USB hata ayıklamasını devre dışı bırakın</string>
     <string name="gaming_mode_brightness_title">Otomatik parlaklık</string>
     <string name="gaming_mode_brightness_summary">Oyun modu açıldığında ekran parlaklığını kilitle</string>
     <string name="gaming_mode_ringer_title">Oyun modunda zil sesi</string>
@@ -2460,4 +2462,8 @@
     <string name="volume_panel_compact">Kompakt</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Kutucuklu</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
+    <string name="designed_battery_capacity">Tasarlanmış pil kapasitesi</string>
+    <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
 </resources>

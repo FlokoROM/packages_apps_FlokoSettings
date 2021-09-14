@@ -2132,6 +2132,8 @@
     <string name="gaming_mode_headsup_summary">Hovory a budíky jsou vyňaty</string>
     <string name="gaming_mode_hardware_keys_title">Uzamknout tlačítka</string>
     <string name="gaming_mode_hardware_keys_summary">Po zapnutí Herního režimu budou HW\u00a0tlačítka uzamčena</string>
+    <string name="gaming_mode_adb_title">Zakázat ladění USB</string>
+    <string name="gaming_mode_adb_summary">Zakázat ladění USB, když je zapnutý Herní režim</string>
     <string name="gaming_mode_brightness_title">Zakázat automatický jas</string>
     <string name="gaming_mode_brightness_summary">Uzamknout jas obrazovky při zapnutí Herního režimu</string>
     <string name="gaming_mode_ringer_title">Vyzvánění při Herním režimu</string>
@@ -2172,9 +2174,9 @@
     <string name="battery_estimate_summary">Zobrazit odhad zbývající výdrže baterie, je‑li k\u00a0dispozici</string>
     <!-- Refresh rate -->
     <string name="default_refresh_rate_title">Výchozí obnovovací frekvence</string>
-    <string name="peak_refresh_rate_title">Vrchol obnovovací frekvence</string>
+    <string name="peak_refresh_rate_title">Maximální obnovovací frekvence</string>
     <string name="battery_saver_refresh_rate_title">Snížit obnovovací frekvenci</string>
-    <string name="battery_saver_refresh_rate_summary">Použít maximální obnovovací frekvenci 60 Hz pro úsporu energie, když je zapnut spořič baterie</string>
+    <string name="battery_saver_refresh_rate_summary">Použít maximální obnovovací frekvenci 60\u00a0Hz pro úsporu energie, když je zapnut spořič baterie</string>
     <!-- Ambient edge lighting -->
     <string name="pulse_ambient_light_title">Nasvícení okrajů</string>
     <string name="pulse_ambient_light_summary">Rozsvítit boční okraje obrazovky po přijetí oznámení</string>
@@ -2462,4 +2464,8 @@
     <string name="volume_panel_compact">Kompaktní</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Dlaždicový</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Aktuální kapacita baterie</string>
+    <string name="designed_battery_capacity">Výrobní kapacita baterie</string>
+    <string name="battery_charge_cycles">Dokončených nabíjecích cyklů</string>
 </resources>
