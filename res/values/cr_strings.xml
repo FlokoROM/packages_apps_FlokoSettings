@@ -2349,6 +2349,8 @@
     <string name="display_cutout_style_hide">Hide</string>
     <string name="stock_statusbar_in_hide">Stock statusbar height</string>
     <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
+    <string name="display_kill_notch_title">Kill notch</string>
+    <string name="display_kill_notch_summary">Kill notch completely for full screen apps</string>
 
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
@@ -2443,7 +2445,7 @@
 
     <!-- Refresh rate -->
     <string name="default_refresh_rate_title">Default refresh rate</string>
-    <string name="peak_refresh_rate_title">Peak refresh rate</string>
+    <string name="peak_refresh_rate_title_custom">Peak refresh rate</string>
     <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
     <string name="battery_saver_refresh_rate_summary">Use 60Hz as max refresh rate to save power in Battery Saver mode</string>
 
