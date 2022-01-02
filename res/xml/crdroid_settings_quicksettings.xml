@@ -184,9 +184,9 @@
         <com.crdroid.settings.preferences.SystemSettingListPreference
             android:key="qs_show_battery_percent"
             android:icon="@drawable/ic_battery_alert"
-            android:title="@string/battery_percentage_title"
-            android:entries="@array/battery_percentage_entries"
-            android:entryValues="@array/battery_percentage_values"
+            android:title="@string/status_bar_battery_percentage_title"
+            android:entries="@array/status_bar_battery_percent_entries"
+            android:entryValues="@array/status_bar_battery_percent_values"
             android:defaultValue="2" />
 
         <!-- Battery estimate -->
@@ -275,12 +275,12 @@
     <PreferenceCategory 
          android:title="@string/qs_footer_category">
 
-        <!--<com.crdroid.settings.preferences.SecureSettingSwitchPreference
-            android:key="qs_show_security_footer"
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_warnings"
             android:icon="@drawable/ic_key"
             android:title="@string/qs_footer_warnings_title"
             android:summary="@string/qs_footer_warnings_summary"
-            android:defaultValue="true"/>-->
+            android:defaultValue="true"/>
 
         <com.crdroid.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_footer_show_user"

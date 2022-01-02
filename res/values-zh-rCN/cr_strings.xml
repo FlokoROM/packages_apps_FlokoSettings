@@ -786,11 +786,9 @@
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">电池样式</string>
     <string name="status_bar_battery_style_icon_portrait">纵向图标</string>
-    <string name="status_bar_battery_style_icon_landscape">卧式图标</string>
     <string name="status_bar_battery_style_circle">环形图标</string>
     <string name="status_bar_battery_style_dotted_circle">虚线圆圈</string>
-    <string name="status_bar_battery_style_square">方形图标</string>
-    <string name="status_bar_battery_style_solid">实心图标</string>
+    <string name="status_bar_battery_style_filled_circle">填充圆圈</string>
     <string name="status_bar_battery_style_text">文本</string>
     <string name="status_bar_battery_style_hidden">隐藏</string>
     <string name="status_bar_battery_style_tile_title">覆盖电池磁贴</string>
@@ -1017,6 +1015,8 @@
     <string name="doze_display_title">主动显示</string>
     <string name="doze_display_summary">配置环境显示设置</string>
     <string name="doze_sensor_title">基于传感器</string>
+    <string name="raise_to_wake_title">唤醒</string>
+    <string name="raise_to_wake_summary">唤醒设备而不是脉冲通知</string>
     <string name="tilt_title">倾斜</string>
     <string name="tilt_summary">挥手时显示通知</string>
     <string name="pickup_title">拾取</string>
@@ -1036,6 +1036,7 @@
     <!-- Share crDroid -->
     <string name="share_crdroid_title">分享 crDroid</string>
     <string name="share_crdroid_summary">让别人知道 crDroid</string>
+    <string name="share_message">查看 #crDroid Android 的全部内容 @ https://crdroid.net/</string>
     <string name="share_chooser_title">分享 crDroid</string>
     <!-- Sites crDroid -->
     <string name="crdroid_source_title">GitHub</string>
@@ -2036,8 +2037,8 @@
     <string name="full_gesture_mode_dt2s_title">启用双击熄屏</string>
     <string name="full_gesture_mode_dt2s_summary">点击导航栏中的空白处而不是主页按钮来关闭屏幕。</string>
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">VPN 警告</string>
-    <string name="qs_footer_warnings_summary">当通过 VPN 连接网络或网络受到监控时显示警告</string>
+    <string name="qs_footer_warnings_title">页脚提醒</string>
+    <string name="qs_footer_warnings_summary">当网络被 VPN 或者应用程序监测时，在快速设置底部显示提醒</string>
     <!-- QS footer icons -->
     <string name="qs_footer_users_icon_title">用户账户图标</string>
     <string name="qs_footer_users_icon_summary">在可用时显示多用户辅助功能图标</string>
@@ -2091,6 +2092,8 @@
     <string name="display_cutout_style_hide">隐藏</string>
     <string name="stock_statusbar_in_hide">原生状态栏高度</string>
     <string name="stock_statusbar_in_hide_summary">在隐藏中使用默认状态栏高度</string>
+    <string name="display_kill_notch_title">消除异形屏</string>
+    <string name="display_kill_notch_summary">完全消除全屏应用程序的缺口</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全屏应用</string>
     <string name="display_cutout_force_fullscreen_summary">强制应用忽略全面屏上缘</string>
@@ -2163,11 +2166,6 @@
     <string name="aggressive_standby_summary">限制应用程序后台运行</string>
     <string name="aggressive_battery_saver_title">省电模式时自动启用</string>
     <string name="aggressive_battery_saver_summary">当使用省电模式时自动开启极限省电</string>
-    <!-- Battery percent -->
-    <string name="battery_percentage_title">电量百分比</string>
-    <string name="battery_percentage_off">禁用</string>
-    <string name="battery_percentage_next">启用</string>
-    <string name="battery_percentage_inside">启用 (图标内)</string>
     <!-- Battery estimate -->
     <string name="battery_estimate_title">电量预估</string>
     <string name="battery_estimate_summary">显示电量可用时间</string>

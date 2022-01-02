@@ -786,11 +786,9 @@
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Stil baterie</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portret</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon peisaj</string>
     <string name="status_bar_battery_style_circle">Cerc</string>
     <string name="status_bar_battery_style_dotted_circle">Cerc punctat</string>
-    <string name="status_bar_battery_style_square">Pătrat</string>
-    <string name="status_bar_battery_style_solid">Solid</string>
+    <string name="status_bar_battery_style_filled_circle">Filled circle</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Ascuns</string>
     <string name="status_bar_battery_style_tile_title">Suprascrie comutator baterie</string>
@@ -1017,6 +1015,8 @@
     <string name="doze_display_title">Afișaj ambiental</string>
     <string name="doze_display_summary">Configuraţi setările pentru afişarea ambientală</string>
     <string name="doze_sensor_title">Bazat pe senzori</string>
+    <string name="raise_to_wake_title">Wake up</string>
+    <string name="raise_to_wake_summary">Wake up the device instead of pulsing notifications</string>
     <string name="tilt_title">Inclinare</string>
     <string name="tilt_summary">Pulsează notificările la inclinare</string>
     <string name="pickup_title">Ridicare</string>
@@ -1036,7 +1036,7 @@
     <!-- Share crDroid -->
     <string name="share_crdroid_title">Distribuie crDroid</string>
     <string name="share_crdroid_summary">Anunta-i si pe altii despre crDroid</string>
-    <string name="share_message">Vezi despre ce este vorba in #crDroid @ https://crdroid.net/</string>
+    <string name="share_message">Vezi despre ce este vorba în #crDroid Android @ https://crdroid.net/</string>
     <string name="share_chooser_title">Distribuie crDroid</string>
     <!-- Sites crDroid -->
     <string name="crdroid_source_title">GitHub</string>
@@ -2037,8 +2037,8 @@
     <string name="full_gesture_mode_dt2s_title">Activare dublu apasare pentru sleep</string>
     <string name="full_gesture_mode_dt2s_summary">Apasa pe o zona goala din bara de navigatie, doar nu pe butonul de acasa, pentru a inchide ecranul.</string>
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">Alertă VPN</string>
-    <string name="qs_footer_warnings_summary">Afișează o alertă când rețeaua este monitorizată sau conectată prin VPN</string>
+    <string name="qs_footer_warnings_title">Footer alerts</string>
+    <string name="qs_footer_warnings_summary">Display an alert at bottom of QS panel when network is monitored by external apps or VPN</string>
     <!-- QS footer icons -->
     <string name="qs_footer_users_icon_title">Iconiță cont utilizator</string>
     <string name="qs_footer_users_icon_summary">Afişare pictograma accesibilitate multiutilizator, atunci când este disponibil</string>
@@ -2093,7 +2093,7 @@
     <string name="stock_statusbar_in_hide">Înălţime bară de stare stoc</string>
     <string name="stock_statusbar_in_hide_summary">Utilizaţi înălţime implicită pentru bara de stare</string>
     <string name="display_kill_notch_title">Ascunde notch-ul</string>
-    <string name="display_kill_notch_summary">Acopera notchiul complet pentru aplicatiile pe ecran complet</string>
+    <string name="display_kill_notch_summary">Acopera notch-ul complet pentru aplicatiile pe ecran complet</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplicații ecran complet</string>
     <string name="display_cutout_force_fullscreen_summary">Forţaţi aplicațiile să ignore spațiul pentru notch</string>
@@ -2166,17 +2166,12 @@
     <string name="aggressive_standby_summary">Restricționați aplicațiile să ruleze în fundal</string>
     <string name="aggressive_battery_saver_title">Activare automată la economisirea bateriei</string>
     <string name="aggressive_battery_saver_summary">Activare automată baterie agresivă in mod economisirea bateriei</string>
-    <!-- Battery percent -->
-    <string name="battery_percentage_title">Procentaj baterie</string>
-    <string name="battery_percentage_off">Dezactivat</string>
-    <string name="battery_percentage_next">Activ</string>
-    <string name="battery_percentage_inside">Activ (înăuntrul pictogramei)</string>
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Estimare baterie</string>
     <string name="battery_estimate_summary">Afișează durata de viață estimată a bateriei rămase când este disponibil</string>
     <!-- Refresh rate -->
     <string name="default_refresh_rate_title">Rata de reîmprospătare implicită</string>
-    <string name="peak_refresh_rate_title_custom">Rata de reîmprospătare maximă</string>
+    <string name="peak_refresh_rate_title_custom">Rata maximă de reîmprospătare</string>
     <string name="battery_saver_refresh_rate_title">Reduce rata de împrospătare</string>
     <string name="battery_saver_refresh_rate_summary">Folosește 60Hz ca rată maximă de reîmprospătare pentru a economisi energie în modul Economisire baterie</string>
     <!-- Ambient edge lighting -->
