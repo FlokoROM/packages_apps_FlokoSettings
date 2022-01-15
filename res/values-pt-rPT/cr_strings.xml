@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">Definições crDroid</string>
     <string name="crdroid_settings_summary">Open goodness</string>
     <string name="reset_settings_title">Repor definições</string>
-    <string name="reset_settings_message">This will reset most crdroid settings to their default values for the current user. Would you like to continue?</string>
+    <string name="reset_settings_message">This will reset most FlokoROM settings to their default values for the current user. Would you like to continue?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Botões</string>
     <string name="lockscreen_title">Ecrã de bloqueio</string>

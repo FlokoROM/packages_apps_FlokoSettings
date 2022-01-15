@@ -37,18 +37,20 @@
         android:summary="@string/crdroid_website_summary" />
 
     <!-- crDroid Translate -->
+<!--
     <Preference
         android:key="crdroid_translate"
         android:icon="@drawable/ic_translate"
         android:title="@string/crdroid_translate_title"
         android:summary="@string/crdroid_translate_summary" />
+-->
 
     <!-- crDroid Share -->
     <Preference
         android:key="crdroid_share"
         android:icon="@drawable/ic_share"
-        android:title="@string/share_crdroid_title"
-        android:summary="@string/share_crdroid_summary" />
+        android:title="@string/share_floko_title"
+        android:summary="@string/share_floko_summary" />
 
     <!-- crDroid Donate -->
     <Preference
@@ -65,25 +67,31 @@
         android:summary="@string/crdroid_source_summary" />
 
     <!-- crDroid Telegram -->
+<!--
     <Preference
         android:key="crdroid_telegram"
         android:icon="@drawable/ic_telegram"
         android:title="@string/crdroid_telegram_title"
         android:summary="@string/crdroid_telegram_summary" />
+-->
 
     <!-- crDroid Telegram Updates Channel -->
+<!--
     <Preference
         android:key="crdroid_telegram_channel"
         android:icon="@drawable/ic_telegram_channel"
         android:title="@string/crdroid_telegram_channel_title"
         android:summary="@string/crdroid_telegram_channel_summary" />
+-->
 
     <!-- crDroid sponsor -->
+<!--
     <Preference
         android:key="crdroid_sponsor"
         android:icon="@drawable/ic_sponsor"
         android:title="@string/crdroid_sponsor_title"
         android:summary="@string/crdroid_sponsor_summary" />
+-->
 
     <!-- crDroid OTA update -->
     <Preference
