@@ -33,6 +33,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.settings.R;
@@ -55,8 +56,8 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
     private LineageGlobalActions mLineageGlobalActions;
 
     Context mContext;
+    private LockPatternUtils mLockPatternUtils;
     private UserManager mUserManager;
-    private List<String> mLocalUserConfig = new ArrayList<String>();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -64,6 +65,7 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.power_menu);
         mContext = getActivity().getApplicationContext();
+        mLockPatternUtils = new LockPatternUtils(mContext);
         mUserManager = UserManager.get(mContext);
         mLineageGlobalActions = LineageGlobalActions.getInstance(mContext);
 
@@ -82,8 +84,6 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
                 mEmergencyPref = (SwitchPreference) findPreference(GLOBAL_ACTION_KEY_EMERGENCY);
             }
         }
-
-        mLocalUserConfig = mLineageGlobalActions.getLocalUserConfig();
     }
 
     @Override
@@ -105,23 +105,18 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
                     GLOBAL_ACTION_KEY_AIRPLANE));
         }
 
-        if (mUsersPref != null) {
-            if (!UserHandle.MU_ENABLED || !UserManager.supportsMultipleUsers()) {
-                getPreferenceScreen().removePreference(findPreference(GLOBAL_ACTION_KEY_USERS));
-                mUsersPref = null;
-            } else {
-                List<UserInfo> users = mUserManager.getUsers();
-                boolean enabled = (users.size() > 1);
-                mUsersPref.setChecked(mLineageGlobalActions.userConfigContains(
-                        GLOBAL_ACTION_KEY_USERS) && enabled);
-                mUsersPref.setEnabled(enabled);
-            }
-        }
-
         if (mEmergencyPref != null) {
             mEmergencyPref.setChecked(mLineageGlobalActions.userConfigContains(
                     GLOBAL_ACTION_KEY_EMERGENCY));
         }
+
+        updatePreferences();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        updatePreferences();
     }
 
     @Override
@@ -156,6 +151,32 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
             return super.onPreferenceTreeClick(preference);
         }
         return true;
+    }
+
+    private void updatePreferences() {
+        boolean isKeyguardSecure = mLockPatternUtils.isSecure(UserHandle.myUserId());
+        if (mLockDownPref != null) {
+            mLockDownPref.setEnabled(isKeyguardSecure);
+            mLockDownPref.setChecked(mLineageGlobalActions.userConfigContains(
+                    GLOBAL_ACTION_KEY_LOCKDOWN));
+            if (isKeyguardSecure) {
+                mLockDownPref.setSummary(null);
+            } else {
+                mLockDownPref.setSummary(R.string.power_menu_lockdown_unavailable);
+            }
+        }
+        if (mUsersPref != null) {
+            if (!UserHandle.MU_ENABLED || !UserManager.supportsMultipleUsers()) {
+                getPreferenceScreen().removePreference(findPreference(GLOBAL_ACTION_KEY_USERS));
+                mUsersPref = null;
+            } else {
+                List<UserInfo> users = mUserManager.getUsers();
+                boolean enabled = (users.size() > 1);
+                mUsersPref.setChecked(mLineageGlobalActions.userConfigContains(
+                        GLOBAL_ACTION_KEY_USERS) && enabled);
+                mUsersPref.setEnabled(enabled);
+            }
+        }
     }
 
     public static void reset(Context mContext) {
