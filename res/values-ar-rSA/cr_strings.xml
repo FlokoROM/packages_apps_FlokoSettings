@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2021 crDroid Android Project
+     Copyright (C) 2016-2022 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
     <string name="crdroid_settings_title">إعدادات crDroid</string>
-    <string name="crdroid_settings_summary">خيارات وإعدادات crDroid</string>
+    <string name="crdroid_settings_summary">تخصيص crDriod</string>
     <string name="crdroid_personalization_category">التخصيص</string>
     <string name="crdroid_addons_category">الإضافات</string>
     <!-- Personalization Categories -->
@@ -52,13 +52,13 @@
     <string name="lockclock_summary">إظهار او تعديل خيارت عرض الساعة المصغرة</string>
     <!-- Network traffic -->
     <string name="network_traffic_settings_title">حركة شبكة الاتصال</string>
-    <string name="network_traffic_settings_summary">رصد حركة وسرعة بينات الشبكة</string>
+    <string name="network_traffic_settings_summary">عرض وتخصيص المستويات الحالية لمرور الشبكة</string>
     <string name="network_traffic_location_title">الموقع</string>
     <string name="network_traffic_location_disable">معطّل</string>
     <string name="network_traffic_location_statusbar">شريط الحالة</string>
-    <string name="network_traffic_location_quick_statusbar">شريط الٱعدادات السريعة</string>
+    <string name="network_traffic_location_quick_statusbar">شريط الإعدادات السريعة</string>
     <string name="network_traffic_mode_title">وضع العرض</string>
-    <string name="network_traffic_mode_up">الصادر</string>
+    <string name="network_traffic_mode_up">الرفع فقط</string>
     <string name="network_traffic_mode_down">الوارد</string>
     <string name="network_traffic_mode_all">الصادر والوارد</string>
     <string name="network_traffic_autohide">إخفاء تلقائي</string>
@@ -72,11 +72,11 @@
     <string name="network_traffic_units_bits">أمتار في الثانية (م/ث)</string>
     <string name="network_traffic_units_kilobits">كيلوبت في الثانية (kb/s)</string>
     <string name="network_traffic_units_megabits">ميجابت في الثانية (Mb/s)</string>
-    <string name="network_traffic_units_bytes">أمتار في الثانية (م/ث)</string>
+    <string name="network_traffic_units_bytes">بايت في الثانية(ب\ث)</string>
     <string name="network_traffic_units_kilobytes">كيلوبايت في الثانية (kB/s)</string>
     <string name="network_traffic_units_megabytes">ميغابايت في الثانية (MB/s)</string>
     <string name="network_traffic_hidearrow">اخفاء الاسهم</string>
-    <string name="network_traffic_hidearrow_summary">إخفاء أسهم مؤشر حركة البيانات</string>
+    <string name="network_traffic_hidearrow_summary">إخفاء اسهم مؤشر حركة البيانات</string>
     <string name="network_traffic_refresh_interval_title">الفاصل الزمني للتحديث</string>
     <string name="network_traffic_refresh_interval_summary">المدة التي يتم بعدها إعادة قياس السرعة</string>
     <!-- Settings summary  -->
@@ -94,16 +94,16 @@
     <string name="recents_default_category">AOSP</string>
     <string name="recents_omni_category">تحويل اومني</string>
     <!-- AOSP Recents -->
-    <string name="aosp_first_time_title">التطبيقات الأخيرة AOSP</string>
+    <string name="aosp_first_time_title">تطبيقات AOSP الأخيرة</string>
     <string name="aosp_first_time_message">تمكين سطح المكتب الموسع، فسيتم تجاوز التطبيقات الأخيرة في ملء الشاشة.</string>
     <!-- Hide Apps from Recents -->
-    <string name="hide_apps_from_recents_title">إخفاء تطبيقات من التطبيقات الأخيرة</string>
+    <string name="hide_apps_from_recents_title">إخفاء التطبيقات عن الظهور مع التطبيقات الأخيرة</string>
     <string name="hide_apps_from_recents_summary">إخفاء التطبيقات من الظهور في الشاشة الأخيرة</string>
-    <string name="hide_from_recents_add_app">اظافة التطبيق إلى القائمة المخفية</string>
+    <string name="hide_from_recents_add_app">إضافة التطبيق إلى قائمة التطبيقات المخفية</string>
     <string name="hide_from_recents_picker_title">إخفاء هذه التطبيقات تلقائيًا</string>
     <string name="hide_from_recents_picker_summary">سيتم إخفاء هذه التطبيقات تلقائياً من شاشة التطبيقات الحديثة عند فتحها في المرة القادمة</string>
     <!-- OmniSwitch Recents -->
-    <string name="recents_use_omniswitch_title">إستخدامها في معاينة التطبيقات الأخيرة</string>
+    <string name="recents_use_omniswitch_title">استخدام في معاينة التطبيقات الأخيرة</string>
     <string name="recents_use_omniswitch_summary">إستخدام مبدّل Omni بدلاً من عرض التطبيقات الأخيرة الافتراضية</string>
     <string name="omniswitch_start_settings_title">الإعدادات</string>
     <string name="omniswitch_start_settings_summary">عرض إعدادات OmniSwitch</string>
@@ -125,7 +125,7 @@
     <string name="lockscreen_shortcuts_summary">تكوين الاختصارات في أسفل الشاشة</string>
     <!-- Slim DSLV -->
     <string name="shortcut_action_longpress">ضغط مطول:</string>
-    <string name="shortcut_action_select_action_longpress">إختر إجراء الضغط المطول:</string>
+    <string name="shortcut_action_select_action_longpress">اختر إجراء الضغط المطول:</string>
     <string name="shortcut_action_select_action">اختر الإجراء:</string>
     <string name="shortcut_action_select_action_newaction">اختر الإجراء الجديد:</string>
     <string name="shortcut_action_reset">إعادة تعيين</string>
@@ -141,11 +141,11 @@
     <string name="shortcut_action_help_button">زر</string>
     <string name="shortcut_action_help_app">التطبيق</string>
     <string name="shortcut_action_help_icon">، أثناء إختيار الرمز سيتم إحضار خيارات التخصيص</string>
-    <string name="shortcut_action_help_main">لإضافة %1$s، أختر أيقونة الإضافة. حالما تتم إضافة %1$s ، اختيار الصف سيغير الهدف %2$s\n\n لإزالة %1$s, مرر الصف أفقياً يميناً او يساراً. إعادة ترتيب %1$s في القائمة بواسطة سحب نقطة الارتساء عمودياً على اليسار.\n\n لمسح او اعادة التعيين إلى الإعدادات الافتراضية، حدد رمز إعادة تعيين.</string>
+    <string name="shortcut_action_help_main">لإضافة %1$s، اختر أيقونة الإضافة. حالما تتم إضافة %1$s ، اختيار الصف سيغير الهدف %2$s\n\n لإزالة %1$s, مرر الصف أفقياً يميناً او يساراً. إعادة ترتيب %1$s في القائمة بواسطة سحب نقطة الارتساء عمودياً على اليسار.\n\n لمسح أو إعادة التعيين إلى الإعدادات الافتراضية، حدد رمز إعادة تعيين.</string>
     <string name="shortcut_action_help_delete_last_entry">حذف كل %1$s في القائمة سيعطل المزيّة تماماً.</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">حذف كل %1$s في القائمة سيعطل الطبقة الثانية في الدائرة بشكل كامل.</string>
     <string name="shortcuts_applications">التطبيقات</string>
-    <string name="shortcuts_select_custom_app_title">إختر تطبيقاً معيناً</string>
+    <string name="shortcuts_select_custom_app_title">اختر تطبيقاً معيناً</string>
     <string name="shortcuts_icon_picker_type">حدد نوع الايقونة:</string>
     <string name="shortcuts_icon_default">إفتراضي</string>
     <string name="shortcuts_icon_presets">أيقونات النظام</string>
@@ -653,6 +653,8 @@
     <string name="pulse_lavalamp_speed_title">سرعة الإضاءة السلسة</string>
     <string name="pulse_solid_units_count">عدد الخطوط الصلبة</string>
     <string name="pulse_solid_units_opacity">عتامة الخطوط الصلبة</string>
+    <string name="pulse_solid_units_rounded_title">Rounded corners</string>
+    <string name="pulse_solid_units_rounded_summary">Solid lines with rounded tip</string>
     <string name="pulse_solid_dimen_category">إعدادات وضع الخطوط الصلبة</string>
     <string name="fling_lavalamp_color_from">بداية اللون للإضاءة السلسة</string>
     <string name="fling_lavalamp_color_to">نهاية اللون للإضاءة السلسة</string>
@@ -786,9 +788,11 @@
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">نمط البطارية</string>
     <string name="status_bar_battery_style_icon_portrait">أيقونة رأسية</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
+    <string name="status_bar_battery_style_icon_landscape">Icon landscape (Left)</string>
     <string name="status_bar_battery_style_circle">دائرة</string>
     <string name="status_bar_battery_style_dotted_circle">دائرة منقطة</string>
-    <string name="status_bar_battery_style_filled_circle">Filled circle</string>
+    <string name="status_bar_battery_style_filled_circle">دائرة معبأة</string>
     <string name="status_bar_battery_style_text">نص</string>
     <string name="status_bar_battery_style_hidden">إخفاء</string>
     <string name="status_bar_battery_style_tile_title">تجاوز تجانب البطارية</string>
@@ -1015,8 +1019,8 @@
     <string name="doze_display_title">العرض المحيطي</string>
     <string name="doze_display_summary">تكوين إعدادات العرض المحيطي</string>
     <string name="doze_sensor_title">قاعد المجسات</string>
-    <string name="raise_to_wake_title">Wake up</string>
-    <string name="raise_to_wake_summary">Wake up the device instead of pulsing notifications</string>
+    <string name="raise_to_wake_title">استيقظ</string>
+    <string name="raise_to_wake_summary">تشغيل الهاتف بدلًا من عرض الإشعارات</string>
     <string name="tilt_title">الإمالة</string>
     <string name="tilt_summary">إشعارات النبض عند الإمالة</string>
     <string name="pickup_title">الالتقاط</string>
@@ -2011,6 +2015,18 @@
     <string name="rounded_medium">متوسط</string>
     <string name="rounded_high">عالي</string>
     <string name="rounded_extreme">الأقصى</string>
+    <!-- Signal / WiFi styles -->
+    <string name="signal_style_title">Signal bar style</string>
+    <string name="wifi_style_title">WiFi bar style</string>
+    <string name="signal_style_default">Default</string>
+    <string name="signal_style_bars">Bars</string>
+    <string name="signal_style_inside">Inside</string>
+    <string name="signal_style_round">Rounded</string>
+    <string name="signal_style_sneaky">Sneaky</string>
+    <string name="signal_style_stroke">Stroke</string>
+    <string name="signal_style_wavy">Wavy</string>
+    <string name="signal_style_xperia">Xperia</string>
+    <string name="signal_style_zigzag">Zig-zag</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">إعادة تعيين الإحصائيات</string>
     <string name="battery_stats_message">سيؤدي ذلك إلى إعادة تعيين إحصائيات محفوظات البطارية. هل ترغب في المتابعة؟</string>
@@ -2037,8 +2053,8 @@
     <string name="full_gesture_mode_dt2s_title">تمكين النقر المزدوج لوضع السكون</string>
     <string name="full_gesture_mode_dt2s_summary">النقر المزدوج على ايي مساحة فارغة في شريط التنقل لإيقاف تشغيل الشاشة.</string>
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">Footer alerts</string>
-    <string name="qs_footer_warnings_summary">Display an alert at bottom of QS panel when network is monitored by external apps or VPN</string>
+    <string name="qs_footer_warnings_title">تنبيهات سفلية</string>
+    <string name="qs_footer_warnings_summary">عرض تحذير أسفل لوحة الإعدادات السريعة عندما تكون الشبكة مراقبة عن طريق تطبيقات خارجية أو شبكة افتراضية</string>
     <!-- QS footer icons -->
     <string name="qs_footer_users_icon_title">رمز حساب المستخدم</string>
     <string name="qs_footer_users_icon_summary">عرض رمز إمكانية الوصول متعدد المستخدمين عند توفرها</string>

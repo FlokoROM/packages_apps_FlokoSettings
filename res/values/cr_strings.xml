@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2021 crDroid Android Project
+     Copyright (C) 2016-2022 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -713,6 +713,8 @@
     <string name="pulse_lavalamp_speed_title">Lava lamp speed</string>
     <string name="pulse_solid_units_count">Solid lines count</string>
     <string name="pulse_solid_units_opacity">Solid lines opacity</string>
+    <string name="pulse_solid_units_rounded_title">Rounded corners</string>
+    <string name="pulse_solid_units_rounded_summary">Solid lines with rounded tip</string>
     <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
     <string name="fling_lavalamp_color_from">Lava Lamp start color</string>
     <string name="fling_lavalamp_color_to">Lava Lamp end color</string>
@@ -855,6 +857,8 @@
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Battery style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
+    <string name="status_bar_battery_style_icon_landscape">Icon landscape (Left)</string>
     <string name="status_bar_battery_style_circle">Circle</string>
     <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
     <string name="status_bar_battery_style_filled_circle">Filled circle</string>
@@ -874,7 +878,8 @@
     <string name="status_bar_battery_percentage_title">Battery percentage</string>
     <string name="status_bar_battery_percentage_default">Hidden</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_percentage_text_next_right">Next to the icon (right)</string>
+    <string name="status_bar_battery_percentage_text_next_left">Next to the icon (left)</string>
     <string name="status_bar_battery_text_position_title">Battery percent position</string>
     <string name="status_bar_battery_text_position_left">Left of the icon</string>
     <string name="status_bar_battery_text_position_right">Right of the icon</string>
@@ -1470,11 +1475,12 @@
     <!-- Sounds: Charging sounds -->
     <string name="charging_sounds_settings_title">Charging sounds</string>
     <string name="charging_sounds_settings_summary">Customize sound played when connecting or disconnecting a power source</string>
-    <string name="charging_sounds_enabled_title">Enable</string>
+    <string name="charging_sounds_enabled_title">Battery charging sound</string>
     <string name="charging_sounds_enabled_summary">Play a sound when connecting or disconnecting a power source</string>
     <string name="power_notifications_vibrate_title">Vibrate</string>
-    <string name="charging_sounds_ringtone_title">Notification sound</string>
     <string name="charging_sounds_ringtone_silent">Silent</string>
+    <string name="wired_charging_sounds_title">Wired charging</string>
+    <string name="wireless_charging_sounds_title">Wireless charging</string>
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Wakelock blocker</string>
@@ -2256,6 +2262,12 @@
     <string name="rounded_medium">Medium</string>
     <string name="rounded_high">High</string>
     <string name="rounded_extreme">Extreme</string>
+
+    <!-- Signal / WiFi styles -->
+    <string name="signal_style_title">Signal bar style</string>
+    <string name="signal_style_summary">Set custom signal icon style</string>
+    <string name="wifi_style_title">WiFi bar style</string>
+    <string name="wifi_style_summary">Set custom wifi icon style</string>
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>

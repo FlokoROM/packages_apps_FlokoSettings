@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2021 crDroid Android Project
+     Copyright (C) 2016-2022 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -653,6 +653,8 @@
     <string name="pulse_lavalamp_speed_title">Viteză lampă de lavă</string>
     <string name="pulse_solid_units_count">Numărul de linii solide</string>
     <string name="pulse_solid_units_opacity">Opacitate linii solide</string>
+    <string name="pulse_solid_units_rounded_title">Colțuri rotunjite</string>
+    <string name="pulse_solid_units_rounded_summary">Linii solide cu virf rotunjit</string>
     <string name="pulse_solid_dimen_category">Setările modului linii solide</string>
     <string name="fling_lavalamp_color_from">Culoare start Lava Lamp</string>
     <string name="fling_lavalamp_color_to">Culoare sfârșit Lava Lamp</string>
@@ -786,9 +788,11 @@
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Stil baterie</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portret</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Pictograma peisaj (dreapta)</string>
+    <string name="status_bar_battery_style_icon_landscape">Pictograma peisaj (stânga)</string>
     <string name="status_bar_battery_style_circle">Cerc</string>
     <string name="status_bar_battery_style_dotted_circle">Cerc punctat</string>
-    <string name="status_bar_battery_style_filled_circle">Filled circle</string>
+    <string name="status_bar_battery_style_filled_circle">Cerc completat</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Ascuns</string>
     <string name="status_bar_battery_style_tile_title">Suprascrie comutator baterie</string>
@@ -1015,8 +1019,8 @@
     <string name="doze_display_title">Afișaj ambiental</string>
     <string name="doze_display_summary">Configuraţi setările pentru afişarea ambientală</string>
     <string name="doze_sensor_title">Bazat pe senzori</string>
-    <string name="raise_to_wake_title">Wake up</string>
-    <string name="raise_to_wake_summary">Wake up the device instead of pulsing notifications</string>
+    <string name="raise_to_wake_title">Trezire</string>
+    <string name="raise_to_wake_summary">Treziți dispozitivul în loc de notificare pulsantă</string>
     <string name="tilt_title">Inclinare</string>
     <string name="tilt_summary">Pulsează notificările la inclinare</string>
     <string name="pickup_title">Ridicare</string>
@@ -2011,6 +2015,18 @@
     <string name="rounded_medium">Mediu</string>
     <string name="rounded_high">Ridicat</string>
     <string name="rounded_extreme">Extrem</string>
+    <!-- Signal / WiFi styles -->
+    <string name="signal_style_title">Stil bară de semnal</string>
+    <string name="wifi_style_title">Stil bară WiFi</string>
+    <string name="signal_style_default">Prestabilit</string>
+    <string name="signal_style_bars">Bare</string>
+    <string name="signal_style_inside">În interior</string>
+    <string name="signal_style_round">Rotunjit</string>
+    <string name="signal_style_sneaky">Viclean</string>
+    <string name="signal_style_stroke">Contur</string>
+    <string name="signal_style_wavy">Ondulat</string>
+    <string name="signal_style_xperia">Xperia</string>
+    <string name="signal_style_zigzag">Zig-zag</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Resetează statistici</string>
     <string name="battery_stats_message">Acest lucru va reseta statisticile de istorie ale bateriei. Doriţi să continuaţi?</string>
@@ -2037,8 +2053,8 @@
     <string name="full_gesture_mode_dt2s_title">Activare dublu apasare pentru sleep</string>
     <string name="full_gesture_mode_dt2s_summary">Apasa pe o zona goala din bara de navigatie, doar nu pe butonul de acasa, pentru a inchide ecranul.</string>
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">Footer alerts</string>
-    <string name="qs_footer_warnings_summary">Display an alert at bottom of QS panel when network is monitored by external apps or VPN</string>
+    <string name="qs_footer_warnings_title">Alerte de subsol</string>
+    <string name="qs_footer_warnings_summary">Afișează o alertă în partea de jos a panoului setărilor rapide atunci când rețeaua este monitorizată de aplicații externe sau VPN</string>
     <!-- QS footer icons -->
     <string name="qs_footer_users_icon_title">Iconiță cont utilizator</string>
     <string name="qs_footer_users_icon_summary">Afişare pictograma accesibilitate multiutilizator, atunci când este disponibil</string>

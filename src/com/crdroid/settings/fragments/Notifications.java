@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016-2021 crDroid Android Project
+ * Copyright (C) 2016-2022 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -51,6 +51,7 @@ public class Notifications extends SettingsPreferenceFragment {
     private static final String ALERT_SLIDER_PREF = "alert_slider_notifications";
     private static final String BATTERY_LIGHTS_PREF = "battery_lights";
     private static final String NOTIFICATION_LIGHTS_PREF = "notification_lights";
+    private static final String FLASHLIGHT_CALL_PREF = "flashlight_on_call";
 
     private Preference mAlertSlider;
     private Preference mBatLights;
@@ -90,6 +91,12 @@ public class Notifications extends SettingsPreferenceFragment {
             lightsCategory = (PreferenceCategory) prefScreen.findPreference("light_brightness");
             prefScreen.removePreference(lightsCategory);
         }
+
+        if (!Utils.deviceHasFlashlight(mContext)) {
+            final Preference flashlightcall =
+                    (Preference) prefScreen.findPreference(FLASHLIGHT_CALL_PREF);
+            prefScreen.removePreference(flashlightcall);
+        }
     }
 
     public static void reset(Context mContext) {
@@ -103,15 +110,11 @@ public class Notifications extends SettingsPreferenceFragment {
         Settings.System.putIntForUser(resolver,
                 Settings.System.NOTIFICATION_GUTS_KILL_APP_BUTTON, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.VIBRATE_ON_CONNECT, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.VIBRATE_ON_CALLWAITING, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.VIBRATE_ON_DISCONNECT, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.NOTIFICATION_SOUND_VIB_SCREEN_ON, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.POWER_MENU_BG_ALPHA, 255, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.FLASHLIGHT_ON_CALL, 0, UserHandle.USER_CURRENT);
         Ticker.reset(mContext);
     }
 
@@ -145,6 +148,10 @@ public class Notifications extends SettingsPreferenceFragment {
                             com.android.internal.R.bool.config_intrusiveNotificationLed);
                     if (!mNotLightsSupported)
                         keys.add(NOTIFICATION_LIGHTS_PREF);
+
+                    if (!Utils.deviceHasFlashlight(context)) {
+                        keys.add(FLASHLIGHT_CALL_PREF);
+                    }
 
                     return keys;
                 }
