@@ -348,8 +348,6 @@
     <string name="double_tap_sleep_anywhere_title">سونے کے لیے ٹیپ کریں</string>
     <string name="double_tap_sleep_anywhere_summary">ڈیوائس کو سلانے کے لیے مقفل سکرین پر کسی بھی جگہ دو دفعہ ٹیپ کریں</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">پاور مینو</string>
-    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
     <string name="lockscreen_secure_power_menu_title">Secure power menu</string>
     <string name="lockscreen_secure_power_menu_summary">Allow power menu action only after authentication</string>
     <!-- Quick settings on secure lockscreen -->
@@ -807,7 +805,8 @@
     <string name="status_bar_battery_percentage_title">بیٹری کی شرح فیصد</string>
     <string name="status_bar_battery_percentage_default">چھپا ہوا</string>
     <string name="status_bar_battery_percentage_text_inside">آئیکون کے اندر</string>
-    <string name="status_bar_battery_percentage_text_next">آئیکون کے آگے</string>
+    <string name="status_bar_battery_percentage_text_next_right">Next to the icon (right)</string>
+    <string name="status_bar_battery_percentage_text_next_left">Next to the icon (left)</string>
     <string name="status_bar_battery_text_position_title">Battery percent position</string>
     <string name="status_bar_battery_text_position_left">Left of the icon</string>
     <string name="status_bar_battery_text_position_right">Right of the icon</string>
@@ -1341,11 +1340,12 @@
     <!-- Sounds: Charging sounds -->
     <string name="charging_sounds_settings_title">Charging sounds</string>
     <string name="charging_sounds_settings_summary">پاور ذریعہ منسلک یا منقطع کرتے وقت آواز کو حسب ضرورت بنائیں</string>
-    <string name="charging_sounds_enabled_title">Enable</string>
+    <string name="charging_sounds_enabled_title">Battery charging sound</string>
     <string name="charging_sounds_enabled_summary">بجلی کو منسلک یا منقطع کرتے وقت آواز چلائیں</string>
     <string name="power_notifications_vibrate_title">Vibrate</string>
-    <string name="charging_sounds_ringtone_title">Notification sound</string>
     <string name="charging_sounds_ringtone_silent">Silent</string>
+    <string name="wired_charging_sounds_title">Wired charging</string>
+    <string name="wireless_charging_sounds_title">Wireless charging</string>
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Wakelock blocker</string>
     <string name="wakelock_blocker_summary">Block system wakelocks</string>
@@ -2017,16 +2017,9 @@
     <string name="rounded_extreme">Extreme</string>
     <!-- Signal / WiFi styles -->
     <string name="signal_style_title">Signal bar style</string>
+    <string name="signal_style_summary">Set custom signal icon style</string>
     <string name="wifi_style_title">WiFi bar style</string>
-    <string name="signal_style_default">Default</string>
-    <string name="signal_style_bars">Bars</string>
-    <string name="signal_style_inside">Inside</string>
-    <string name="signal_style_round">Rounded</string>
-    <string name="signal_style_sneaky">Sneaky</string>
-    <string name="signal_style_stroke">Stroke</string>
-    <string name="signal_style_wavy">Wavy</string>
-    <string name="signal_style_xperia">Xperia</string>
-    <string name="signal_style_zigzag">Zig-zag</string>
+    <string name="wifi_style_summary">Set custom wifi icon style</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">This will reset battery history stats. Would you like to continue?</string>

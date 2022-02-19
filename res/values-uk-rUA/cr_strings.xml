@@ -348,8 +348,6 @@
     <string name="double_tap_sleep_anywhere_title">Вимкнути екран</string>
     <string name="double_tap_sleep_anywhere_summary">Двічі натисніть в будь-якому місці на екрані блокування для переходу в режим сну</string>
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Меню кнопки живлення</string>
-    <string name="lockscreen_enable_power_menu_summary">Дозволи доступ до меню живлення на екрані блокування</string>
     <string name="lockscreen_secure_power_menu_title">Захищене меню живлення</string>
     <string name="lockscreen_secure_power_menu_summary">Дозволити меню живлення тільки після аутентифікації</string>
     <!-- Quick settings on secure lockscreen -->
@@ -807,7 +805,8 @@
     <string name="status_bar_battery_percentage_title">Відсоток заряду</string>
     <string name="status_bar_battery_percentage_default">Не показувати</string>
     <string name="status_bar_battery_percentage_text_inside">Всередині іконки</string>
-    <string name="status_bar_battery_percentage_text_next">Поруч з іконкою</string>
+    <string name="status_bar_battery_percentage_text_next_right">Поруч з іконкою (праворуч)</string>
+    <string name="status_bar_battery_percentage_text_next_left">Поруч з іконкою (ліворуч)</string>
     <string name="status_bar_battery_text_position_title">Розміщення відсотків заряду акумулятора</string>
     <string name="status_bar_battery_text_position_left">Ліворуч від піктограми</string>
     <string name="status_bar_battery_text_position_right">Праворуч від піктограми</string>
@@ -1341,11 +1340,12 @@
     <!-- Sounds: Charging sounds -->
     <string name="charging_sounds_settings_title">Звуки зарядження</string>
     <string name="charging_sounds_settings_summary">Грати звук при підключенні чи від\'єднанні від зарядного пристрою</string>
-    <string name="charging_sounds_enabled_title">Ввімкнено</string>
+    <string name="charging_sounds_enabled_title">Звук заряджання акумулятора</string>
     <string name="charging_sounds_enabled_summary">Грати звук при підключенні чи від\'єднанні від зарядного пристрою</string>
     <string name="power_notifications_vibrate_title">Вібрація</string>
-    <string name="charging_sounds_ringtone_title">Звук сповіщень</string>
     <string name="charging_sounds_ringtone_silent">Тихий</string>
+    <string name="wired_charging_sounds_title">Дротова зарядка</string>
+    <string name="wireless_charging_sounds_title">Бездротова зарядка</string>
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Блокування Wakelock</string>
     <string name="wakelock_blocker_summary">Блокувати системні wakelock</string>
@@ -2003,7 +2003,7 @@
     <string name="switch_md2">Матеріал Дизайн 2</string>
     <string name="switch_oneplus">OnePlus</string>
     <string name="switch_narrow">Вузький</string>
-    <string name="switch_contained">Містить</string>
+    <string name="switch_contained">Заповнений</string>
     <string name="switch_retro">Ретро</string>
     <string name="switch_stockish">Стоковий</string>
     <string name="switch_telegram">Телеграм</string>
@@ -2017,16 +2017,9 @@
     <string name="rounded_extreme">Екстремальний</string>
     <!-- Signal / WiFi styles -->
     <string name="signal_style_title">Стиль значка сигналу</string>
+    <string name="signal_style_summary">Встановити користувацький стиль іконки сигналу</string>
     <string name="wifi_style_title">Стиль панелі WiFi</string>
-    <string name="signal_style_default">Типово</string>
-    <string name="signal_style_bars">Бруски</string>
-    <string name="signal_style_inside">Всередині</string>
-    <string name="signal_style_round">Округлі</string>
-    <string name="signal_style_sneaky">Сніки</string>
-    <string name="signal_style_stroke">Обведення</string>
-    <string name="signal_style_wavy">Хвилі</string>
-    <string name="signal_style_xperia">Xperia</string>
-    <string name="signal_style_zigzag">Zig-zag</string>
+    <string name="wifi_style_summary">Встановити користувацький стиль іконки wifi</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Скинути статистику</string>
     <string name="battery_stats_message">Це скине статистику акумулятора. Ви впевнені?</string>
