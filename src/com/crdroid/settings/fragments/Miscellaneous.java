@@ -46,14 +46,10 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
     public static final String TAG = "Miscellaneous";
 
     private static final String POCKET_JUDGE = "pocket_judge";
-    private static final String KEY_GAMES_SPOOF = "use_games_spoof";
     private static final String KEY_PHOTOS_SPOOF = "use_photos_spoof";
-
-    private static final String SYS_GAMES_SPOOF = "persist.sys.pixelprops.games";
     private static final String SYS_PHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
 
     private Preference mPocketJudge;
-    private SwitchPreference mGamesSpoof;
     private SwitchPreference mPhotosSpoof;
 
     @Override
@@ -71,10 +67,6 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         if (!mPocketJudgeSupported)
             prefScreen.removePreference(mPocketJudge);
 
-        mGamesSpoof = (SwitchPreference) prefScreen.findPreference(KEY_GAMES_SPOOF);
-        mGamesSpoof.setChecked(SystemProperties.getBoolean(SYS_GAMES_SPOOF, false));
-        mGamesSpoof.setOnPreferenceChangeListener(this);
-
         mPhotosSpoof = (SwitchPreference) prefScreen.findPreference(KEY_PHOTOS_SPOOF);
         mPhotosSpoof.setChecked(SystemProperties.getBoolean(SYS_PHOTOS_SPOOF, true));
         mPhotosSpoof.setOnPreferenceChangeListener(this);
@@ -82,11 +74,7 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mGamesSpoof) {
-            boolean value = (Boolean) newValue;
-            SystemProperties.set(SYS_GAMES_SPOOF, value ? "true" : "false");
-            return true;
-        } else if (preference == mPhotosSpoof) {
+        if (preference == mPhotosSpoof) {
             boolean value = (Boolean) newValue;
             SystemProperties.set(SYS_PHOTOS_SPOOF, value ? "true" : "false");
             return true;
@@ -102,7 +90,6 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
                 Settings.System.THREE_FINGER_GESTURE, 0, UserHandle.USER_CURRENT);
         LineageSettings.System.putIntForUser(resolver,
                 LineageSettings.System.AUTO_BRIGHTNESS_ONE_SHOT, 0, UserHandle.USER_CURRENT);
-        SystemProperties.set(SYS_GAMES_SPOOF, "false");
         SystemProperties.set(SYS_PHOTOS_SPOOF, "true");
     }
 
